@@ -1,6 +1,6 @@
 {
     "cooldown": 20,
-    "mustSneak": false,
+    "mustSneak": true,
     "delay": 0,
     "maxChain": 100,
     "needCorrectTool": true,

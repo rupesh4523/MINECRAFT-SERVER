@@ -6,6 +6,18 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "5eb959b6-bab6-368e-94c3-0a708dcba246",
+    "name": "CDVSF",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b3c99862-5a86-36da-9094-5f7217091498",
+    "name": "c",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "211dfb84-aff9-3b5c-a086-1c19eaef751d",
     "name": "DarkClown",
     "level": 4,

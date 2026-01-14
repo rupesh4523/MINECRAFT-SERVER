@@ -8,8 +8,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:savanna_plateau": "2026-01-13 17:37:58 +0530",
+      "minecraft:beach": "2026-01-14 13:29:58 +0530",
+      "minecraft:forest": "2026-01-14 13:44:34 +0530",
+      "minecraft:ocean": "2026-01-14 13:39:59 +0530",
+      "minecraft:deep_ocean": "2026-01-14 13:49:59 +0530",
+      "minecraft:river": "2026-01-14 13:43:39 +0530",
+      "minecraft:lukewarm_ocean": "2026-01-14 13:38:56 +0530",
       "minecraft:stony_shore": "2026-01-13 20:55:33 +0530",
-      "minecraft:savanna": "2026-01-13 17:26:09 +0530"
+      "minecraft:savanna": "2026-01-13 17:26:09 +0530",
+      "minecraft:plains": "2026-01-14 12:29:55 +0530",
+      "minecraft:deep_lukewarm_ocean": "2026-01-14 13:51:17 +0530"
     },
     "done": false
   },
@@ -329,7 +337,9 @@
     "criteria": {
       "minecraft:pillager": "2026-01-13 21:32:54 +0530",
       "minecraft:skeleton": "2026-01-13 17:56:01 +0530",
-      "minecraft:zombie": "2026-01-13 18:04:09 +0530"
+      "minecraft:spider": "2026-01-14 12:07:37 +0530",
+      "minecraft:zombie": "2026-01-13 18:04:09 +0530",
+      "minecraft:creeper": "2026-01-14 11:52:20 +0530"
     },
     "done": false
   },
@@ -378,7 +388,10 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_chicken": "2026-01-13 23:06:22 +0530",
-      "cooked_mutton": "2026-01-13 18:00:25 +0530"
+      "cooked_mutton": "2026-01-13 18:00:25 +0530",
+      "cooked_beef": "2026-01-14 11:58:36 +0530",
+      "cooked_salmon": "2026-01-14 20:54:03 +0530",
+      "golden_carrot": "2026-01-14 15:35:39 +0530"
     },
     "done": false
   },
@@ -1142,6 +1155,7 @@
     "criteria": {
       "minecraft:cow": "2026-01-13 22:21:09 +0530",
       "minecraft:chicken": "2026-01-13 20:42:45 +0530",
+      "minecraft:horse": "2026-01-14 19:02:20 +0530",
       "minecraft:sheep": "2026-01-13 22:10:09 +0530"
     },
     "done": false
@@ -8535,6 +8549,24 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2026-01-13 23:13:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-01-14 11:50:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-01-14 12:39:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-01-14 12:53:02 +0530"
     },
     "done": true
   },

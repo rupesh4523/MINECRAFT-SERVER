@@ -8450,6 +8450,7 @@
     "criteria": {
       "cooked_chicken": "2026-01-14 15:04:22 +0530",
       "cooked_mutton": "2026-01-13 23:08:17 +0530",
+      "cooked_cod": "2026-01-14 21:18:39 +0530",
       "cooked_beef": "2026-01-14 13:49:30 +0530"
     },
     "done": false
@@ -8533,6 +8534,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2026-01-14 14:57:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-01-14 21:24:18 +0530"
     },
     "done": true
   },

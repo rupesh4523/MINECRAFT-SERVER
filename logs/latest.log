@@ -1,167 +1,206 @@
-[21:11:09] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[21:11:09] [main/INFO]: Loading 77 mods:
-	- cloth-config 19.0.147
-	   \-- cloth-basic-math 0.6.1
-	- entityculling 1.8.2
-	   |-- transition 1.0.3
-	   \-- trender 1.0.5
-	- fabric-api 0.129.0+1.21.7
-	   |-- fabric-api-base 0.4.64+9ec45cd86c
-	   |-- fabric-api-lookup-api-v1 1.6.100+946bf4c36c
-	   |-- fabric-biome-api-v1 16.0.11+946bf4c36c
-	   |-- fabric-block-api-v1 1.1.3+946bf4c36c
-	   |-- fabric-block-view-api-v2 1.0.31+946bf4c36c
-	   |-- fabric-command-api-v2 2.2.53+946bf4c36c
-	   |-- fabric-content-registries-v0 10.0.18+946bf4c36c
-	   |-- fabric-convention-tags-v1 2.1.40+7f945d5b6c
-	   |-- fabric-convention-tags-v2 2.15.5+eb5df52f6c
-	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c36c
-	   |-- fabric-data-attachment-api-v1 1.8.10+946bf4c36c
-	   |-- fabric-data-generation-api-v1 23.2.4+55e55d296c
-	   |-- fabric-dimensions-v1 4.0.19+946bf4c36c
-	   |-- fabric-entity-events-v1 2.1.1+c9e472736c
-	   |-- fabric-events-interaction-v0 4.0.23+946bf4c36c
-	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b6c
-	   |-- fabric-item-api-v1 11.4.3+946bf4c36c
-	   |-- fabric-item-group-api-v1 4.2.13+946bf4c36c
-	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c36c
-	   |-- fabric-lifecycle-events-v1 2.6.3+db4dfd856c
-	   |-- fabric-loot-api-v2 3.0.55+3f89f5a56c
-	   |-- fabric-loot-api-v3 2.0.2+946bf4c36c
-	   |-- fabric-message-api-v1 6.1.1+946bf4c36c
-	   |-- fabric-model-loading-api-v1 5.2.5+946bf4c36c
-	   |-- fabric-networking-api-v1 5.0.1+946bf4c36c
-	   |-- fabric-object-builder-api-v1 21.1.7+946bf4c36c
-	   |-- fabric-particles-v1 4.1.7+946bf4c36c
-	   |-- fabric-recipe-api-v1 8.1.14+946bf4c36c
-	   |-- fabric-registry-sync-v0 6.1.27+946bf4c36c
-	   |-- fabric-renderer-api-v1 7.0.2+946bf4c36c
-	   |-- fabric-renderer-indigo 4.0.2+946bf4c36c
-	   |-- fabric-rendering-fluids-v1 3.1.30+fa6cb72b6c
-	   |-- fabric-rendering-v1 12.4.0+e8d43c766c
-	   |-- fabric-resource-conditions-api-v1 5.0.24+946bf4c36c
-	   |-- fabric-resource-loader-v0 3.1.11+946bf4c36c
-	   |-- fabric-screen-api-v1 2.1.0+277ecf7d6c
-	   |-- fabric-screen-handler-api-v1 1.3.136+946bf4c36c
-	   |-- fabric-sound-api-v1 1.0.42+946bf4c36c
-	   |-- fabric-tag-api-v1 1.2.1+946bf4c36c
-	   |-- fabric-transfer-api-v1 6.0.5+946bf4c36c
-	   \-- fabric-transitive-access-wideners-v1 6.4.1+ac3e15d16c
-	- fabric-language-kotlin 1.13.8+kotlin.2.3.0
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.0
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
-	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
-	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
-	- fabricloader 0.18.4
-	   \-- mixinextras 0.5.0
-	- ferritecore 8.0.0
-	- forgeconfigapiport 21.7.0
-	   |-- com_electronwill_night-config_core 3.8.2
-	   \-- com_electronwill_night-config_toml 3.8.2
-	- java 23
-	- lithium 0.18.0+mc1.21.7
-	- minecraft 1.21.7
-	- mr_guns 5.8.7
-	- mutantmonsters 21.7.0
-	- puzzleslib 21.7.1
-	- silk-all 1.11.2
-	   |-- silk-commands 1.11.2
-	   |-- silk-core 1.11.2
-	   |-- silk-game 1.11.2
-	   |-- silk-igui 1.11.2
-	   |-- silk-nbt 1.11.2
-	   |-- silk-network 1.11.2
-	   \-- silk-persistence 1.11.2
-	- veinminer 2.5.0
-	   |-- de_miraculixx_core_dev 2.5.0
-	   \-- fabric-permissions-api-v0 0.4.0
-[21:11:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/Downloads/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:11:09] [main/INFO]: Compatibility level set to JAVA_16
-[21:11:09] [main/INFO]: Compatibility level set to JAVA_21
-[21:11:09] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:11:09] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[21:11:09] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
-[21:11:09] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[21:11:09] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:11:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[21:11:20] [main/INFO]: Constructing components for mutantmonsters:common
-[21:11:20] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
-[21:11:20] [main/INFO]: Constructing components for puzzleslib:common
-[21:11:20] [main/INFO]: Initializing Silk
-[21:11:20] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[21:11:20] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:11:21] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[21:11:22] [main/INFO]: Loaded 1470 recipes
-[21:11:22] [main/INFO]: Loaded 1535 advancements
-[21:11:23] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 154.5 ms
-[21:11:23] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[21:11:23] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
-[21:11:23] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[21:11:23] [Server thread/INFO]: Loading properties
-[21:11:23] [Server thread/INFO]: Default game type: SURVIVAL
-[21:11:23] [Server thread/INFO]: Generating keypair
-[21:11:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:11:23] [Server thread/INFO]: Using default channel type
-[21:11:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:11:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:11:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:11:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:11:23] [Server thread/INFO]: Preparing level "world"
-[21:11:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:11:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[21:11:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[21:11:24] [Server thread/INFO]: Time elapsed: 833 ms
-[21:11:24] [Server thread/INFO]: Done (1.279s)! For help, type "help"
-[21:11:38] [Server thread/INFO]: DarkClown[/127.0.0.1:61553] logged in with entity id 2 at (75.87256266125586, 79.84375002384186, -542.0578429645919)
-[21:11:38] [Server thread/INFO]: DarkClown joined the game
-[21:11:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
-[21:11:44] [Server thread/INFO]: DarkClown has made the advancement [Best Friends Forever]
-[21:12:34] [Server thread/INFO]: PixelParas[/127.160.83.196:61559] logged in with entity id 677 at (55.51442663868809, 76.0, -516.250034535046)
-[21:12:34] [Server thread/INFO]: PixelParas joined the game
-[21:14:01] [Server thread/INFO]: CDVSF[/127.160.83.196:61569] logged in with entity id 1037 at (723.2936712622896, 37.32097474062795, 188.3765218150462)
-[21:14:01] [Server thread/INFO]: CDVSF joined the game
-[21:14:02] [Server thread/INFO]: [PixelParas: Killed PixelParas]
-[21:14:15] [Server thread/INFO]: PixelParas lost connection: Disconnected
-[21:14:15] [Server thread/INFO]: PixelParas left the game
-[21:16:30] [Server thread/INFO]: PixelParas[/127.160.83.196:61583] logged in with entity id 2001 at (32.35973312862227, 82.0, -519.3000000119209)
-[21:16:30] [Server thread/INFO]: PixelParas joined the game
-[21:17:12] [Server thread/WARN]: CDVSF moved wrongly!
-[21:21:49] [Server thread/INFO]: rogueshit[/127.153.16.34:50019] logged in with entity id 4489 at (48.30000001192093, 77.0, -520.0749999880791)
-[21:21:49] [Server thread/INFO]: rogueshit joined the game
-[21:23:08] [Server thread/INFO]: rogueshit lost connection: Timed out
-[21:23:08] [Server thread/INFO]: rogueshit left the game
-[21:24:18] [Server thread/INFO]: CDVSF has made the advancement [Not Today, Thank You]
-[21:25:39] [Server thread/WARN]: PixelParas moved too quickly! -8.801849243728734,-2.768476202412984,-4.00670821248309
-[21:26:22] [Server thread/INFO]: rogueshit[/127.153.16.34:50030] logged in with entity id 6869 at (45.68149550626135, 77.0, -505.5607777422437)
-[21:26:22] [Server thread/INFO]: rogueshit joined the game
-[21:27:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[21:27:17] [Server thread/INFO]: rogueshit lost connection: Disconnected
-[21:27:17] [Server thread/INFO]: rogueshit left the game
-[21:27:49] [Server thread/INFO]: rogueshit[/127.153.16.34:50034] logged in with entity id 9369 at (57.107809921207085, 76.9375, -525.1155546821345)
-[21:27:49] [Server thread/INFO]: rogueshit joined the game
-[21:28:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[21:28:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[21:28:49] [Server thread/INFO]: rogueshit lost connection: Timed out
-[21:28:49] [Server thread/INFO]: rogueshit left the game
-[21:29:31] [Server thread/INFO]: rogueshit[/127.153.16.34:50037] logged in with entity id 10971 at (69.21584217475223, 79.0, -526.8954724230913)
-[21:29:31] [Server thread/INFO]: rogueshit joined the game
-[21:29:37] [Server thread/INFO]: [PixelParas: Teleported DarkClown to PixelParas]
-[21:30:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[21:30:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[21:30:46] [Server thread/INFO]: rogueshit lost connection: Disconnected
-[21:30:46] [Server thread/INFO]: rogueshit left the game
-[21:31:36] [Server thread/INFO]: DarkClown lost connection: Disconnected
-[21:31:36] [Server thread/INFO]: DarkClown left the game
-[21:31:42] [Server thread/INFO]: CDVSF lost connection: Disconnected
-[21:31:42] [Server thread/INFO]: CDVSF left the game
-[21:31:42] [Server thread/INFO]: PixelParas lost connection: Disconnected
-[21:31:42] [Server thread/INFO]: PixelParas left the game
+[00:00:15] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -815.500000, 103.000000, -1006.500000]
+[00:00:38] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
+[00:01:13] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -815.500000, 103.000000, -1006.500000]
+[00:01:30] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[00:01:32] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -815.500000, 103.000000, -1006.500000]
+[00:04:36] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
+[00:04:45] [Server thread/INFO]: [PixelParas: Teleported DarkClown to -815.500000, 103.000000, -1006.500000]
+[00:05:57] [Server thread/WARN]: DarkClown moved too quickly! 1.0469046108905786,0.16610926093821377,9.989486466216249
+[00:07:58] [Server thread/INFO]: [PixelParas: Teleported DarkClown to PixelParas]
+[00:13:27] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[00:15:25] [Server thread/INFO]: DarkClown lost connection: Disconnected
+[00:15:25] [Server thread/INFO]: DarkClown left the game
+[00:31:43] [Server thread/INFO]: CDVSF[/127.160.83.196:58496] logged in with entity id 81320 at (738.1478919470458, 66.5625, 191.30000001192093)
+[00:31:43] [Server thread/INFO]: CDVSF joined the game
+[00:32:15] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[00:33:03] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 53.500000, 80.000000, -518.500000]
+[00:45:24] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[00:50:18] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[01:01:10] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[01:02:11] [Server thread/INFO]: [PixelParas: Killed CDVSF]
+[01:02:21] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[01:03:50] [Server thread/INFO]: PixelParas lost connection: Disconnected
+[01:03:50] [Server thread/INFO]: PixelParas left the game
+[01:03:53] [Server thread/INFO]: PixelParas[/127.160.83.196:58671] logged in with entity id 94224 at (-1309.254291949206, 118.0, -1435.7959041628758)
+[01:03:53] [Server thread/INFO]: PixelParas joined the game
+[01:33:28] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[01:34:33] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[01:42:06] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[01:44:15] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[02:12:31] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[02:13:16] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[02:14:00] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[02:15:12] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[02:21:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1450, y=-17, z=-1472} class_2338{x=-1450, y=-28, z=-1477}
+[02:22:34] [Server thread/INFO]: [CDVSF: Killed CDVSF]
+[02:23:27] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[02:26:16] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[02:28:50] [Server thread/INFO]: CDVSF has made the advancement [Cover Me with Diamonds]
+[02:33:44] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 69420.500000, 50.000000, 69420.500000]
+[02:33:55] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 69420.500000, 100.000000, 69420.500000]
+[02:34:02] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 69420.500000, 80.000000, 69420.500000]
+[02:37:29] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[02:37:37] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[02:37:45] [Server thread/INFO]: [CDVSF: Killed CDVSF]
+[02:39:33] [Server thread/INFO]: CDVSF has made the advancement [Mutant Monsters]
+[02:40:03] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[02:40:53] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[02:44:30] [Server thread/INFO]: [CDVSF: Killed CDVSF]
+[02:44:49] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[02:46:22] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[02:59:07] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[02:59:12] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[02:59:26] [Server thread/WARN]: CDVSF moved too quickly! -10.344093649051501,-1.6044241013267069,0.3185475025384221
+[03:02:02] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:06:09] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:06:21] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[03:06:29] [Server thread/WARN]: CDVSF moved too quickly! -7.148429012071574,-2.2711671169516094,6.679771297014668
+[03:06:29] [Server thread/WARN]: PixelParas moved too quickly! -9.256716584732203,1.252203340253729,4.204721455530489
+[03:10:47] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[03:11:09] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[03:13:45] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[03:14:04] [Server thread/INFO]: [CDVSF: Killed CDVSF]
+[03:14:22] [Server thread/WARN]: CDVSF moved too quickly! -2.5866013407649007,-6.728832883048394,7.042651510419091
+[03:15:25] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:17:07] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:21:20] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 1392.500000, 50.000000, -319.500000]
+[03:21:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3321ms or 66 ticks behind
+[03:21:25] [Server thread/WARN]: CDVSF moved wrongly!
+[03:21:25] [Server thread/WARN]: CDVSF moved wrongly!
+[03:21:25] [Server thread/WARN]: CDVSF moved wrongly!
+[03:21:26] [Server thread/WARN]: CDVSF moved wrongly!
+[03:21:26] [Server thread/WARN]: CDVSF moved wrongly!
+[03:21:26] [Server thread/WARN]: CDVSF moved wrongly!
+[03:21:26] [Server thread/WARN]: CDVSF moved wrongly!
+[03:21:28] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 1392.500000, 100.000000, -319.500000]
+[03:21:38] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 1392.500000, 150.000000, -319.500000]
+[03:21:42] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 1392.500000, 150.000000, -319.500000]
+[03:22:37] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:22:50] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 2784.500000, 50.000000, -271.500000]
+[03:22:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2120ms or 42 ticks behind
+[03:22:53] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 2784.500000, 100.000000, -271.500000]
+[03:22:58] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 2784.500000, 800.000000, -271.500000]
+[03:23:04] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 2784.500000, 80.000000, -271.500000]
+[03:23:08] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 2784.500000, 80.000000, -271.500000]
+[03:25:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2802, y=64, z=-317} class_2338{x=2805, y=63, z=-315}
+[03:26:33] [Server thread/INFO]: [CDVSF: Killed CDVSF]
+[03:27:43] [Server thread/INFO]: [PixelParas: Teleported CDVSF to 2784.500000, 80.000000, -271.500000]
+[03:28:21] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:30:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2802, y=64, z=-220} class_2338{x=2803, y=65, z=-220}
+[03:33:45] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -11469.500000, 100.000000, 2304.500000]
+[03:33:46] [Server thread/WARN]: PixelParas moved too quickly! 0.0,-10.806526110008988,0.0
+[03:33:47] [Server thread/WARN]: PixelParas moved too quickly! 0.0,-10.806526110008988,0.0
+[03:34:01] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[03:35:47] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:36:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[03:36:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2479ms or 49 ticks behind
+[03:36:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2658ms or 53 ticks behind
+[03:36:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3186ms or 63 ticks behind
+[03:37:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3821ms or 76 ticks behind
+[03:37:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5161ms or 103 ticks behind
+[03:37:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6055ms or 121 ticks behind
+[03:38:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6684ms or 133 ticks behind
+[03:38:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7366ms or 147 ticks behind
+[03:39:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7229ms or 144 ticks behind
+[03:39:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8542ms or 170 ticks behind
+[03:39:46] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:39:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9792ms or 195 ticks behind
+[03:40:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10699ms or 213 ticks behind
+[03:40:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8684ms or 173 ticks behind
+[03:41:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9033ms or 180 ticks behind
+[03:41:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9539ms or 190 ticks behind
+[03:41:32] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[03:49:29] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[03:51:37] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[03:51:45] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[03:52:13] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[03:52:24] [Server thread/INFO]: [CDVSF: Killed CDVSF]
+[03:52:29] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[03:53:00] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[03:53:28] [Server thread/INFO]: [PixelParas: Teleported CDVSF to -1304.500000, 118.000000, -1434.500000]
+[03:53:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[03:54:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[03:54:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[03:54:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[03:54:54] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[03:55:00] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[03:55:05] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[03:56:04] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[03:56:44] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[03:57:29] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[03:58:17] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[03:59:43] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[03:59:48] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:00:38] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[04:00:43] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:00:52] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:02:22] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:02:33] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[04:03:17] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[04:03:58] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[04:04:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2114ms or 42 ticks behind
+[04:04:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[04:04:53] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1322.294162, 80.000000, -820.153263]
+[04:04:58] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:05:02] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:05:43] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[04:06:27] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:07:54] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:09:53] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:10:15] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:13:36] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:13:44] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[04:14:06] [Server thread/INFO]: [PixelParas: Teleported CDVSF to -1311.751652, 72.000000, -805.462783]
+[04:14:50] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:17:38] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:17:48] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1326.207944, 74.000000, -823.390553]
+[04:18:28] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1322.500000, 170.000000, -814.500000]
+[04:18:30] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1322.500000, 170.000000, -814.500000]
+[04:18:37] [Server thread/INFO]: [PixelParas: Teleported PixelParas to CDVSF]
+[04:18:49] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1321.323069, 74.000000, -821.757249]
+[04:18:53] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:19:13] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1322.500000, 90.000000, -814.500000]
+[04:19:27] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1322.500000, 190.000000, -814.500000]
+[04:21:02] [Server thread/INFO]: [PixelParas: Killed CDVSF]
+[04:21:13] [Server thread/INFO]: [PixelParas: Teleported CDVSF to PixelParas]
+[04:21:34] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:22:09] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:23:16] [Server thread/INFO]: [PixelParas: Killed CDVSF]
+[04:23:32] [Server thread/INFO]: CDVSF lost connection: Disconnected
+[04:23:32] [Server thread/INFO]: CDVSF left the game
+[04:23:39] [Server thread/INFO]: CDVSF[/127.160.83.196:65004] logged in with entity id 160722 at (69510.31478641627, 49.0, 69402.01368947231)
+[04:23:39] [Server thread/INFO]: CDVSF joined the game
+[04:23:41] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1322.500000, 90.000000, -814.500000]
+[04:23:45] [Server thread/INFO]: CDVSF lost connection: Disconnected
+[04:23:45] [Server thread/INFO]: CDVSF left the game
+[04:23:55] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[04:24:03] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:24:12] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:27:22] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[04:28:33] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:29:36] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1319.100000, 65.420000, -821.000000]
+[04:29:40] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[04:29:48] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1319.100000, 65.420000, -821.000000]
+[04:31:15] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1304.500000, 118.000000, -1434.500000]
+[04:31:23] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1319.100000, 65.420000, -821.000000]
+[04:32:17] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[04:32:25] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:32:31] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[04:32:34] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[04:33:22] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[04:33:41] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[04:33:50] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[04:33:54] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[04:34:00] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:34:07] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[04:34:28] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[04:50:59] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[05:58:43] [Server thread/INFO]: PixelParas lost connection: Timed out
+[05:58:43] [Server thread/INFO]: PixelParas left the game
+[05:59:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[06:00:24] [Server thread/INFO]: PixelParas[/127.160.83.196:59861] logged in with entity id 182019 at (-1323.5, 189.0, -814.5)
+[06:00:24] [Server thread/INFO]: PixelParas joined the game
+[06:36:03] [Server thread/INFO]: PixelParas lost connection: Disconnected
+[06:36:03] [Server thread/INFO]: PixelParas left the game
+[06:37:03] [Server thread/INFO]: Server empty for 60 seconds, pausing

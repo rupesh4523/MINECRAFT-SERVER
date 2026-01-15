@@ -7,15 +7,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:flower_forest": "2026-01-15 02:33:44 +0530",
       "minecraft:savanna_plateau": "2026-01-13 22:50:09 +0530",
       "minecraft:beach": "2026-01-14 12:19:58 +0530",
       "minecraft:forest": "2026-01-14 12:31:46 +0530",
-      "minecraft:deep_dark": "2026-01-13 22:59:51 +0530",
-      "minecraft:ocean": "2026-01-14 13:39:59 +0530",
+      "minecraft:taiga": "2026-01-15 03:21:25 +0530",
       "minecraft:deep_ocean": "2026-01-14 13:50:29 +0530",
       "minecraft:river": "2026-01-14 13:43:39 +0530",
       "minecraft:lukewarm_ocean": "2026-01-14 13:38:56 +0530",
       "minecraft:stony_shore": "2026-01-14 12:22:32 +0530",
+      "minecraft:snowy_plains": "2026-01-15 03:22:53 +0530",
+      "minecraft:deep_dark": "2026-01-13 22:59:51 +0530",
+      "minecraft:ocean": "2026-01-14 13:39:59 +0530",
+      "minecraft:jungle": "2026-01-14 22:48:25 +0530",
       "minecraft:savanna": "2026-01-13 20:34:02 +0530",
       "minecraft:plains": "2026-01-14 12:30:22 +0530",
       "minecraft:deep_lukewarm_ocean": "2026-01-14 13:51:16 +0530"
@@ -8448,6 +8452,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "bread": "2026-01-14 22:32:44 +0530",
       "cooked_chicken": "2026-01-14 15:04:22 +0530",
       "cooked_mutton": "2026-01-13 23:08:17 +0530",
       "cooked_cod": "2026-01-14 21:18:39 +0530",
@@ -8467,7 +8472,8 @@
       "minecraft:spider": "2026-01-13 23:09:12 +0530",
       "minecraft:zombie": "2026-01-13 23:14:22 +0530",
       "minecraft:creeper": "2026-01-14 13:16:04 +0530",
-      "minecraft:drowned": "2026-01-14 13:40:45 +0530"
+      "minecraft:drowned": "2026-01-14 13:40:45 +0530",
+      "minecraft:zombie_villager": "2026-01-15 01:50:47 +0530"
     },
     "done": false
   },
@@ -8540,6 +8546,18 @@
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2026-01-14 21:24:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2026-01-15 02:28:50 +0530"
+    },
+    "done": true
+  },
+  "mutantmonsters:root": {
+    "criteria": {
+      "killed_by_something": "2026-01-15 02:39:33 +0530"
     },
     "done": true
   },

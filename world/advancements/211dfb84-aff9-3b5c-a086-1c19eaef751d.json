@@ -9,12 +9,15 @@
     "criteria": {
       "minecraft:savanna_plateau": "2026-01-13 17:23:55 +0530",
       "minecraft:beach": "2026-01-13 17:23:35 +0530",
+      "minecraft:dark_forest": "2026-01-14 21:45:33 +0530",
       "minecraft:forest": "2026-01-13 17:13:33 +0530",
       "minecraft:deep_dark": "2026-01-14 21:27:31 +0530",
       "minecraft:lukewarm_ocean": "2026-01-13 16:41:21 +0530",
+      "minecraft:river": "2026-01-14 21:45:31 +0530",
       "minecraft:birch_forest": "2026-01-14 21:29:37 +0530",
       "minecraft:stony_shore": "2026-01-13 16:41:07 +0530",
-      "minecraft:savanna": "2026-01-13 16:30:10 +0530"
+      "minecraft:savanna": "2026-01-13 16:30:10 +0530",
+      "minecraft:plains": "2026-01-14 21:43:30 +0530"
     },
     "done": false
   },
@@ -523,9 +526,15 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-01-14 23:28:30 +0530",
       "minecraft:skeleton": "2026-01-13 18:19:04 +0530",
+      "minecraft:vindicator": "2026-01-14 23:29:48 +0530",
+      "minecraft:witch": "2026-01-14 23:44:42 +0530",
+      "minecraft:vex": "2026-01-14 23:36:37 +0530",
       "minecraft:zombie": "2026-01-13 17:28:31 +0530",
-      "minecraft:drowned": "2026-01-14 21:23:28 +0530"
+      "minecraft:drowned": "2026-01-14 21:23:28 +0530",
+      "minecraft:ravager": "2026-01-14 23:42:22 +0530",
+      "minecraft:evoker": "2026-01-14 23:42:31 +0530"
     },
     "done": false
   },
@@ -8549,6 +8558,30 @@
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2026-01-14 21:11:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-01-14 22:38:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2026-01-14 22:40:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-01-14 22:40:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-01-14 23:29:48 +0530"
     },
     "done": true
   },

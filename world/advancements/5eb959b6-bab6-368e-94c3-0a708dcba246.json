@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-01-15 16:42:12 +0530",
       "minecraft:flower_forest": "2026-01-15 02:33:44 +0530",
       "minecraft:savanna_plateau": "2026-01-13 22:50:09 +0530",
       "minecraft:beach": "2026-01-14 12:19:58 +0530",
@@ -17,9 +18,12 @@
       "minecraft:lukewarm_ocean": "2026-01-14 13:38:56 +0530",
       "minecraft:stony_shore": "2026-01-14 12:22:32 +0530",
       "minecraft:snowy_plains": "2026-01-15 03:22:53 +0530",
+      "minecraft:frozen_river": "2026-01-15 16:41:59 +0530",
       "minecraft:deep_dark": "2026-01-13 22:59:51 +0530",
       "minecraft:ocean": "2026-01-14 13:39:59 +0530",
       "minecraft:jungle": "2026-01-14 22:48:25 +0530",
+      "minecraft:sunflower_plains": "2026-01-15 16:42:50 +0530",
+      "minecraft:old_growth_spruce_taiga": "2026-01-15 16:43:44 +0530",
       "minecraft:savanna": "2026-01-13 20:34:02 +0530",
       "minecraft:plains": "2026-01-14 12:30:22 +0530",
       "minecraft:deep_lukewarm_ocean": "2026-01-14 13:51:16 +0530"
@@ -8452,6 +8456,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2026-01-15 14:30:10 +0530",
       "bread": "2026-01-14 22:32:44 +0530",
       "cooked_chicken": "2026-01-14 15:04:22 +0530",
       "cooked_mutton": "2026-01-13 23:08:17 +0530",
@@ -8468,8 +8473,18 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2026-01-15 21:45:31 +0530",
       "minecraft:skeleton": "2026-01-14 11:59:37 +0530",
+      "minecraft:zombified_piglin": "2026-01-15 21:03:16 +0530",
+      "minecraft:wither_skeleton": "2026-01-15 21:38:55 +0530",
+      "minecraft:ghast": "2026-01-15 20:41:31 +0530",
+      "minecraft:hoglin": "2026-01-15 20:27:56 +0530",
+      "minecraft:cave_spider": "2026-01-15 14:34:54 +0530",
+      "minecraft:piglin": "2026-01-15 20:27:32 +0530",
+      "minecraft:enderman": "2026-01-15 20:27:37 +0530",
+      "minecraft:magma_cube": "2026-01-15 21:41:01 +0530",
       "minecraft:spider": "2026-01-13 23:09:12 +0530",
+      "minecraft:piglin_brute": "2026-01-15 20:56:50 +0530",
       "minecraft:zombie": "2026-01-13 23:14:22 +0530",
       "minecraft:creeper": "2026-01-14 13:16:04 +0530",
       "minecraft:drowned": "2026-01-14 13:40:45 +0530",
@@ -8558,6 +8573,63 @@
   "mutantmonsters:root": {
     "criteria": {
       "killed_by_something": "2026-01-15 02:39:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-01-15 20:26:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-01-15 20:26:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-01-15 20:26:46 +0530",
+      "minecraft:nether_wastes": "2026-01-15 20:33:42 +0530",
+      "minecraft:soul_sand_valley": "2026-01-15 20:37:32 +0530",
+      "minecraft:warped_forest": "2026-01-15 20:28:24 +0530"
+    },
+    "done": false
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-01-15 20:48:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_hoglin_stable": "2026-01-15 20:54:21 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-01-15 20:57:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-01-15 21:37:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-01-15 21:45:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-01-15 21:58:32 +0530"
     },
     "done": true
   },

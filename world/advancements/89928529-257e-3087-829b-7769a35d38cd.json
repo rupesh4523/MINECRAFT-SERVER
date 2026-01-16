@@ -411,6 +411,7 @@
       "cooked_mutton": "2026-01-13 18:00:25 +0530",
       "cooked_beef": "2026-01-14 11:58:36 +0530",
       "beef": "2026-01-14 21:51:41 +0530",
+      "baked_potato": "2026-01-16 22:03:56 +0530",
       "porkchop": "2026-01-15 21:27:27 +0530",
       "golden_carrot": "2026-01-14 15:35:39 +0530",
       "apple": "2026-01-14 21:28:11 +0530",
@@ -8693,6 +8694,12 @@
   "minecraft:story/cure_zombie_villager": {
     "criteria": {
       "cured_zombie": "2026-01-15 22:24:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/place_dried_ghast_in_water": {
+    "criteria": {
+      "place_dried_ghast_in_water": "2026-01-16 19:25:06 +0530"
     },
     "done": true
   },

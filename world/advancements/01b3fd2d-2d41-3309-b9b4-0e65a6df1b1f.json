@@ -8505,12 +8505,6 @@
     },
     "done": true
   },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2026-01-14 23:07:37 +0530"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-01-14 22:58:12 +0530",
@@ -8523,15 +8517,21 @@
     },
     "done": false
   },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2026-01-14 23:36:45 +0530"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:pillager": "2026-01-14 22:58:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2026-01-14 23:07:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-01-14 23:09:08 +0530"
     },
     "done": true
   },
@@ -8541,9 +8541,9 @@
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "crafting_table": "2026-01-14 23:09:08 +0530"
+      "voluntary_exile": "2026-01-14 23:36:45 +0530"
     },
     "done": true
   },

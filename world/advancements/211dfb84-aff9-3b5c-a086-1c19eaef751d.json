@@ -505,6 +505,7 @@
     "criteria": {
       "cooked_porkchop": "2026-01-13 17:53:25 +0530",
       "bread": "2026-01-13 22:09:54 +0530",
+      "cooked_chicken": "2026-01-16 16:10:49 +0530",
       "rotten_flesh": "2026-01-13 18:07:42 +0530",
       "cooked_mutton": "2026-01-13 21:28:47 +0530",
       "glow_berries": "2026-01-13 22:02:58 +0530",
@@ -528,12 +529,17 @@
     "criteria": {
       "minecraft:pillager": "2026-01-14 23:28:30 +0530",
       "minecraft:skeleton": "2026-01-13 18:19:04 +0530",
-      "minecraft:vindicator": "2026-01-14 23:29:48 +0530",
+      "minecraft:zombified_piglin": "2026-01-16 16:31:18 +0530",
       "minecraft:witch": "2026-01-14 23:44:42 +0530",
+      "minecraft:ravager": "2026-01-14 23:42:22 +0530",
+      "minecraft:hoglin": "2026-01-16 14:52:49 +0530",
+      "minecraft:vindicator": "2026-01-14 23:29:48 +0530",
+      "minecraft:enderman": "2026-01-16 15:36:52 +0530",
+      "minecraft:spider": "2026-01-16 15:37:01 +0530",
       "minecraft:vex": "2026-01-14 23:36:37 +0530",
       "minecraft:zombie": "2026-01-13 17:28:31 +0530",
+      "minecraft:creeper": "2026-01-16 15:35:19 +0530",
       "minecraft:drowned": "2026-01-14 21:23:28 +0530",
-      "minecraft:ravager": "2026-01-14 23:42:22 +0530",
       "minecraft:evoker": "2026-01-14 23:42:31 +0530"
     },
     "done": false
@@ -8582,6 +8588,61 @@
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2026-01-14 23:29:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-01-16 14:32:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-01-16 14:33:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-01-16 17:21:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-01-16 14:51:48 +0530",
+      "minecraft:warped_forest": "2026-01-16 14:53:10 +0530"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-01-16 14:51:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-01-16 14:51:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2026-01-16 16:38:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-01-16 17:22:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-01-16 17:22:39 +0530"
     },
     "done": true
   },

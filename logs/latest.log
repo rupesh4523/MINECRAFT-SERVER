@@ -1,5 +1,5 @@
-[01:27:36] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[01:27:36] [main/INFO]: Loading 108 mods:
+[01:46:37] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
+[01:46:37] [main/INFO]: Loading 108 mods:
 	- c2me 0.3.4.0.0+1.21.8
 	   |-- c2me-base 0.3.4.0.0+1.21.8
 	   |-- c2me-client-uncapvd 0.3.4.0.0+1.21.8
@@ -116,90 +116,408 @@
 	- veinminer 2.5.0
 	   |-- de_miraculixx_core_dev 2.5.0
 	   \-- fabric-permissions-api-v0 0.4.0
-[01:27:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/Downloads/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[01:27:36] [main/INFO]: Compatibility level set to JAVA_16
-[01:27:36] [main/INFO]: Compatibility level set to JAVA_21
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[01:27:36] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[01:27:36] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[01:27:36] [main/INFO]: Detected maximum supported ISA target: AVX2
-[01:27:36] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[01:27:37] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[01:27:37] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[01:27:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[01:27:37] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[01:27:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[01:27:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[01:27:37] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[01:27:37] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[01:27:37] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:27:37] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[01:27:37] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
-[01:27:37] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[01:27:37] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:27:37] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[01:27:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[01:27:47] [main/INFO]: Compression will use Java, encryption will use Java
-[01:27:47] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
-[01:27:47] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 1 ms)
-[01:27:47] [main/INFO]: Constructing components for mutantmonsters:common
-[01:27:47] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
-[01:27:47] [main/INFO]: Constructing components for puzzleslib:common
-[01:27:47] [main/INFO]: Initializing Silk
-[01:27:48] [main/INFO]: Starting TT20...
-[01:27:48] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[01:27:48] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[01:27:48] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[01:27:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:27:49] [DefaultDispatcher-worker-2/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[01:27:49] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
-[01:27:51] [main/INFO]: Loaded 1470 recipes
-[01:27:51] [main/INFO]: Loaded 1535 advancements
-[01:27:51] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 84.00 ms
-[01:27:51] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[01:27:51] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
-[01:27:51] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[01:27:51] [Server thread/INFO]: Loading properties
-[01:27:51] [Server thread/INFO]: Default game type: SURVIVAL
-[01:27:51] [Server thread/INFO]: Generating keypair
-[01:27:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:27:52] [Server thread/INFO]: Using default channel type
-[01:27:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:27:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:27:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:27:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:27:52] [Server thread/INFO]: Preparing level "world"
-[01:27:52] [Server thread/INFO]: Enforcing safe world random access
-[01:27:52] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 304.1 ms
-[01:27:53] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[01:27:53] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.329 ms
-[01:27:53] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.34 ms
-[01:27:53] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@8891e30)
-[01:27:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:27:53] [Server thread/INFO]: Time elapsed: 71 ms
-[01:27:53] [Server thread/INFO]: Done (0.996s)! For help, type "help"
-[01:28:53] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[01:29:09] [Server thread/INFO]: Aryan[/127.251.167.205:56922] logged in with entity id 1 at (-1239.0340018926393, 120.0, -1401.6227924093043)
-[01:29:10] [Server thread/INFO]: Aryan joined the game
-[01:29:19] [Server thread/INFO]: DarkClown[/127.0.0.1:56932] logged in with entity id 218 at (-1272.4249005945694, 111.0, -1392.8114956578918)
-[01:29:19] [Server thread/INFO]: DarkClown joined the game
-[01:31:00] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[01:33:14] [Server thread/INFO]: PixelParas[/127.130.168.34:59153] logged in with entity id 1016 at (-1326.5753554254884, 118.0, -1434.5963700653401)
-[01:33:14] [Server thread/INFO]: PixelParas joined the game
-[01:39:40] [Server thread/INFO]: Aryan lost connection: Timed out
-[01:39:40] [Server thread/INFO]: Aryan left the game
-[01:39:42] [Server thread/INFO]: PixelParas lost connection: Disconnected
-[01:39:42] [Server thread/INFO]: PixelParas left the game
-[01:41:20] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[01:42:44] [Server thread/INFO]: DarkClown lost connection: Disconnected
-[01:42:44] [Server thread/INFO]: DarkClown left the game
+[01:46:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/Downloads/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:46:37] [main/INFO]: Compatibility level set to JAVA_16
+[01:46:37] [main/INFO]: Compatibility level set to JAVA_21
+[01:46:37] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[01:46:38] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[01:46:38] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[01:46:38] [main/INFO]: Detected maximum supported ISA target: AVX2
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:46:38] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[01:46:38] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[01:46:38] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:46:38] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[01:46:38] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
+[01:46:38] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[01:46:38] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:46:38] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[01:46:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[01:46:45] [main/INFO]: Compression will use Java, encryption will use Java
+[01:46:45] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[01:46:45] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
+[01:46:45] [main/INFO]: Constructing components for mutantmonsters:common
+[01:46:45] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
+[01:46:45] [main/INFO]: Constructing components for puzzleslib:common
+[01:46:46] [main/INFO]: Initializing Silk
+[01:46:46] [main/INFO]: Starting TT20...
+[01:46:46] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[01:46:46] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
+[01:46:46] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[01:46:46] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:46:46] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
+[01:46:46] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[01:46:48] [main/INFO]: Loaded 1470 recipes
+[01:46:48] [main/INFO]: Loaded 1535 advancements
+[01:46:48] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 46.31 ms
+[01:46:48] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[01:46:48] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
+[01:46:48] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[01:46:48] [Server thread/INFO]: Loading properties
+[01:46:48] [Server thread/INFO]: Default game type: SURVIVAL
+[01:46:48] [Server thread/INFO]: Generating keypair
+[01:46:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:46:48] [Server thread/INFO]: Using default channel type
+[01:46:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:46:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:46:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:46:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:46:48] [Server thread/INFO]: Preparing level "world"
+[01:46:48] [Server thread/INFO]: Enforcing safe world random access
+[01:46:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 210.2 ms
+[01:46:49] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[01:46:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 12.76 ms
+[01:46:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.780 ms
+[01:46:49] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@26b7e90b)
+[01:46:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:46:49] [Server thread/INFO]: Time elapsed: 56 ms
+[01:46:49] [Server thread/INFO]: Done (0.819s)! For help, type "help"
+[01:47:07] [Server thread/INFO]: DarkClown[/127.0.0.1:58630] logged in with entity id 1 at (-1310.8761681764522, 111.0, -1330.2713231035862)
+[01:47:07] [Server thread/INFO]: DarkClown joined the game
+[01:47:21] [Server thread/INFO]: Aryan[/127.251.167.205:58635] logged in with entity id 238 at (-1307.4303904014116, 115.0, -1341.5887298579944)
+[01:47:21] [Server thread/INFO]: Aryan joined the game
+[01:48:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1307, y=114, z=-1343} class_2338{x=-1307, y=112, z=-1343}
+[01:48:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1307, y=111, z=-1343} class_2338{x=-1307, y=112, z=-1343}
+[01:48:55] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[01:57:47] [Server thread/INFO]: Aryan has made the advancement [Take Aim]
+[01:57:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1276, y=111, z=-1396} class_2338{x=-1274, y=110, z=-1396}
+[01:57:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1276, y=111, z=-1396} class_2338{x=-1273, y=110, z=-1396}
+[01:58:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1276, y=111, z=-1396} class_2338{x=-1263, y=111, z=-1391}
+[01:58:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1276, y=111, z=-1396} class_2338{x=-1259, y=111, z=-1389}
+[01:58:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1276, y=111, z=-1396} class_2338{x=-1255, y=111, z=-1386}
+[01:58:28] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[02:10:23] [Server thread/INFO]: [Not Secure] <DarkClown> time set day
+[02:10:33] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[02:13:32] [Server thread/INFO]: Aryan has made the advancement [Hot Stuff]
+[02:13:37] [Server thread/INFO]: Named entity class_1642['Revati'/198, l='ServerLevel[world]', x=-1294.70, y=111.23, z=-1446.34] died: Revati burned to death
+[02:19:01] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[02:19:15] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[02:23:38] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[02:27:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1280, y=110, z=-1387}
+[02:27:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1280, y=110, z=-1386}
+[02:27:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1293, y=110, z=-1390}
+[02:27:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1293, y=110, z=-1390}
+[02:27:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1293, y=110, z=-1391}
+[02:27:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1293, y=110, z=-1392}
+[02:27:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1294, y=110, z=-1392}
+[02:27:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1294, y=110, z=-1393}
+[02:27:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1294, y=110, z=-1393}
+[02:27:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1271, y=110, z=-1399} class_2338{x=-1295, y=111, z=-1392}
+[02:28:35] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[02:29:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1295, y=111, z=-1395} class_2338{x=-1268, y=110, z=-1387}
+[02:29:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1268, y=110, z=-1387} class_2338{x=-1283, y=110, z=-1361}
+[02:29:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1268, y=110, z=-1387} class_2338{x=-1283, y=110, z=-1361}
+[02:29:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1268, y=110, z=-1387} class_2338{x=-1283, y=110, z=-1361}
+[02:29:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1268, y=110, z=-1387} class_2338{x=-1284, y=111, z=-1361}
+[02:33:20] [Server thread/INFO]: Aryan has made the advancement [Suit Up]
+[02:33:37] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[02:37:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1302, y=111, z=-1349}
+[02:37:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1302, y=110, z=-1348}
+[02:37:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1302, y=110, z=-1347}
+[02:37:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-158, y=85, z=-214} class_2338{x=-157, y=84, z=-214}
+[02:37:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-158, y=85, z=-214} class_2338{x=-157, y=84, z=-214}
+[02:37:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-160, y=89, z=-226} class_2338{x=-160, y=90, z=-224}
+[02:37:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-159, y=95, z=-226} class_2338{x=-159, y=94, z=-227}
+[02:37:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-159, y=95, z=-226} class_2338{x=-159, y=94, z=-227}
+[02:38:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=117, z=-1340} class_2338{x=-1295, y=110, z=-1341}
+[02:38:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=117, z=-1340} class_2338{x=-1295, y=110, z=-1340}
+[02:38:16] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[02:39:17] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[02:39:39] [Server thread/INFO]: Aryan has made the advancement [Mutant Monsters]
+[02:43:31] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[02:50:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=117, z=-1348} class_2338{x=-1287, y=111, z=-1362}
+[02:50:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=117, z=-1348} class_2338{x=-1287, y=110, z=-1362}
+[02:52:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1284, y=148, z=-1362} class_2338{x=-1284, y=146, z=-1362}
+[02:52:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1284, y=145, z=-1362} class_2338{x=-1284, y=146, z=-1362}
+[02:53:54] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[02:57:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1238, y=118, z=-1348} class_2338{x=-1241, y=110, z=-1348}
+[02:57:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1238, y=118, z=-1348} class_2338{x=-1242, y=110, z=-1348}
+[02:58:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1267, y=140, z=-1388} class_2338{x=-1267, y=138, z=-1388}
+[02:58:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1267, y=137, z=-1388} class_2338{x=-1267, y=138, z=-1388}
+[02:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1267, y=119, z=-1388} class_2338{x=-1237, y=110, z=-1347}
+[02:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1267, y=119, z=-1388} class_2338{x=-1237, y=110, z=-1347}
+[02:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1267, y=119, z=-1388} class_2338{x=-1237, y=110, z=-1347}
+[03:01:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1240, y=117, z=-1348} class_2338{x=-1236, y=110, z=-1347}
+[03:01:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=114, z=-1347} class_2338{x=-1239, y=110, z=-1346}
+[03:01:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=114, z=-1347} class_2338{x=-1239, y=110, z=-1346}
+[03:03:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=114, z=-1347} class_2338{x=-1246, y=110, z=-1335}
+[03:03:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=114, z=-1347} class_2338{x=-1236, y=110, z=-1337}
+[03:04:17] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[03:09:14] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[03:16:30] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:20:13] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:23:06] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[03:23:30] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:25:04] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:27:22] [Server thread/INFO]: [DarkClown: Made Aryan a server operator]
+[03:27:36] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[03:28:16] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:30:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=45, z=-304} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:30:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=113, y=44, z=-305} class_2338{x=113, y=44, z=-304}
+[03:31:15] [Server thread/INFO]: Aryan has made the advancement [A Terrible Fortress]
+[03:31:26] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:31:26] [Server thread/INFO]: DarkClown has made the advancement [A Terrible Fortress]
+[03:32:18] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:34:20] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 15 ms
+[03:34:37] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -287.500000, 86.000000, -703.500000]
+[03:35:35] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[03:36:09] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[03:36:22] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:36:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-286, y=111, z=-709} class_2338{x=-286, y=111, z=-708}
+[03:37:17] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[03:38:02] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[03:38:43] [Server thread/INFO]: Aryan has made the advancement [Hidden in the Depths]
+[03:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-292, y=113, z=-711} class_2338{x=-291, y=112, z=-711}
+[03:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-292, y=113, z=-711} class_2338{x=-291, y=112, z=-711}
+[03:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-292, y=113, z=-711} class_2338{x=-291, y=112, z=-711}
+[03:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-292, y=113, z=-711} class_2338{x=-291, y=112, z=-711}
+[03:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-292, y=113, z=-711} class_2338{x=-291, y=112, z=-711}
+[03:39:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-292, y=113, z=-711} class_2338{x=-291, y=112, z=-711}
+[03:39:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-293, y=114, z=-710} class_2338{x=-294, y=114, z=-710}
+[03:39:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-294, y=108, z=-709} class_2338{x=-288, y=109, z=-713}
+[03:39:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-294, y=108, z=-709} class_2338{x=-288, y=109, z=-713}
+[03:40:25] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[03:40:45] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[03:40:55] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -287.500000, 109.000000, -703.500000]
+[03:41:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-289, y=101, z=-704} class_2338{x=-289, y=101, z=-705}
+[03:41:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-289, y=101, z=-704} class_2338{x=-289, y=101, z=-705}
+[03:42:42] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:43:55] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[03:44:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=85, z=-705} class_2338{x=-298, y=84, z=-705}
+[03:44:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=85, z=-705} class_2338{x=-298, y=84, z=-705}
+[03:44:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=85, z=-705} class_2338{x=-298, y=84, z=-705}
+[03:44:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=85, z=-705} class_2338{x=-298, y=84, z=-705}
+[03:44:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=85, z=-705} class_2338{x=-298, y=84, z=-705}
+[03:44:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=85, z=-703} class_2338{x=-298, y=84, z=-705}
+[03:44:20] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[03:44:38] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -287.500000, 86.000000, -703.500000]
+[03:45:09] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[03:45:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-296, y=88, z=-694} class_2338{x=-295, y=90, z=-696}
+[03:45:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-296, y=88, z=-694} class_2338{x=-295, y=90, z=-695}
+[03:45:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-296, y=88, z=-694} class_2338{x=-295, y=90, z=-695}
+[03:45:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-296, y=88, z=-694} class_2338{x=-295, y=90, z=-695}
+[03:45:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-296, y=88, z=-694} class_2338{x=-295, y=90, z=-695}
+[03:45:37] [Server thread/INFO]: Aryan has completed the challenge [Hot Tourist Destinations]
+[03:45:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-283, y=92, z=-686} class_2338{x=-285, y=90, z=-686}
+[03:46:25] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[03:47:17] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[03:48:08] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:48:41] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:49:13] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:50:08] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:51:21] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[03:51:27] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -287.500000, 84.000000, -703.500000]
+[03:51:44] [Server thread/INFO]: DarkClown has made the advancement [Those Were the Days]
+[03:51:57] [Server thread/INFO]: Aryan has made the advancement [Those Were the Days]
+[03:52:19] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[03:52:23] [Server thread/INFO]: DarkClown has made the advancement [War Pigs]
+[03:52:24] [Server thread/INFO]: Aryan has made the advancement [War Pigs]
+[03:53:25] [Server thread/INFO]: Aryan has made the advancement [Ice Bucket Challenge]
+[03:58:07] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -287.500000, 81.000000, -703.500000]
+[03:58:18] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[03:58:26] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[03:59:04] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:00:10] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:01:06] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:01:11] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -287.500000, 81.000000, -703.500000]
+[04:01:13] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:01:54] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:02:16] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:02:50] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:06:04] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:06:37] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:07:32] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[04:08:00] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:11:19] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[04:12:27] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[04:13:14] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:14:18] [Server thread/INFO]: Locating element minecraft:ruined_portal_nether took 18 ms
+[04:14:22] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -639.500000, 37.000000, -1071.500000]
+[04:14:52] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:15:26] [Server thread/INFO]: Locating element minecraft:fortress took 0 ms
+[04:15:30] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -703.500000, 39.000000, -959.500000]
+[04:15:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-704, y=37, z=-960} class_2338{x=-705, y=38, z=-960}
+[04:15:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-704, y=37, z=-960} class_2338{x=-705, y=38, z=-960}
+[04:15:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-701, y=39, z=-961} class_2338{x=-699, y=38, z=-962}
+[04:17:00] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[04:17:07] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:17:56] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[04:18:45] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 39 ms
+[04:18:57] [Server thread/INFO]: [Aryan: Teleported Aryan to -735.500000, 32.000000, -671.500000]
+[04:18:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=13, z=-950} class_2338{x=-686, y=12, z=-946}
+[04:18:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=13, z=-950} class_2338{x=-686, y=12, z=-946}
+[04:18:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=13, z=-950} class_2338{x=-686, y=12, z=-946}
+[04:18:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=13, z=-950} class_2338{x=-686, y=12, z=-946}
+[04:18:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=13, z=-950} class_2338{x=-686, y=12, z=-946}
+[04:19:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=11, z=-959} class_2338{x=-686, y=10, z=-958}
+[04:19:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-686, y=11, z=-959} class_2338{x=-686, y=10, z=-958}
+[04:19:25] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:20:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-685, y=11, z=-975} class_2338{x=-685, y=10, z=-975}
+[04:20:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-685, y=10, z=-976} class_2338{x=-685, y=11, z=-976}
+[04:20:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-685, y=11, z=-977} class_2338{x=-685, y=12, z=-979}
+[04:21:08] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:22:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-685, y=12, z=-958} class_2338{x=-684, y=11, z=-958}
+[04:22:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-685, y=12, z=-958} class_2338{x=-684, y=11, z=-958}
+[04:22:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-685, y=12, z=-958} class_2338{x=-684, y=11, z=-958}
+[04:22:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-685, y=12, z=-958} class_2338{x=-684, y=11, z=-958}
+[04:26:11] [Server thread/INFO]: [Aryan: Teleported Aryan to -735.500000, 81.000000, -899.500000]
+[04:26:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:26:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-733, y=82, z=-899} class_2338{x=-732, y=82, z=-899}
+[04:27:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-735, y=83, z=-860} class_2338{x=-735, y=83, z=-861}
+[04:28:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-735, y=86, z=-837} class_2338{x=-735, y=85, z=-838}
+[04:29:54] [Server thread/INFO]: [Aryan: Teleported Aryan to -735.500000, 81.000000, -849.500000]
+[04:33:15] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[04:33:39] [Server thread/INFO]: Locating element minecraft:fortress took 0 ms
+[04:33:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-715, y=11, z=-966} class_2338{x=-715, y=12, z=-968}
+[04:33:48] [Server thread/INFO]: [Aryan: Teleported Aryan to -703.500000, 60.000000, -959.500000]
+[04:34:18] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
+[04:34:36] [Server thread/INFO]: Locating element minecraft:ruined_portal_nether took 0 ms
+[04:34:36] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:34:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-695, y=61, z=-960} class_2338{x=-693, y=60, z=-960}
+[04:34:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-702, y=60, z=-954} class_2338{x=-703, y=61, z=-957}
+[04:35:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[04:36:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4570ms or 91 ticks behind
+[04:36:13] [Server thread/INFO]: Locating element minecraft:mansion took 199 ms
+[04:36:21] [Server thread/INFO]: [Aryan: Teleported Aryan to -1151.500000, 118.562500, -3247.500000]
+[04:36:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5203ms or 104 ticks behind
+[04:36:26] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:43:13] [Server thread/INFO]: Aryan has made the advancement [Crafting a New Look]
+[04:46:53] [Server thread/INFO]: DarkClown has made the advancement [Crafting a New Look]
+[04:48:43] [Server thread/INFO]: Aryan has made the advancement [Enchanter]
+[04:51:18] [Server thread/INFO]: Locating element #minecraft:on_woodland_explorer_maps (minecraft:mansion) took 1 ms
+[04:51:23] [Server thread/INFO]: [Aryan: Teleported Aryan to -1151.500000, 118.000000, -3247.500000]
+[04:51:23] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1151.500000, 118.000000, -3247.500000]
+[04:51:41] [Server thread/INFO]: [Aryan: Teleported Aryan to -1151.500000, 118.000000, -3247.500000]
+[04:51:44] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1151.500000, 118.562500, -3147.500000]
+[04:51:57] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1151.500000, 118.000000, -2147.500000]
+[04:52:29] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1151.500000, 30.000000, -2147.500000]
+[04:52:47] [Server thread/INFO]: [Aryan: Teleported Aryan to -1151.500000, 90.000000, -3247.500000]
+[04:52:51] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1151.500000, 89.000000, -2147.500000]
+[04:53:04] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:55:20] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:56:01] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:57:24] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[04:57:52] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:58:58] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[04:59:20] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1151.500000, 89.000000, -2147.500000]
+[04:59:24] [Server thread/INFO]: [Aryan: Teleported Aryan to -1151.500000, 85.000000, -3247.500000]
+[04:59:34] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[05:01:01] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[05:01:18] [Server thread/INFO]: [Aryan: Teleported Aryan to -1151.500000, 70.000000, -3247.500000]
+[05:01:22] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[05:04:15] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[05:04:25] [Server thread/INFO]: DarkClown lost connection: Disconnected
+[05:04:25] [Server thread/INFO]: DarkClown left the game
+[05:04:34] [Server thread/INFO]: Aryan lost connection: Disconnected
+[05:04:34] [Server thread/INFO]: Aryan left the game

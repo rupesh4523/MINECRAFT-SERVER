@@ -8460,6 +8460,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2026-01-14 00:07:29 +0530",
+      "cooked_chicken": "2026-01-16 23:07:07 +0530",
       "cooked_mutton": "2026-01-16 14:47:17 +0530",
       "carrot": "2026-01-16 17:40:58 +0530"
     },

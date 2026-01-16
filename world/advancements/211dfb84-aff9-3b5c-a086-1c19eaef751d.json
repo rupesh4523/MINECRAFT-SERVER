@@ -532,6 +532,7 @@
       "minecraft:zombified_piglin": "2026-01-16 16:31:18 +0530",
       "minecraft:witch": "2026-01-14 23:44:42 +0530",
       "minecraft:ravager": "2026-01-14 23:42:22 +0530",
+      "minecraft:husk": "2026-01-17 01:18:39 +0530",
       "minecraft:hoglin": "2026-01-16 14:52:49 +0530",
       "minecraft:vindicator": "2026-01-14 23:29:48 +0530",
       "minecraft:enderman": "2026-01-16 15:36:52 +0530",
@@ -8643,6 +8644,12 @@
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2026-01-16 17:22:39 +0530"
+    },
+    "done": true
+  },
+  "mutantmonsters:root": {
+    "criteria": {
+      "killed_by_something": "2026-01-17 01:18:52 +0530"
     },
     "done": true
   },

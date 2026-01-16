@@ -1,148 +1,85 @@
-[22:30:03] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[22:30:03] [main/INFO]: Loading 77 mods:
-	- cloth-config 19.0.147
-	   \-- cloth-basic-math 0.6.1
-	- entityculling 1.8.2
-	   |-- transition 1.0.3
-	   \-- trender 1.0.5
-	- fabric-api 0.129.0+1.21.7
-	   |-- fabric-api-base 0.4.64+9ec45cd86c
-	   |-- fabric-api-lookup-api-v1 1.6.100+946bf4c36c
-	   |-- fabric-biome-api-v1 16.0.11+946bf4c36c
-	   |-- fabric-block-api-v1 1.1.3+946bf4c36c
-	   |-- fabric-block-view-api-v2 1.0.31+946bf4c36c
-	   |-- fabric-command-api-v2 2.2.53+946bf4c36c
-	   |-- fabric-content-registries-v0 10.0.18+946bf4c36c
-	   |-- fabric-convention-tags-v1 2.1.40+7f945d5b6c
-	   |-- fabric-convention-tags-v2 2.15.5+eb5df52f6c
-	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c36c
-	   |-- fabric-data-attachment-api-v1 1.8.10+946bf4c36c
-	   |-- fabric-data-generation-api-v1 23.2.4+55e55d296c
-	   |-- fabric-dimensions-v1 4.0.19+946bf4c36c
-	   |-- fabric-entity-events-v1 2.1.1+c9e472736c
-	   |-- fabric-events-interaction-v0 4.0.23+946bf4c36c
-	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b6c
-	   |-- fabric-item-api-v1 11.4.3+946bf4c36c
-	   |-- fabric-item-group-api-v1 4.2.13+946bf4c36c
-	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c36c
-	   |-- fabric-lifecycle-events-v1 2.6.3+db4dfd856c
-	   |-- fabric-loot-api-v2 3.0.55+3f89f5a56c
-	   |-- fabric-loot-api-v3 2.0.2+946bf4c36c
-	   |-- fabric-message-api-v1 6.1.1+946bf4c36c
-	   |-- fabric-model-loading-api-v1 5.2.5+946bf4c36c
-	   |-- fabric-networking-api-v1 5.0.1+946bf4c36c
-	   |-- fabric-object-builder-api-v1 21.1.7+946bf4c36c
-	   |-- fabric-particles-v1 4.1.7+946bf4c36c
-	   |-- fabric-recipe-api-v1 8.1.14+946bf4c36c
-	   |-- fabric-registry-sync-v0 6.1.27+946bf4c36c
-	   |-- fabric-renderer-api-v1 7.0.2+946bf4c36c
-	   |-- fabric-renderer-indigo 4.0.2+946bf4c36c
-	   |-- fabric-rendering-fluids-v1 3.1.30+fa6cb72b6c
-	   |-- fabric-rendering-v1 12.4.0+e8d43c766c
-	   |-- fabric-resource-conditions-api-v1 5.0.24+946bf4c36c
-	   |-- fabric-resource-loader-v0 3.1.11+946bf4c36c
-	   |-- fabric-screen-api-v1 2.1.0+277ecf7d6c
-	   |-- fabric-screen-handler-api-v1 1.3.136+946bf4c36c
-	   |-- fabric-sound-api-v1 1.0.42+946bf4c36c
-	   |-- fabric-tag-api-v1 1.2.1+946bf4c36c
-	   |-- fabric-transfer-api-v1 6.0.5+946bf4c36c
-	   \-- fabric-transitive-access-wideners-v1 6.4.1+ac3e15d16c
-	- fabric-language-kotlin 1.13.8+kotlin.2.3.0
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.0
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
-	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
-	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
-	- fabricloader 0.18.4
-	   \-- mixinextras 0.5.0
-	- ferritecore 8.0.0
-	- forgeconfigapiport 21.7.0
-	   |-- com_electronwill_night-config_core 3.8.2
-	   \-- com_electronwill_night-config_toml 3.8.2
-	- java 23
-	- lithium 0.18.0+mc1.21.7
-	- minecraft 1.21.7
-	- mr_guns 5.8.7
-	- mutantmonsters 21.7.0
-	- puzzleslib 21.7.1
-	- silk-all 1.11.2
-	   |-- silk-commands 1.11.2
-	   |-- silk-core 1.11.2
-	   |-- silk-game 1.11.2
-	   |-- silk-igui 1.11.2
-	   |-- silk-nbt 1.11.2
-	   |-- silk-network 1.11.2
-	   \-- silk-persistence 1.11.2
-	- veinminer 2.5.0
-	   |-- de_miraculixx_core_dev 2.5.0
-	   \-- fabric-permissions-api-v0 0.4.0
-[22:30:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/Downloads/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:30:03] [main/INFO]: Compatibility level set to JAVA_16
-[22:30:03] [main/INFO]: Compatibility level set to JAVA_21
-[22:30:03] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:30:03] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[22:30:03] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
-[22:30:03] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[22:30:04] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:30:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[22:30:10] [main/INFO]: Constructing components for mutantmonsters:common
-[22:30:10] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
-[22:30:10] [main/INFO]: Constructing components for puzzleslib:common
-[22:30:10] [main/INFO]: Initializing Silk
-[22:30:10] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[22:30:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:30:12] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[22:30:12] [main/INFO]: Loaded 1470 recipes
-[22:30:12] [main/INFO]: Loaded 1535 advancements
-[22:30:13] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 44.01 ms
-[22:30:13] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[22:30:13] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
-[22:30:13] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[22:30:13] [Server thread/INFO]: Loading properties
-[22:30:13] [Server thread/INFO]: Default game type: SURVIVAL
-[22:30:13] [Server thread/INFO]: Generating keypair
-[22:30:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:30:13] [Server thread/INFO]: Using default channel type
-[22:30:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:30:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:30:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:30:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:30:13] [Server thread/INFO]: Preparing level "world"
-[22:30:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:30:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:30:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:30:14] [Server thread/INFO]: Time elapsed: 716 ms
-[22:30:14] [Server thread/INFO]: Done (1.084s)! For help, type "help"
-[22:31:14] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:37:27] [Server thread/INFO]: DarkClown[/127.0.0.1:54017] logged in with entity id 2 at (-1247.7728188121073, 85.0, -1442.1170774237582)
-[22:37:27] [Server thread/INFO]: DarkClown joined the game
-[22:37:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[22:37:58] [Server thread/INFO]: CDVSF[/127.235.155.39:54019] logged in with entity id 389 at (69509.73330917234, 48.0, 69403.67471901632)
-[22:37:58] [Server thread/INFO]: CDVSF joined the game
-[22:38:50] [Server thread/INFO]: DarkClown lost connection: Disconnected
-[22:38:50] [Server thread/INFO]: DarkClown left the game
-[22:39:07] [Server thread/INFO]: PixelParas[/127.235.155.39:54036] logged in with entity id 735 at (-1306.5, 118.5625, -1430.5)
-[22:39:07] [Server thread/INFO]: PixelParas joined the game
-[22:40:07] [Server thread/INFO]: [CDVSF: Teleported CDVSF to PixelParas]
-[22:40:20] [Server thread/INFO]: DarkClown[/127.0.0.1:59528] logged in with entity id 1193 at (-1244.6227981376444, 81.0, -1461.8289002025392)
-[22:40:20] [Server thread/INFO]: DarkClown joined the game
-[22:41:08] [Server thread/INFO]: PixelParas lost connection: Disconnected
-[22:41:08] [Server thread/INFO]: PixelParas left the game
-[22:41:21] [Server thread/INFO]: DarkClown lost connection: Disconnected
-[22:41:21] [Server thread/INFO]: DarkClown left the game
-[22:41:25] [Server thread/INFO]: CDVSF lost connection: Disconnected
-[22:41:25] [Server thread/INFO]: CDVSF left the game
-[22:41:25] [Netty Server IO #6/WARN]: Failed to deliver packet, sending fallback clientbound/minecraft:system_chat
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.118.Final.jar:?]
-[22:41:25] [Netty Server IO #6/WARN]: Failed to deliver packet, sending fallback clientbound/minecraft:system_chat
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.118.Final.jar:?]
+[00:04:12] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[00:05:14] [Server thread/WARN]: PixelParas moved too quickly! 3.5722347581722715,-1.0,9.305812067899069
+[00:05:36] [Server thread/INFO]: DarkClown lost connection: Timed out
+[00:05:36] [Server thread/INFO]: DarkClown left the game
+[00:05:51] [Server thread/INFO]: DarkClown[/127.158.47.245:55336] logged in with entity id 7272 at (-1270.096300940818, 111.0, -1410.1267472737334)
+[00:05:51] [Server thread/INFO]: DarkClown joined the game
+[00:07:10] [Server thread/INFO]: [PixelParas: Summoned new Villager]
+[00:11:09] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[00:11:45] [Server thread/WARN]: PixelParas moved too quickly! 2.684257819196546,-8.998775923317055,-3.554411629438164
+[00:11:52] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[00:16:27] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
+[00:20:28] [Server thread/INFO]: [PixelParas: Set the time to 1000]
+[00:26:13] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[00:27:09] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[00:27:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1242, y=111, z=-1394} class_2338{x=-1241, y=110, z=-1394}
+[00:27:57] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[00:28:01] [Server thread/WARN]: PixelParas moved too quickly! -0.36156833335826377,7.875000312172489,-6.645764178574154
+[00:29:27] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[00:33:37] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[00:35:15] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[00:36:01] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[00:48:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1247, y=118, z=-1346} class_2338{x=-1244, y=112, z=-1343}
+[00:48:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1247, y=118, z=-1346} class_2338{x=-1244, y=112, z=-1343}
+[00:48:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1247, y=118, z=-1346} class_2338{x=-1244, y=112, z=-1343}
+[00:48:59] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[00:49:40] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[00:56:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1242, y=118, z=-1338} class_2338{x=-1245, y=112, z=-1332}
+[00:56:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1242, y=118, z=-1338} class_2338{x=-1245, y=112, z=-1332}
+[00:56:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1245, y=111, z=-1332} class_2338{x=-1246, y=111, z=-1332}
+[00:56:55] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[00:57:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1245, y=111, z=-1332} class_2338{x=-1249, y=110, z=-1341}
+[00:57:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1245, y=111, z=-1332} class_2338{x=-1248, y=111, z=-1341}
+[00:57:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1248, y=111, z=-1341} class_2338{x=-1248, y=110, z=-1340}
+[00:57:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1247, y=110, z=-1347} class_2338{x=-1243, y=110, z=-1395}
+[01:17:49] [Server thread/INFO]: [PixelParas: Set the time to 1000]
+[01:18:52] [Server thread/INFO]: DarkClown has made the advancement [Mutant Monsters]
+[01:19:39] [Server thread/INFO]: [Not Secure] <PixelParas> SAME DMG
+[01:19:48] [Server thread/INFO]: [Not Secure] <PixelParas> 3 hearts
+[01:19:55] [Server thread/INFO]: [Not Secure] <DarkClown> armour
+[01:20:16] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[01:20:42] [Server thread/INFO]: [Not Secure] <DarkClown> sorry
+[01:20:56] [Server thread/INFO]: [Not Secure] <PixelParas> bruh
+[01:21:19] [Server thread/INFO]: [Not Secure] <DarkClown> server issue
+[01:21:26] [Server thread/INFO]: [Not Secure] <PixelParas> skill issue
+[01:21:31] [Server thread/INFO]: [Not Secure] <DarkClown> lag ho raha hai
+[01:21:39] [Server thread/INFO]: [Not Secure] <PixelParas> 4 hearts
+[01:22:28] [Server thread/INFO]: [Not Secure] <DarkClown> tabhi se mai right click kar raha tha
+[01:22:37] [Server thread/INFO]: [Not Secure] <DarkClown> isliye nahi ho raha tha
+[01:22:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1274, y=114, z=-1370} class_2338{x=-1254, y=110, z=-1384}
+[01:22:49] [Server thread/INFO]: [Not Secure] <PixelParas> bruh
+[01:22:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1274, y=114, z=-1370} class_2338{x=-1249, y=110, z=-1382}
+[01:22:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1274, y=114, z=-1370} class_2338{x=-1248, y=110, z=-1382}
+[01:22:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1274, y=114, z=-1370} class_2338{x=-1248, y=110, z=-1382}
+[01:22:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1274, y=114, z=-1370} class_2338{x=-1248, y=110, z=-1382}
+[01:22:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1274, y=114, z=-1370} class_2338{x=-1248, y=110, z=-1382}
+[01:22:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1274, y=114, z=-1370} class_2338{x=-1249, y=110, z=-1388}
+[01:22:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1274, y=114, z=-1370} class_2338{x=-1249, y=110, z=-1388}
+[01:23:17] [Server thread/INFO]: [PixelParas: Killed PixelParas]
+[01:24:25] [Server thread/INFO]: [Not Secure] <PixelParas> mai soo raha
+[01:24:30] [Server thread/INFO]: [Not Secure] <PixelParas> push kar raha
+[01:24:35] [Server thread/INFO]: [Not Secure] <PixelParas> server band hoga 2 min mein
+[01:24:37] [Server thread/INFO]: [Not Secure] <DarkClown> haan thike hai push kar
+[01:24:52] [Server thread/INFO]: Stopping server
+[01:24:52] [Server thread/INFO]: Saving players
+[01:24:52] [Server thread/INFO]: DarkClown lost connection: Server closed
+[01:24:52] [Server thread/INFO]: DarkClown left the game
+[01:24:52] [Server thread/INFO]: Saving worlds
+[01:24:52] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2277 chunks to unload
+[01:24:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:24:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:24:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:24:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:24:52] [C2ME Storage #3/INFO]: Storage thread Thread[#141,C2ME Storage #3,8,main] stopped
+[01:24:52] [C2ME Storage #2/INFO]: Storage thread Thread[#140,C2ME Storage #2,8,main] stopped
+[01:24:52] [C2ME Storage #1/INFO]: Storage thread Thread[#139,C2ME Storage #1,8,main] stopped
+[01:24:52] [C2ME Storage #6/INFO]: Storage thread Thread[#144,C2ME Storage #6,8,main] stopped
+[01:24:52] [C2ME Storage #5/INFO]: Storage thread Thread[#143,C2ME Storage #5,8,main] stopped
+[01:24:52] [C2ME Storage #4/INFO]: Storage thread Thread[#142,C2ME Storage #4,8,main] stopped
+[01:24:52] [C2ME Storage #9/INFO]: Storage thread Thread[#147,C2ME Storage #9,8,main] stopped
+[01:24:52] [C2ME Storage #8/INFO]: Storage thread Thread[#146,C2ME Storage #8,8,main] stopped
+[01:24:52] [C2ME Storage #7/INFO]: Storage thread Thread[#145,C2ME Storage #7,8,main] stopped
+[01:24:52] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml

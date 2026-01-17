@@ -1,5 +1,5 @@
-[13:12:51] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[13:12:51] [main/INFO]: Loading 108 mods:
+[17:03:45] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
+[17:03:46] [main/INFO]: Loading 108 mods:
 	- c2me 0.3.4.0.0+1.21.8
 	   |-- c2me-base 0.3.4.0.0+1.21.8
 	   |-- c2me-client-uncapvd 0.3.4.0.0+1.21.8
@@ -116,488 +116,139 @@
 	- veinminer 2.5.0
 	   |-- de_miraculixx_core_dev 2.5.0
 	   \-- fabric-permissions-api-v0 0.4.0
-[13:12:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/acer/Downloads/MINECRAFT-SERVER-master/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[13:12:51] [main/INFO]: Compatibility level set to JAVA_16
-[13:12:51] [main/INFO]: Compatibility level set to JAVA_21
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[13:12:51] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[13:12:51] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[13:12:51] [main/INFO]: Detected maximum supported ISA target: AVX2
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[13:12:51] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[13:12:51] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[13:12:51] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:12:51] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[13:12:51] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
-[13:12:51] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[13:12:51] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:12:52] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[13:12:52] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[13:12:58] [main/INFO]: Compression will use Java, encryption will use Java
-[13:12:58] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
-[13:12:58] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
-[13:12:58] [main/INFO]: Constructing components for mutantmonsters:common
-[13:12:58] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
-[13:12:58] [main/INFO]: Constructing components for puzzleslib:common
-[13:12:58] [main/INFO]: Initializing Silk
-[13:12:58] [main/INFO]: Starting TT20...
-[13:12:58] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[13:12:58] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[13:12:58] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[13:12:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:12:58] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
-[13:13:00] [main/INFO]: Loaded 1470 recipes
-[13:13:00] [main/INFO]: Loaded 1535 advancements
-[13:13:00] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 33.12 ms
-[13:13:00] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[13:13:00] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
-[13:13:00] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[13:13:00] [Server thread/INFO]: Loading properties
-[13:13:00] [Server thread/INFO]: Default game type: SURVIVAL
-[13:13:00] [Server thread/INFO]: Generating keypair
-[13:13:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:13:00] [Server thread/INFO]: Using default channel type
-[13:13:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:13:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:13:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:13:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:13:00] [Server thread/INFO]: Preparing level "world"
-[13:13:00] [Server thread/INFO]: Enforcing safe world random access
-[13:13:01] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 161.9 ms
-[13:13:01] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[13:13:01] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 12.21 ms
-[13:13:01] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.164 ms
-[13:13:01] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@634609cb)
-[13:13:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:13:01] [Server thread/INFO]: Time elapsed: 72 ms
-[13:13:01] [Server thread/INFO]: Done (0.762s)! For help, type "help"
-[13:13:03] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[13:13:48] [Server thread/INFO]: PixelParas[/127.58.252.108:62285] logged in with entity id 1 at (-1309.699999988079, 118.0, -1438.8558230815554)
-[13:13:48] [Server thread/INFO]: PixelParas joined the game
-[13:17:19] [Server thread/INFO]: DarkClown[/127.200.146.135:52697] logged in with entity id 554 at (-1297.5681225198648, 117.0, -1428.3118720379655)
-[13:17:19] [Server thread/INFO]: DarkClown joined the game
-[13:17:28] [Server thread/INFO]: [Not Secure] <PixelParas> discor
-[13:17:42] [Server thread/INFO]: Aryan[/127.183.124.44:52704] logged in with entity id 577 at (-1314.2746570401705, 118.0, -1436.2494984666503)
-[13:17:42] [Server thread/INFO]: Aryan joined the game
-[13:22:24] [Server thread/INFO]: Locating element minecraft:mineshaft took 1 ms
-[13:22:32] [Server thread/INFO]: [Aryan: Teleported Aryan to -1263.500000, 118.000000, -1519.500000]
-[13:22:33] [Server thread/INFO]: [Not Secure] <DarkClown> oyee paras woh pickaxe wale villager ko zombie mai convert karke pickaxe lele
-[13:22:33] [Server thread/INFO]: [Not Secure] <PixelParas> Discord pe aao haramaiyo
-[13:23:08] [Server thread/WARN]: Aryan moved too quickly! -8.23424087263561,0.5,5.852505619820931
-[13:23:21] [Server thread/WARN]: Aryan moved too quickly! 10.009237030981012,-1.044812420399012,0.22576731169897357
-[13:26:42] [Server thread/INFO]: Locating element minecraft:jungle took 424 ms
-[13:31:38] [Server thread/INFO]: Locating element minecraft:desert took 1024 ms
-[13:32:40] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 166.500000, 118.000000, 1601.500000]
-[13:32:41] [Server thread/WARN]: PixelParas moved too quickly! 0.0,-10.806526110008988,0.0
-[13:32:49] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[13:33:04] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[13:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=121, y=63, z=1647}
-[13:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=121, y=64, z=1648}
-[13:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1620} class_2338{x=119, y=63, z=1621}
-[13:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1620} class_2338{x=119, y=63, z=1621}
-[13:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1620} class_2338{x=119, y=63, z=1621}
-[13:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1620} class_2338{x=119, y=63, z=1621}
-[13:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1619} class_2338{x=119, y=63, z=1621}
-[13:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1620} class_2338{x=119, y=63, z=1621}
-[13:33:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=120, y=67, z=1651} class_2338{x=122, y=65, z=1653}
-[13:33:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=120, y=67, z=1652} class_2338{x=122, y=65, z=1653}
-[13:33:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=123, y=67, z=1651} class_2338{x=123, y=65, z=1652}
-[13:33:37] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[13:33:54] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[13:33:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=96, y=66, z=1635} class_2338{x=95, y=66, z=1637}
-[13:33:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=96, y=66, z=1635} class_2338{x=95, y=66, z=1637}
-[13:34:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=93, y=68, z=1635} class_2338{x=93, y=68, z=1634}
-[13:34:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=93, y=68, z=1635} class_2338{x=93, y=68, z=1634}
-[13:34:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=93, y=68, z=1635} class_2338{x=93, y=68, z=1634}
-[13:34:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=93, y=68, z=1635} class_2338{x=93, y=68, z=1634}
-[13:34:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=93, y=68, z=1635} class_2338{x=93, y=68, z=1634}
-[13:34:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=94, y=69, z=1633} class_2338{x=93, y=68, z=1634}
-[13:34:25] [Server thread/INFO]: [DarkClown: Killed Aryan]
-[13:35:15] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[13:35:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=62, z=1639} class_2338{x=122, y=60, z=1640}
-[13:35:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=62, z=1639} class_2338{x=122, y=60, z=1640}
-[13:35:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=62, z=1639} class_2338{x=122, y=60, z=1640}
-[13:35:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=62, z=1639} class_2338{x=122, y=60, z=1640}
-[13:35:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=62, z=1639} class_2338{x=122, y=60, z=1640}
-[13:35:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=62, z=1639} class_2338{x=122, y=60, z=1640}
-[13:35:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=62, z=1639} class_2338{x=122, y=60, z=1640}
-[13:35:51] [Server thread/INFO]: [PixelParas: Teleported DarkClown to -1281.500000, 130.000000, 1432.500000]
-[13:36:22] [Server thread/INFO]: [PixelParas: Teleported DarkClown to -1281.500000, 130.000000, -1431.500000]
-[13:37:22] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[13:37:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=119, y=62, z=1631} class_2338{x=121, y=60, z=1631}
-[13:37:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=119, y=62, z=1631} class_2338{x=121, y=60, z=1631}
-[13:37:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=62, z=1631} class_2338{x=119, y=60, z=1631}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=63, z=1633} class_2338{x=119, y=60, z=1632}
-[13:37:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=115, y=63, z=1634} class_2338{x=115, y=61, z=1635}
-[13:38:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=62, z=1630} class_2338{x=116, y=62, z=1631}
-[13:38:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=62, z=1630} class_2338{x=116, y=62, z=1631}
-[13:38:43] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[13:38:57] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[13:40:07] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[13:40:23] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -1322.500000, 189.000000, -813.500000]
-[13:41:02] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[13:41:03] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[13:41:21] [Server thread/INFO]: [PixelParas: Teleported PixelParas to Aryan]
-[13:42:52] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[13:43:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=170, y=61, z=2097} class_2338{x=169, y=58, z=2099}
-[13:43:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=170, y=60, z=2097} class_2338{x=170, y=58, z=2097}
-[13:43:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=170, y=60, z=2097} class_2338{x=170, y=58, z=2097}
-[13:43:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=168, y=60, z=2097} class_2338{x=168, y=58, z=2098}
-[13:43:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=168, y=60, z=2097} class_2338{x=168, y=58, z=2098}
-[13:44:09] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[13:46:48] [Server thread/INFO]: [PixelParas: Teleported Aryan to -1281.500000, 130.000000, -1431.500000]
-[13:47:12] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[13:47:38] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[13:51:49] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[13:53:51] [Server thread/INFO]: [Not Secure] <PixelParas> wait
-[13:54:03] [Server thread/INFO]: [Not Secure] <DarkClown> ok
-[13:54:45] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[13:56:31] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 69420.500000, 120.000000, 69420.500000]
-[13:56:36] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 69420.500000, 80.000000, 69420.500000]
-[13:56:37] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[13:57:06] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 69420.500000, 70.000000, 69420.500000]
-[13:57:20] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[13:58:10] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[13:58:30] [Server thread/INFO]: [PixelParas: Set own game mode to Creative Mode]
-[13:59:02] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[13:59:05] [Server thread/INFO]: [DarkClown: Running function thepa:utilities/dialog_updates]
-[13:59:22] [Server thread/INFO]: [DarkClown: Running function thepa:utilities/dialog_updates]
-[14:00:09] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[14:00:21] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[14:00:25] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[14:01:00] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[14:01:07] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[14:01:39] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[14:02:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8655, y=13, z=8744} class_2338{x=8655, y=13, z=8745}
-[14:02:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8657, y=14, z=8747} class_2338{x=8657, y=13, z=8747}
-[14:02:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8657, y=14, z=8747} class_2338{x=8657, y=13, z=8747}
-[14:02:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8657, y=14, z=8747} class_2338{x=8657, y=13, z=8747}
-[14:02:42] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[14:04:41] [Server thread/INFO]: Aryan lost connection: Disconnected
-[14:04:41] [Server thread/INFO]: Aryan left the game
-[14:06:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8618, y=10, z=8746} class_2338{x=8616, y=11, z=8746}
-[14:06:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8617, y=10, z=8746} class_2338{x=8616, y=11, z=8746}
-[14:10:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8557, y=19, z=8753} class_2338{x=8557, y=18, z=8753}
-[14:11:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8557, y=19, z=8796} class_2338{x=8557, y=18, z=8824}
-[14:13:41] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[14:14:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8557, y=15, z=8850} class_2338{x=8557, y=15, z=8849}
-[14:14:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8557, y=15, z=8850} class_2338{x=8557, y=15, z=8849}
-[14:14:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8557, y=15, z=8850} class_2338{x=8557, y=15, z=8849}
-[14:14:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8557, y=15, z=8850} class_2338{x=8557, y=15, z=8849}
-[14:15:22] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[14:15:39] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[14:16:38] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[14:17:05] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[14:17:09] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[14:18:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8576, y=17, z=8918} class_2338{x=8575, y=18, z=8918}
-[14:18:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8576, y=17, z=8918} class_2338{x=8575, y=18, z=8918}
-[14:18:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8576, y=17, z=8918} class_2338{x=8575, y=18, z=8918}
-[14:18:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8576, y=17, z=8918} class_2338{x=8575, y=18, z=8918}
-[14:18:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8576, y=17, z=8918} class_2338{x=8575, y=18, z=8918}
-[14:18:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8576, y=17, z=8918} class_2338{x=8575, y=18, z=8918}
-[14:18:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8576, y=17, z=8918} class_2338{x=8575, y=18, z=8918}
-[14:18:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8576, y=17, z=8918} class_2338{x=8575, y=18, z=8918}
-[14:20:04] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[14:20:51] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[14:21:13] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[14:21:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8553, y=16, z=8940} class_2338{x=8553, y=16, z=8942}
-[14:21:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8561, y=15, z=8952} class_2338{x=8561, y=16, z=8953}
-[14:22:26] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[14:22:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8467, y=17, z=8888} class_2338{x=8458, y=15, z=8888}
-[14:22:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8459, y=16, z=8888} class_2338{x=8458, y=15, z=8888}
-[14:22:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8459, y=16, z=8888} class_2338{x=8458, y=15, z=8888}
-[14:22:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8454, y=15, z=8888} class_2338{x=8455, y=15, z=8888}
-[14:22:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8454, y=15, z=8888} class_2338{x=8455, y=15, z=8888}
-[14:25:23] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[14:25:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8454, y=15, z=8889} class_2338{x=8455, y=15, z=8889}
-[14:25:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8454, y=15, z=8889} class_2338{x=8455, y=15, z=8889}
-[14:25:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8454, y=15, z=8889} class_2338{x=8455, y=15, z=8889}
-[14:26:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8455, y=15, z=8893} class_2338{x=8455, y=18, z=8895}
-[14:26:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8455, y=15, z=8893} class_2338{x=8455, y=18, z=8895}
-[14:26:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8455, y=15, z=8893} class_2338{x=8455, y=18, z=8895}
-[14:28:00] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[14:28:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8398, y=14, z=8896} class_2338{x=8398, y=13, z=8895}
-[14:28:23] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[14:31:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8363, y=18, z=8859} class_2338{x=8365, y=16, z=8859}
-[14:31:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8363, y=18, z=8859} class_2338{x=8365, y=16, z=8859}
-[14:31:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8363, y=18, z=8859} class_2338{x=8365, y=16, z=8859}
-[14:33:24] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[14:33:59] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[14:34:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8474, y=16, z=8888} class_2338{x=8480, y=16, z=8888}
-[14:34:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8479, y=17, z=8888} class_2338{x=8481, y=17, z=8888}
-[14:34:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8498, y=16, z=8888} class_2338{x=8510, y=16, z=8888}
-[14:34:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8512, y=17, z=8888} class_2338{x=8513, y=16, z=8888}
-[14:34:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8515, y=16, z=8888} class_2338{x=8514, y=17, z=8888}
-[14:34:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8516, y=17, z=8888} class_2338{x=8515, y=16, z=8888}
-[14:37:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8365, y=27, z=8921} class_2338{x=8366, y=27, z=8920}
-[14:37:14] [Server thread/INFO]: Aryan[/127.93.138.12:65056] logged in with entity id 29687 at (-1303.7135378726152, 117.0, -1424.1080323199162)
-[14:37:14] [Server thread/INFO]: Aryan joined the game
-[14:37:22] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[14:39:21] [Server thread/INFO]: [PixelParas: Teleported PixelParas to Aryan]
-[14:40:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8548, y=19, z=8935} class_2338{x=8548, y=18, z=8936}
-[14:40:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8548, y=17, z=8936} class_2338{x=8548, y=18, z=8936}
-[14:40:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8548, y=17, z=8936} class_2338{x=8548, y=18, z=8936}
-[14:40:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8548, y=17, z=8936} class_2338{x=8548, y=18, z=8936}
-[14:40:18] [Server thread/INFO]: [PixelParas: Teleported PixelParas to Aryan]
-[14:40:22] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[14:40:34] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[14:40:42] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[14:41:22] [Server thread/INFO]: [PixelParas: Teleported DarkClown to 10000.500000, 80.000000, 10000.500000]
-[14:41:49] [Server thread/INFO]: [PixelParas: Set DarkClown's game mode to Spectator Mode]
-[14:42:01] [Server thread/WARN]: DarkClown moved too quickly! 8.616470399929312,-5.0627646802300035,0.9717057236539404
-[14:42:45] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[14:43:00] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[14:43:23] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 10000.500000, 16.000000, 10000.500000]
-[14:44:02] [Server thread/INFO]: [PixelParas: Gave 2 [Ancient Debris] to DarkClown]
-[14:44:03] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[14:44:34] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[14:44:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1309, y=111, z=-1408} class_2338{x=-1314, y=112, z=-1391}
-[14:44:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1315, y=111, z=-1391} class_2338{x=-1304, y=116, z=-1419}
-[14:44:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1304, y=117, z=-1419} class_2338{x=-1304, y=116, z=-1419}
-[14:45:05] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[14:45:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1299, y=116, z=-1422} class_2338{x=-1305, y=116, z=-1419}
-[14:45:54] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[14:46:29] [Server thread/INFO]: DarkClown has completed the challenge [Hot Tourist Destinations]
-[14:46:44] [Server thread/INFO]: PixelParas lost connection: Disconnected
-[14:46:44] [Server thread/INFO]: PixelParas left the game
-[14:47:28] [Server thread/INFO]: PixelParas[/127.58.252.108:55558] logged in with entity id 34273 at (-1288.1154549510793, 118.0, -1436.873460418521)
-[14:47:28] [Server thread/INFO]: PixelParas joined the game
-[14:47:47] [Server thread/INFO]: DarkClown has completed the challenge [Subspace Bubble]
-[14:47:47] [Server thread/INFO]: [PixelParas: Teleported DarkClown to 69420.500000, 70.000000, 69420.500000]
-[14:48:05] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[14:48:17] [Server thread/INFO]: PixelParas lost connection: Disconnected
-[14:48:17] [Server thread/INFO]: PixelParas left the game
-[14:48:22] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[14:48:55] [Server thread/INFO]: PixelParas[/127.58.252.108:55571] logged in with entity id 35318 at (-1298.5851995727573, 118.0, -1436.3609836787864)
-[14:48:55] [Server thread/INFO]: PixelParas joined the game
-[14:49:07] [Server thread/INFO]: Locating element minecraft:ancient_city took 8 ms
-[14:49:16] [Server thread/INFO]: [Aryan: Teleported Aryan to -1791.500000, 118.000000, -1711.500000]
-[14:49:25] [Server thread/INFO]: PixelParas lost connection: Disconnected
-[14:49:25] [Server thread/INFO]: PixelParas left the game
-[14:49:42] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[14:50:40] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[14:50:48] [Server thread/INFO]: [DarkClown: Teleported DarkClown to DarkClown]
-[14:51:09] [Server thread/INFO]: DarkClown has made the advancement [Sneak 100]
-[14:51:27] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[14:51:52] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[14:52:59] [Server thread/INFO]: DarkClown lost connection: Timed out
-[14:52:59] [Server thread/INFO]: DarkClown left the game
-[14:53:08] [Server thread/INFO]: DarkClown[/127.200.146.135:65443] logged in with entity id 36832 at (-1804.195590147753, -51.0, -1634.7041046218035)
-[14:53:08] [Server thread/INFO]: DarkClown joined the game
-[14:54:41] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[14:55:25] [Server thread/INFO]: Aryan lost connection: Disconnected
-[14:55:25] [Server thread/INFO]: Aryan left the game
-[14:56:14] [Server thread/INFO]: Locating element minecraft:ancient_city took 0 ms
-[14:56:22] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 111.875000, -1711.500000]
-[14:57:30] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[14:57:58] [Server thread/INFO]: PixelParas[/127.58.252.108:59278] logged in with entity id 37972 at (-1310.1445286300561, 119.0, -1439.0625281605032)
-[14:57:58] [Server thread/INFO]: PixelParas joined the game
-[14:58:06] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[14:58:43] [Server thread/INFO]: Aryan[/127.93.138.12:59291] logged in with entity id 38616 at (-1845.300000011921, -49.0, -1758.5229006771033)
-[14:58:43] [Server thread/INFO]: Aryan joined the game
-[14:59:57] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:00:50] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:02:13] [Server thread/WARN]: DarkClown moved wrongly!
-[15:03:25] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:04:28] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:05:02] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:05:09] [Server thread/INFO]: Aryan has made the advancement [Sneak 100]
-[15:05:58] [Server thread/INFO]: Locating element minecraft:jungle took 437 ms
-[15:06:06] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 524.500000, 117.000000, 523.500000]
-[15:06:30] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:06:32] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 524.500000, 117.000000, 523.500000]
-[15:06:39] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 524.500000, 50.000000, 523.500000]
-[15:06:48] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 524.500000, 80.000000, 523.500000]
-[15:07:13] [Server thread/INFO]: [PixelParas: Killed PixelParas]
-[15:07:22] [Server thread/INFO]: [DarkClown: Killed Aryan]
-[15:07:32] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 524.500000, 70.000000, 523.500000]
-[15:07:41] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:08:51] [Server thread/INFO]: [PixelParas: Killed PixelParas]
-[15:09:18] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:16:22] [Server thread/INFO]: [PixelParas: Gave 64 [Mossy Cobblestone] to PixelParas]
-[15:16:59] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[15:29:45] [Server thread/INFO]: PixelParas lost connection: Disconnected
-[15:29:45] [Server thread/INFO]: PixelParas left the game
-[15:31:43] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[15:32:12] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[15:34:52] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[15:34:56] [Server thread/INFO]: Aryan has made the advancement [Not Today, Thank You]
-[15:54:46] [Server thread/WARN]: Aryan moved too quickly! -3.1597282117080567,-10.342366735053567,0.5177348426011292
-[15:56:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-186, y=21, z=-144} class_2338{x=-186, y=20, z=-145}
-[15:56:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-186, y=21, z=-144} class_2338{x=-186, y=20, z=-145}
-[15:56:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-186, y=21, z=-144} class_2338{x=-186, y=20, z=-145}
-[15:56:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-186, y=21, z=-144} class_2338{x=-186, y=20, z=-145}
-[15:56:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-184, y=20, z=-145} class_2338{x=-186, y=20, z=-145}
-[15:56:35] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:56:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-188, y=13, z=-138} class_2338{x=-189, y=14, z=-138}
-[15:56:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-188, y=13, z=-138} class_2338{x=-189, y=14, z=-138}
-[15:56:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-188, y=13, z=-138} class_2338{x=-189, y=14, z=-138}
-[16:00:54] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:01:48] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[16:02:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-188, y=13, z=-92} class_2338{x=-187, y=14, z=-92}
-[16:02:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-188, y=13, z=-92} class_2338{x=-187, y=14, z=-92}
-[16:02:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-188, y=13, z=-92} class_2338{x=-187, y=14, z=-92}
-[16:02:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-181, y=14, z=-66}
-[16:02:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-181, y=15, z=-65}
-[16:02:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-181, y=15, z=-63}
-[16:03:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-268, y=15, z=-74} class_2338{x=-268, y=14, z=-74}
-[16:03:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-272, y=16, z=-74} class_2338{x=-269, y=16, z=-74}
-[16:04:25] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[16:05:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-197, y=16, z=-83} class_2338{x=-198, y=17, z=-83}
-[16:06:14] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[16:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-352, y=16, z=-74} class_2338{x=-350, y=16, z=-74}
-[16:08:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-352, y=16, z=-74} class_2338{x=-351, y=16, z=-74}
-[16:08:41] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:09:06] [Server thread/INFO]: PixelParas[/127.58.252.108:63302] logged in with entity id 57848 at (-1278.3744858257844, 113.0, -1422.504423278323)
-[16:09:06] [Server thread/INFO]: PixelParas joined the game
-[16:09:18] [Server thread/INFO]: [Not Secure] <PixelParas> hello
-[16:10:06] [Server thread/INFO]: [PixelParas: Teleported PixelParas to Aryan]
-[16:10:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-253, y=15, z=-35} class_2338{x=-253, y=15, z=-36}
-[16:10:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-253, y=11, z=-26} class_2338{x=-253, y=11, z=-25}
-[16:10:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-253, y=11, z=-26} class_2338{x=-253, y=12, z=-25}
-[16:10:47] [Server thread/INFO]: [DarkClown: Teleported DarkClown to DarkClown]
-[16:10:47] [Server thread/INFO]: [PixelParas: Killed PixelParas]
-[16:10:57] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:12:46] [Server thread/INFO]: Villager class_1646['Armorer'/59226, l='ServerLevel[world]', x=-1289.50, y=114.00, z=-1439.70] died, message: 'Armorer was slain by Dinnerbone'
-[16:15:54] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[16:16:22] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[16:16:26] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[16:16:28] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[16:16:35] [Server thread/INFO]: Villager class_1646['Armorer'/59225, l='ServerLevel[world]', x=-1291.50, y=114.00, z=-1439.70] died, message: 'Armorer was slain by Dinnerbone'
-[16:27:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1324, y=115, z=-1421} class_2338{x=-1324, y=117, z=-1420}
-[16:29:56] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 69420.500000, 80.000000, 69420.500000]
-[16:29:56] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:30:10] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:30:17] [Server thread/INFO]: [PixelParas: Killed PixelParas]
-[16:31:18] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:32:06] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[16:32:18] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
-[16:33:16] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:33:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8678, y=110, z=8700} class_2338{x=8677, y=110, z=8700}
-[16:33:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8689, y=109, z=8701} class_2338{x=8688, y=109, z=8701}
-[16:33:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8689, y=109, z=8701} class_2338{x=8688, y=109, z=8701}
-[16:33:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8689, y=109, z=8701} class_2338{x=8688, y=109, z=8701}
-[16:33:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8689, y=109, z=8701} class_2338{x=8688, y=109, z=8701}
-[16:33:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8714, y=111, z=8701} class_2338{x=8715, y=111, z=8701}
-[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8761, y=110, z=8701} class_2338{x=8760, y=110, z=8701}
-[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8762, y=110, z=8701} class_2338{x=8760, y=110, z=8701}
-[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8762, y=110, z=8701} class_2338{x=8760, y=110, z=8701}
-[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8762, y=110, z=8701} class_2338{x=8760, y=110, z=8701}
-[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8762, y=110, z=8701} class_2338{x=8760, y=110, z=8701}
-[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8762, y=110, z=8701} class_2338{x=8760, y=110, z=8701}
-[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8763, y=110, z=8701} class_2338{x=8760, y=110, z=8701}
-[16:34:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8764, y=111, z=8702} class_2338{x=8765, y=111, z=8701}
-[16:35:20] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[16:35:35] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:35:40] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[16:35:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8776, y=112, z=8726} class_2338{x=8776, y=111, z=8727}
-[16:35:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8776, y=112, z=8726} class_2338{x=8776, y=111, z=8727}
-[16:35:47] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:36:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8776, y=110, z=8728} class_2338{x=8771, y=92, z=8793}
-[16:36:16] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:38:06] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[16:39:19] [Server thread/WARN]: Aryan moved too quickly! 1.265566341326121,-9.882352522710939,1.9087084791208326
-[16:39:19] [Server thread/WARN]: DarkClown moved too quickly! -0.18062216534053732,-10.888870291970903,0.08013637473413837
-[16:39:29] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:39:36] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:39:48] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:40:03] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[16:40:04] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:40:40] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[16:41:03] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:41:12] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[16:41:30] [Server thread/WARN]: Aryan moved wrongly!
-[16:41:48] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:41:54] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:42:05] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:42:13] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:42:34] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:42:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8908, y=98, z=8930} class_2338{x=8907, y=98, z=8930}
-[16:43:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8921, y=101, z=8930} class_2338{x=8924, y=103, z=8930}
-[16:43:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8921, y=101, z=8930} class_2338{x=8924, y=103, z=8930}
-[16:43:14] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[16:43:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8924, y=104, z=8924} class_2338{x=8924, y=104, z=8925}
-[16:43:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8924, y=104, z=8924} class_2338{x=8924, y=104, z=8925}
-[16:43:46] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[16:43:50] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:44:04] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:44:16] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[16:44:46] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:45:29] [Server thread/INFO]: [PixelParas: Teleported PixelParas to 8928.500000, 81.000000, 8816.500000]
-[16:45:30] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
-[16:45:33] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:45:34] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:45:46] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:45:48] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
-[16:45:57] [Server thread/INFO]: [Aryan: Teleported Aryan to PixelParas]
-[16:46:13] [Server thread/WARN]: PixelParas moved too quickly! -1.669819430766438,-9.667067244575911,2.8771606627979054
-[16:46:37] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[16:47:15] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
-[16:47:17] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:47:35] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:47:49] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:49:43] [Server thread/INFO]: [PixelParas: Teleported PixelParas to Aryan]
-[16:49:44] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:49:53] [Server thread/INFO]: [DarkClown: Teleported DarkClown to PixelParas]
-[16:56:51] [Server thread/INFO]: [PixelParas: Killed PixelParas]
-[16:58:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1316, y=118, z=-1431} class_2338{x=-1317, y=117, z=-1431}
-[17:02:32] [Server thread/INFO]: [DarkClown: Stopping the server]
-[17:02:32] [Server thread/INFO]: Stopping server
-[17:02:32] [Server thread/INFO]: Saving players
-[17:02:32] [Server thread/INFO]: Aryan lost connection: Server closed
-[17:02:32] [Server thread/INFO]: Aryan left the game
-[17:02:32] [Server thread/INFO]: DarkClown lost connection: Server closed
-[17:02:32] [Server thread/INFO]: DarkClown left the game
-[17:02:32] [Server thread/INFO]: Saving worlds
-[17:02:32] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
-[17:02:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:02:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:02:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:02:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:02:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:02:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:02:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:02:32] [C2ME Storage #3/INFO]: Storage thread Thread[#140,C2ME Storage #3,8,main] stopped
-[17:02:32] [C2ME Storage #2/INFO]: Storage thread Thread[#139,C2ME Storage #2,8,main] stopped
-[17:02:32] [C2ME Storage #1/INFO]: Storage thread Thread[#138,C2ME Storage #1,8,main] stopped
-[17:02:32] [C2ME Storage #4/INFO]: Storage thread Thread[#141,C2ME Storage #4,8,main] stopped
-[17:02:32] [C2ME Storage #5/INFO]: Storage thread Thread[#142,C2ME Storage #5,8,main] stopped
-[17:02:32] [C2ME Storage #6/INFO]: Storage thread Thread[#143,C2ME Storage #6,8,main] stopped
-[17:02:32] [C2ME Storage #9/INFO]: Storage thread Thread[#146,C2ME Storage #9,8,main] stopped
-[17:02:32] [C2ME Storage #7/INFO]: Storage thread Thread[#144,C2ME Storage #7,8,main] stopped
-[17:02:32] [C2ME Storage #8/INFO]: Storage thread Thread[#145,C2ME Storage #8,8,main] stopped
-[17:02:32] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml
+[17:03:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/acer/Downloads/MINECRAFT-SERVER-master/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:03:46] [main/INFO]: Compatibility level set to JAVA_16
+[17:03:46] [main/INFO]: Compatibility level set to JAVA_21
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[17:03:46] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[17:03:46] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[17:03:46] [main/INFO]: Detected maximum supported ISA target: AVX2
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:03:46] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[17:03:46] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[17:03:46] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:03:46] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[17:03:46] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
+[17:03:46] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[17:03:46] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:03:47] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[17:03:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[17:03:52] [main/INFO]: Compression will use Java, encryption will use Java
+[17:03:52] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[17:03:52] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 1 ms)
+[17:03:52] [main/INFO]: Constructing components for mutantmonsters:common
+[17:03:52] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
+[17:03:53] [main/INFO]: Constructing components for puzzleslib:common
+[17:03:53] [main/INFO]: Initializing Silk
+[17:03:53] [main/INFO]: Starting TT20...
+[17:03:53] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[17:03:53] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
+[17:03:53] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[17:03:53] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:03:53] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
+[17:03:54] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[17:03:55] [main/INFO]: Loaded 1470 recipes
+[17:03:55] [main/INFO]: Loaded 1535 advancements
+[17:03:55] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 23.28 ms
+[17:03:55] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[17:03:55] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
+[17:03:55] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[17:03:55] [Server thread/INFO]: Loading properties
+[17:03:55] [Server thread/INFO]: Default game type: SURVIVAL
+[17:03:55] [Server thread/INFO]: Generating keypair
+[17:03:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:03:55] [Server thread/INFO]: Using default channel type
+[17:03:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:03:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:03:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:03:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:03:55] [Server thread/INFO]: Preparing level "world"
+[17:03:55] [Server thread/INFO]: Enforcing safe world random access
+[17:03:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 137.6 ms
+[17:03:56] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[17:03:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 17.47 ms
+[17:03:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.657 ms
+[17:03:56] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@6c7af700)
+[17:03:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:03:56] [Server thread/INFO]: Time elapsed: 80 ms
+[17:03:56] [Server thread/INFO]: Done (0.830s)! For help, type "help"
+[17:04:33] [Server thread/INFO]: PixelParas[/127.58.252.108:64910] logged in with entity id 1 at (-1314.6416578997025, 118.0, -1432.6424701165784)
+[17:04:33] [Server thread/INFO]: PixelParas joined the game
+[17:05:16] [Server thread/INFO]: DarkClown[/127.200.146.135:53874] logged in with entity id 282 at (-1315.1810863183637, 118.0, -1435.5423750492798)
+[17:05:16] [Server thread/INFO]: DarkClown joined the game
+[17:11:24] [Server thread/INFO]: Locating element minecraft:swamp took 122 ms
+[17:11:32] [Server thread/INFO]: [PixelParas: Set own game mode to Spectator Mode]
+[17:11:35] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -348.500000, 118.000000, -2231.500000]
+[17:13:03] [Server thread/INFO]: [PixelParas: Changed the block at -338, 189, -2241]
+[17:13:14] [Server thread/INFO]: [PixelParas: Set own game mode to Survival Mode]
+[17:14:23] [Server thread/INFO]: PixelParas lost connection: Disconnected
+[17:14:23] [Server thread/INFO]: PixelParas left the game
+[17:14:54] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:15:21] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:15:34] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:16:17] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:18:19] [Server thread/WARN]: DarkClown moved wrongly!
+[17:18:25] [Server thread/WARN]: DarkClown moved too quickly! -0.3156216382319599,-11.113989432500752,-0.33618765344090207
+[17:20:35] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:20:48] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:21:06] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:21:28] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:21:55] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:22:09] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:22:20] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:22:40] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:23:18] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:24:09] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:24:38] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:25:18] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:25:48] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[17:26:10] [Server thread/INFO]: [DarkClown: Removed 526 item(s) from player DarkClown]
+[17:26:34] [Server thread/INFO]: [DarkClown: Reloading!]
+[17:26:34] [Server thread/INFO]: Loaded 1470 recipes
+[17:26:34] [Server thread/INFO]: Loaded 1535 advancements
+[17:26:45] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[17:27:05] [Server thread/INFO]: PixelParas[/127.58.252.108:61762] logged in with entity id 4031 at (-339.17674442472145, 190.0, -2238.5982463809105)
+[17:27:05] [Server thread/INFO]: PixelParas joined the game
+[17:27:07] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[17:27:16] [Server thread/INFO]: [PixelParas: Teleported PixelParas to -339.530000, 190.000000, -2239.350000]
+[17:27:21] [Server thread/INFO]: [PixelParas: Teleported PixelParas to DarkClown]
+[17:29:39] [Server thread/INFO]: PixelParas lost connection: Disconnected
+[17:29:39] [Server thread/INFO]: PixelParas left the game
+[17:30:31] [Server thread/INFO]: [DarkClown: Stopping the server]
+[17:30:31] [Server thread/INFO]: Stopping server
+[17:30:31] [Server thread/INFO]: Saving players
+[17:30:31] [Server thread/INFO]: Saving worlds
+[17:30:31] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
+[17:30:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:30:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:30:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:30:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:30:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:30:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:30:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:30:31] [C2ME Storage #3/INFO]: Storage thread Thread[#141,C2ME Storage #3,8,main] stopped
+[17:30:31] [C2ME Storage #2/INFO]: Storage thread Thread[#140,C2ME Storage #2,8,main] stopped
+[17:30:31] [C2ME Storage #1/INFO]: Storage thread Thread[#139,C2ME Storage #1,8,main] stopped
+[17:30:31] [C2ME Storage #6/INFO]: Storage thread Thread[#144,C2ME Storage #6,8,main] stopped
+[17:30:31] [C2ME Storage #5/INFO]: Storage thread Thread[#143,C2ME Storage #5,8,main] stopped
+[17:30:31] [C2ME Storage #4/INFO]: Storage thread Thread[#142,C2ME Storage #4,8,main] stopped
+[17:30:31] [C2ME Storage #9/INFO]: Storage thread Thread[#147,C2ME Storage #9,8,main] stopped
+[17:30:31] [C2ME Storage #8/INFO]: Storage thread Thread[#146,C2ME Storage #8,8,main] stopped
+[17:30:31] [C2ME Storage #7/INFO]: Storage thread Thread[#145,C2ME Storage #7,8,main] stopped
+[17:30:31] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml

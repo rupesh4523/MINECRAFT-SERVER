@@ -1,5 +1,5 @@
-[12:03:35] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[12:03:35] [main/INFO]: Loading 107 mods:
+[17:55:27] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
+[17:55:27] [main/INFO]: Loading 107 mods:
 	- c2me 0.3.4.0.0+1.21.8
 	   |-- c2me-base 0.3.4.0.0+1.21.8
 	   |-- c2me-client-uncapvd 0.3.4.0.0+1.21.8
@@ -115,134 +115,254 @@
 	- veinminer 2.5.0
 	   |-- de_miraculixx_core_dev 2.5.0
 	   \-- fabric-permissions-api-v0 0.4.0
-[12:03:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[12:03:35] [main/INFO]: Compatibility level set to JAVA_16
-[12:03:35] [main/INFO]: Compatibility level set to JAVA_21
-[12:03:35] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[12:03:35] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
-[12:03:35] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[12:03:35] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[12:03:35] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[12:03:35] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[12:03:35] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[12:03:36] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[12:03:36] [main/INFO]: Detected maximum supported ISA target: AVX2
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[12:03:36] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[12:03:36] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[12:03:36] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:03:36] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[12:03:36] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
-[12:03:36] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[12:03:36] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:03:36] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[12:03:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[12:03:44] [main/INFO]: Compression will use Java, encryption will use Java
-[12:03:44] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
-[12:03:44] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
-[12:03:44] [main/INFO]: Constructing components for mutantmonsters:common
-[12:03:44] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
-[12:03:44] [main/INFO]: Constructing components for puzzleslib:common
-[12:03:44] [main/INFO]: Initializing Silk
-[12:03:44] [main/INFO]: Starting TT20...
-[12:03:44] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[12:03:44] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[12:03:44] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[12:03:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:03:45] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[12:03:46] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
-[12:03:46] [main/INFO]: Loaded 1414 recipes
-[12:03:46] [main/INFO]: Loaded 1535 advancements
-[12:03:47] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 35.98 ms
-[12:03:47] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[12:03:47] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
-[12:03:47] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[12:03:47] [Server thread/INFO]: Loading properties
-[12:03:47] [Server thread/INFO]: Default game type: SURVIVAL
-[12:03:47] [Server thread/INFO]: Generating keypair
-[12:03:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:03:47] [Server thread/INFO]: Using default channel type
-[12:03:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:03:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:03:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:03:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:03:47] [Server thread/INFO]: Preparing level "world"
-[12:03:47] [Server thread/INFO]: Enforcing safe world random access
-[12:03:47] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 137.9 ms
-[12:03:47] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[12:03:47] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.949 ms
-[12:03:47] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.382 ms
-[12:03:47] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@1f81f7a8)
-[12:03:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:03:47] [Server thread/INFO]: Time elapsed: 50 ms
-[12:03:47] [Server thread/INFO]: Done (0.553s)! For help, type "help"
-[12:04:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[12:05:04] [Server thread/INFO]: DarkClown[/127.0.0.1:54455] logged in with entity id 1 at (-1303.0720775142388, 111.0, -1378.680862408392)
-[12:05:04] [Server thread/INFO]: DarkClown joined the game
-[12:19:28] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[12:20:33] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[12:21:51] [Server thread/INFO]: Villager class_1646['Farmer'/41, l='ServerLevel[world]', x=-1281.50, y=115.00, z=-1433.50] was struck by lightning class_1538['Lightning Bolt'/2723, l='ServerLevel[world]', x=-1283.50, y=116.00, z=-1431.50].
-[12:24:12] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[12:24:20] [Server thread/INFO]: [DarkClown: Set the weather to clear]
-[12:25:07] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[12:33:50] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[12:34:00] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[12:34:44] [Server thread/INFO]: [DarkClown: Set the time to 6000]
-[12:34:58] [Server thread/INFO]: [DarkClown: Set the time to 13000]
-[12:35:14] [Server thread/INFO]: Villager class_1646['Librarian'/2324, l='ServerLevel[world]', x=-1293.50, y=111.00, z=-1376.92] died, message: 'Librarian was slain by DarkClown using [RUPESH]'
-[12:35:33] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[12:36:13] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[12:45:54] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[12:48:12] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[12:51:16] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[12:52:08] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[13:01:19] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[13:01:49] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[13:21:42] [Server thread/INFO]: Villager class_1646['Librarian'/9489, l='ServerLevel[world]', x=-1295.95, y=111.56, z=-1379.70] died, message: 'Librarian was slain by DarkClown'
-[13:41:12] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[13:41:58] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[13:43:47] [Server thread/INFO]: Villager class_1646['Toolsmith'/37, l='ServerLevel[world]', x=-1283.70, y=115.00, z=-1439.70] died, message: 'Toolsmith was slain by Zombie'
-[13:43:58] [Server thread/INFO]: Villager class_1646['Weaponsmith'/38, l='ServerLevel[world]', x=-1285.70, y=115.00, z=-1439.70] died, message: 'Weaponsmith burned to death'
-[13:46:07] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[14:08:25] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[14:19:59] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[14:25:40] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[14:25:53] [Server thread/INFO]: DarkClown lost connection: Disconnected
-[14:25:53] [Server thread/INFO]: DarkClown left the game
-[14:25:57] [Server thread/INFO]: DarkClown[/127.0.0.1:65045] logged in with entity id 19724 at (-1291.5819937360864, 111.0, -1400.358478309374)
-[14:25:57] [Server thread/INFO]: DarkClown joined the game
-[14:26:06] [Server thread/INFO]: [DarkClown: Stopping the server]
-[14:26:06] [Server thread/INFO]: Stopping server
-[14:26:06] [Server thread/INFO]: Saving players
-[14:26:06] [Server thread/INFO]: DarkClown lost connection: Server closed
-[14:26:06] [Server thread/INFO]: DarkClown left the game
-[14:26:06] [Server thread/INFO]: Saving worlds
-[14:26:06] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
-[14:26:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:26:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14:26:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14:26:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:26:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:26:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:26:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:26:06] [C2ME Storage #3/INFO]: Storage thread Thread[#110,C2ME Storage #3,8,main] stopped
-[14:26:06] [C2ME Storage #2/INFO]: Storage thread Thread[#109,C2ME Storage #2,8,main] stopped
-[14:26:06] [C2ME Storage #1/INFO]: Storage thread Thread[#108,C2ME Storage #1,8,main] stopped
-[14:26:06] [C2ME Storage #6/INFO]: Storage thread Thread[#126,C2ME Storage #6,8,main] stopped
-[14:26:06] [C2ME Storage #4/INFO]: Storage thread Thread[#124,C2ME Storage #4,8,main] stopped
-[14:26:06] [C2ME Storage #5/INFO]: Storage thread Thread[#125,C2ME Storage #5,8,main] stopped
-[14:26:06] [C2ME Storage #9/INFO]: Storage thread Thread[#129,C2ME Storage #9,8,main] stopped
-[14:26:06] [C2ME Storage #8/INFO]: Storage thread Thread[#128,C2ME Storage #8,8,main] stopped
-[14:26:06] [C2ME Storage #7/INFO]: Storage thread Thread[#127,C2ME Storage #7,8,main] stopped
-[14:26:07] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml
+[17:55:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:55:27] [main/INFO]: Compatibility level set to JAVA_16
+[17:55:27] [main/INFO]: Compatibility level set to JAVA_21
+[17:55:27] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[17:55:28] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[17:55:28] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[17:55:28] [main/INFO]: Detected maximum supported ISA target: AVX2
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:55:28] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[17:55:28] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[17:55:28] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:55:28] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[17:55:28] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
+[17:55:28] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[17:55:28] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:55:28] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[17:55:29] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[17:55:36] [main/INFO]: Compression will use Java, encryption will use Java
+[17:55:36] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[17:55:36] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
+[17:55:36] [main/INFO]: Constructing components for mutantmonsters:common
+[17:55:36] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
+[17:55:36] [main/INFO]: Constructing components for puzzleslib:common
+[17:55:36] [main/INFO]: Initializing Silk
+[17:55:36] [main/INFO]: Starting TT20...
+[17:55:36] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[17:55:36] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
+[17:55:36] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[17:55:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:55:37] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[17:55:37] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
+[17:55:38] [main/INFO]: Loaded 1414 recipes
+[17:55:38] [main/INFO]: Loaded 1535 advancements
+[17:55:39] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 17.29 ms
+[17:55:39] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[17:55:39] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
+[17:55:39] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[17:55:39] [Server thread/INFO]: Loading properties
+[17:55:39] [Server thread/INFO]: Default game type: SURVIVAL
+[17:55:39] [Server thread/INFO]: Generating keypair
+[17:55:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:55:39] [Server thread/INFO]: Using default channel type
+[17:55:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:55:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:55:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:55:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:55:39] [Server thread/INFO]: Preparing level "world"
+[17:55:39] [Server thread/INFO]: Enforcing safe world random access
+[17:55:39] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 132.2 ms
+[17:55:39] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[17:55:39] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.691 ms
+[17:55:39] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.496 ms
+[17:55:39] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@5706353)
+[17:55:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:55:39] [Server thread/INFO]: Time elapsed: 59 ms
+[17:55:39] [Server thread/INFO]: Done (0.546s)! For help, type "help"
+[17:55:45] [Server thread/INFO]: DarkClown[/127.0.0.1:57196] logged in with entity id 1 at (-1291.5819937360864, 111.0, -1400.358478309374)
+[17:55:45] [Server thread/INFO]: DarkClown joined the game
+[18:04:36] [Server thread/INFO]: [DarkClown: Set the time to 13000]
+[18:05:23] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[18:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1267, y=111, z=-1334} class_2338{x=-1283, y=111, z=-1412}
+[18:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1284, y=112, z=-1412} class_2338{x=-1283, y=111, z=-1413}
+[18:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1284, y=112, z=-1412} class_2338{x=-1283, y=111, z=-1413}
+[18:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1284, y=112, z=-1412} class_2338{x=-1283, y=111, z=-1413}
+[18:11:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=110, z=-1412} class_2338{x=-1284, y=112, z=-1413}
+[18:11:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=110, z=-1412} class_2338{x=-1284, y=112, z=-1413}
+[18:11:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=110, z=-1412} class_2338{x=-1284, y=112, z=-1413}
+[18:11:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=110, z=-1413} class_2338{x=-1285, y=113, z=-1412}
+[18:11:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=110, z=-1413} class_2338{x=-1286, y=113, z=-1412}
+[18:11:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=110, z=-1413} class_2338{x=-1286, y=113, z=-1412}
+[18:11:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=110, z=-1413} class_2338{x=-1286, y=113, z=-1413}
+[18:11:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=110, z=-1413} class_2338{x=-1286, y=113, z=-1413}
+[18:11:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=113, z=-1413} class_2338{x=-1287, y=114, z=-1412}
+[18:11:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1285, y=113, z=-1413} class_2338{x=-1288, y=114, z=-1412}
+[18:11:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1287, y=113, z=-1413} class_2338{x=-1287, y=114, z=-1413}
+[18:11:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1287, y=113, z=-1413} class_2338{x=-1288, y=114, z=-1413}
+[18:11:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1287, y=113, z=-1413} class_2338{x=-1288, y=114, z=-1413}
+[18:11:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1291, y=113, z=-1413} class_2338{x=-1289, y=114, z=-1413}
+[18:11:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1291, y=113, z=-1413} class_2338{x=-1290, y=114, z=-1413}
+[18:11:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1291, y=113, z=-1413} class_2338{x=-1289, y=114, z=-1412}
+[18:11:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1291, y=113, z=-1413} class_2338{x=-1290, y=114, z=-1412}
+[18:11:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1291, y=113, z=-1413} class_2338{x=-1291, y=114, z=-1412}
+[18:11:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1291, y=113, z=-1413} class_2338{x=-1292, y=114, z=-1412}
+[18:11:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1291, y=113, z=-1413} class_2338{x=-1292, y=114, z=-1412}
+[18:11:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1291, y=113, z=-1413} class_2338{x=-1292, y=114, z=-1412}
+[18:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1290, y=111, z=-1413} class_2338{x=-1289, y=112, z=-1412}
+[18:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1290, y=111, z=-1413} class_2338{x=-1289, y=112, z=-1412}
+[18:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1290, y=111, z=-1413} class_2338{x=-1289, y=112, z=-1412}
+[18:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1292, y=112, z=-1413} class_2338{x=-1292, y=112, z=-1412}
+[18:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1291, y=114, z=-1413}
+[18:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1291, y=114, z=-1413}
+[18:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1291, y=114, z=-1413}
+[18:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1293, y=115, z=-1413}
+[18:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1292, y=115, z=-1413}
+[18:11:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1294, y=115, z=-1413}
+[18:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1293, y=115, z=-1412}
+[18:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1294, y=115, z=-1412}
+[18:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1295, y=115, z=-1412}
+[18:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1293, y=112, z=-1412} class_2338{x=-1295, y=115, z=-1412}
+[18:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=114, z=-1412} class_2338{x=-1295, y=114, z=-1413}
+[18:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=114, z=-1412} class_2338{x=-1295, y=114, z=-1413}
+[18:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=114, z=-1412} class_2338{x=-1295, y=114, z=-1413}
+[18:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=114, z=-1412} class_2338{x=-1295, y=114, z=-1413}
+[18:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=112, z=-1413} class_2338{x=-1295, y=115, z=-1413}
+[18:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=112, z=-1413} class_2338{x=-1297, y=115, z=-1413}
+[18:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=112, z=-1413} class_2338{x=-1296, y=115, z=-1412}
+[18:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=112, z=-1413} class_2338{x=-1296, y=115, z=-1412}
+[18:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=112, z=-1413} class_2338{x=-1296, y=115, z=-1412}
+[18:12:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1296, y=112, z=-1413} class_2338{x=-1296, y=115, z=-1412}
+[18:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=112, z=-1412} class_2338{x=-1297, y=115, z=-1412}
+[18:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=112, z=-1412} class_2338{x=-1298, y=115, z=-1412}
+[18:12:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1297, y=112, z=-1412} class_2338{x=-1298, y=115, z=-1412}
+[18:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1299, y=113, z=-1412} class_2338{x=-1299, y=116, z=-1412}
+[18:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1299, y=113, z=-1412} class_2338{x=-1300, y=116, z=-1412}
+[18:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1299, y=113, z=-1412} class_2338{x=-1301, y=116, z=-1412}
+[18:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1303, y=115, z=-1412}
+[18:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1304, y=115, z=-1412}
+[18:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1304, y=115, z=-1412}
+[18:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1304, y=115, z=-1412}
+[18:12:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1305, y=115, z=-1412}
+[18:12:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1306, y=115, z=-1412}
+[18:12:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1307, y=116, z=-1412}
+[18:12:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1308, y=116, z=-1412}
+[18:12:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1309, y=116, z=-1412}
+[18:12:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1310, y=116, z=-1412}
+[18:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1311, y=116, z=-1412}
+[18:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1311, y=116, z=-1412}
+[18:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1311, y=116, z=-1412}
+[18:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1312, y=116, z=-1412}
+[18:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1313, y=116, z=-1412}
+[18:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1313, y=116, z=-1412}
+[18:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1313, y=116, z=-1412}
+[18:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1313, y=116, z=-1412}
+[18:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1313, y=116, z=-1412}
+[18:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1313, y=116, z=-1412}
+[18:12:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=117, z=-1412}
+[18:12:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=116, z=-1411}
+[18:12:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=116, z=-1411}
+[18:12:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=116, z=-1410}
+[18:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=116, z=-1409}
+[18:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=115, z=-1408}
+[18:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=115, z=-1408}
+[18:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=115, z=-1408}
+[18:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=115, z=-1408}
+[18:12:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1302, y=116, z=-1412} class_2338{x=-1314, y=115, z=-1408}
+[18:12:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=113, z=-1401} class_2338{x=-1314, y=113, z=-1400}
+[18:12:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=113, z=-1396} class_2338{x=-1314, y=113, z=-1395}
+[18:12:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=113, z=-1396} class_2338{x=-1314, y=113, z=-1394}
+[18:12:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=113, z=-1396} class_2338{x=-1314, y=113, z=-1394}
+[18:12:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1393} class_2338{x=-1314, y=113, z=-1394}
+[18:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1392} class_2338{x=-1314, y=113, z=-1393}
+[18:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1392} class_2338{x=-1314, y=112, z=-1390}
+[18:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1392} class_2338{x=-1314, y=111, z=-1391}
+[18:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1392} class_2338{x=-1314, y=111, z=-1391}
+[18:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1392} class_2338{x=-1314, y=112, z=-1389}
+[18:12:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1392} class_2338{x=-1314, y=112, z=-1388}
+[18:12:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1392} class_2338{x=-1314, y=113, z=-1387}
+[18:12:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1392} class_2338{x=-1314, y=113, z=-1387}
+[18:12:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=113, z=-1386} class_2338{x=-1314, y=113, z=-1385}
+[18:12:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=113, z=-1386} class_2338{x=-1314, y=113, z=-1385}
+[18:12:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1384} class_2338{x=-1314, y=113, z=-1384}
+[18:12:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1384} class_2338{x=-1314, y=113, z=-1383}
+[18:12:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1384} class_2338{x=-1314, y=113, z=-1382}
+[18:12:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1384} class_2338{x=-1314, y=113, z=-1382}
+[18:12:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1383} class_2338{x=-1314, y=113, z=-1381}
+[18:12:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1382} class_2338{x=-1314, y=113, z=-1380}
+[18:12:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1380} class_2338{x=-1314, y=113, z=-1379}
+[18:12:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1380} class_2338{x=-1314, y=113, z=-1378}
+[18:12:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1379} class_2338{x=-1314, y=112, z=-1377}
+[18:12:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1378} class_2338{x=-1314, y=112, z=-1376}
+[18:12:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1378} class_2338{x=-1314, y=112, z=-1375}
+[18:12:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1374} class_2338{x=-1314, y=113, z=-1374}
+[18:12:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1374} class_2338{x=-1314, y=113, z=-1373}
+[18:12:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=112, z=-1372} class_2338{x=-1314, y=113, z=-1371}
+[18:12:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=114, z=-1372} class_2338{x=-1314, y=111, z=-1369}
+[18:12:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=114, z=-1372} class_2338{x=-1314, y=111, z=-1369}
+[18:12:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1371} class_2338{x=-1314, y=112, z=-1370}
+[18:12:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1314, y=111, z=-1371} class_2338{x=-1314, y=112, z=-1370}
+[18:14:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1287, y=111, z=-1412} class_2338{x=-1303, y=113, z=-1412}
+[18:14:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1287, y=111, z=-1412} class_2338{x=-1304, y=113, z=-1412}
+[18:14:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1287, y=111, z=-1412} class_2338{x=-1304, y=113, z=-1412}
+[18:14:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1287, y=111, z=-1412} class_2338{x=-1306, y=113, z=-1412}
+[18:32:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=109, z=-1385} class_2338{x=-1241, y=110, z=-1384}
+[18:32:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=109, z=-1385} class_2338{x=-1241, y=110, z=-1384}
+[18:32:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=109, z=-1385} class_2338{x=-1241, y=110, z=-1384}
+[18:32:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=109, z=-1385} class_2338{x=-1241, y=110, z=-1384}
+[18:32:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=109, z=-1385} class_2338{x=-1241, y=110, z=-1384}
+[18:32:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=109, z=-1385} class_2338{x=-1241, y=110, z=-1383}
+[18:32:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1241, y=109, z=-1385} class_2338{x=-1241, y=110, z=-1382}
+[18:39:03] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[18:51:58] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[19:00:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1218, y=110, z=-1415} class_2338{x=-1218, y=110, z=-1413}
+[19:00:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1218, y=110, z=-1415} class_2338{x=-1218, y=109, z=-1414}
+[19:00:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1218, y=110, z=-1415} class_2338{x=-1218, y=109, z=-1414}
+[19:00:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1218, y=110, z=-1415} class_2338{x=-1219, y=110, z=-1413}
+[19:08:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=110, z=-1396} class_2338{x=-1227, y=110, z=-1397}
+[19:09:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=109, z=-1397} class_2338{x=-1228, y=110, z=-1396}
+[19:09:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=109, z=-1397} class_2338{x=-1229, y=110, z=-1396}
+[19:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=109, z=-1397} class_2338{x=-1230, y=110, z=-1396}
+[19:09:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=109, z=-1397} class_2338{x=-1231, y=110, z=-1396}
+[19:09:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=109, z=-1397} class_2338{x=-1226, y=110, z=-1396}
+[19:09:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=109, z=-1397} class_2338{x=-1225, y=110, z=-1396}
+[19:09:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=109, z=-1397} class_2338{x=-1224, y=110, z=-1396}
+[19:09:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=109, z=-1397} class_2338{x=-1222, y=110, z=-1396}
+[19:11:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=112, z=-1381} class_2338{x=-1228, y=112, z=-1381}
+[19:11:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=112, z=-1381} class_2338{x=-1229, y=112, z=-1381}
+[19:11:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=112, z=-1381} class_2338{x=-1230, y=112, z=-1381}
+[19:11:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=112, z=-1381} class_2338{x=-1231, y=112, z=-1381}
+[19:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=112, z=-1381} class_2338{x=-1224, y=112, z=-1381}
+[19:12:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1227, y=112, z=-1381} class_2338{x=-1223, y=112, z=-1381}
+[19:19:30] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[19:20:40] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[19:27:23] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[19:48:24] [Server thread/INFO]: [DarkClown: Stopping the server]
+[19:48:24] [Server thread/INFO]: Stopping server
+[19:48:24] [Server thread/INFO]: Saving players
+[19:48:24] [Server thread/INFO]: Saving worlds
+[19:48:24] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
+[19:48:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:48:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:48:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:48:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:48:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:48:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:48:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:48:24] [C2ME Storage #3/INFO]: Storage thread Thread[#109,C2ME Storage #3,8,main] stopped
+[19:48:24] [C2ME Storage #2/INFO]: Storage thread Thread[#108,C2ME Storage #2,8,main] stopped
+[19:48:24] [C2ME Storage #1/INFO]: Storage thread Thread[#107,C2ME Storage #1,8,main] stopped
+[19:48:24] [C2ME Storage #6/INFO]: Storage thread Thread[#125,C2ME Storage #6,8,main] stopped
+[19:48:24] [C2ME Storage #5/INFO]: Storage thread Thread[#124,C2ME Storage #5,8,main] stopped
+[19:48:24] [C2ME Storage #4/INFO]: Storage thread Thread[#123,C2ME Storage #4,8,main] stopped
+[19:48:24] [C2ME Storage #8/INFO]: Storage thread Thread[#127,C2ME Storage #8,8,main] stopped
+[19:48:24] [C2ME Storage #9/INFO]: Storage thread Thread[#128,C2ME Storage #9,8,main] stopped
+[19:48:24] [C2ME Storage #7/INFO]: Storage thread Thread[#126,C2ME Storage #7,8,main] stopped
+[19:48:24] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml

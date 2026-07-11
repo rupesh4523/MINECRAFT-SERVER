@@ -1,5 +1,5 @@
-[16:30:10] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[16:30:10] [main/INFO]: Loading 107 mods:
+[10:26:05] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
+[10:26:05] [main/INFO]: Loading 107 mods:
 	- c2me 0.3.4.0.0+1.21.8
 	   |-- c2me-base 0.3.4.0.0+1.21.8
 	   |-- c2me-client-uncapvd 0.3.4.0.0+1.21.8
@@ -115,342 +115,107 @@
 	- veinminer 2.5.0
 	   |-- de_miraculixx_core_dev 2.5.0
 	   \-- fabric-permissions-api-v0 0.4.0
-[16:30:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:30:11] [main/INFO]: Compatibility level set to JAVA_16
-[16:30:11] [main/INFO]: Compatibility level set to JAVA_21
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[16:30:11] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[16:30:11] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[16:30:11] [main/INFO]: Detected maximum supported ISA target: AVX2
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:30:11] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[16:30:11] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[16:30:11] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:30:11] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[16:30:11] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
-[16:30:11] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[16:30:11] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:30:11] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[16:30:12] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[16:30:17] [main/INFO]: Compression will use Java, encryption will use Java
-[16:30:17] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
-[16:30:17] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
-[16:30:17] [main/INFO]: Constructing components for mutantmonsters:common
-[16:30:17] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
-[16:30:17] [main/INFO]: Constructing components for puzzleslib:common
-[16:30:17] [main/INFO]: Initializing Silk
-[16:30:17] [main/INFO]: Starting TT20...
-[16:30:17] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[16:30:17] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[16:30:17] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[16:30:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:30:18] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
-[16:30:18] [DefaultDispatcher-worker-2/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[16:30:19] [main/INFO]: Loaded 1414 recipes
-[16:30:19] [main/INFO]: Loaded 1535 advancements
-[16:30:19] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 19.30 ms
-[16:30:19] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[16:30:19] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
-[16:30:19] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[16:30:19] [Server thread/INFO]: Loading properties
-[16:30:19] [Server thread/INFO]: Default game type: SURVIVAL
-[16:30:19] [Server thread/INFO]: Generating keypair
-[16:30:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:30:19] [Server thread/INFO]: Using default channel type
-[16:30:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:30:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:30:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:30:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:30:19] [Server thread/INFO]: Preparing level "world"
-[16:30:19] [Server thread/INFO]: Enforcing safe world random access
-[16:30:19] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 135.7 ms
-[16:30:19] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[16:30:19] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.802 ms
-[16:30:20] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 8.889 ms
-[16:30:20] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@5b8fad7f)
-[16:30:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:30:20] [Server thread/INFO]: Time elapsed: 62 ms
-[16:30:20] [Server thread/INFO]: Done (0.582s)! For help, type "help"
-[16:30:20] [Server Watchdog/ERROR]: Caught previously unhandled exception :
-[16:30:20] [Server Watchdog/ERROR]: Server Watchdog
-java.lang.IllegalArgumentException: timeout value is negative
-	at java.base/java.lang.Thread.sleep(Thread.java:524) ~[?:?]
-	at knot/net.minecraft.class_3178.run(class_3178.java:67) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
-[16:31:02] [Server thread/INFO]: /advancement (grant|revoke)
-[16:31:02] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[16:31:02] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[16:31:02] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[16:31:02] [Server thread/INFO]: /clear [<targets>]
-[16:31:02] [Server thread/INFO]: /clone (<begin>|from)
-[16:31:02] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[16:31:02] [Server thread/INFO]: /data (merge|get|remove|modify)
-[16:31:02] [Server thread/INFO]: /datapack (enable|disable|list|create)
-[16:31:02] [Server thread/INFO]: /debug (start|stop|function)
-[16:31:02] [Server thread/INFO]: /defaultgamemode <gamemode>
-[16:31:02] [Server thread/INFO]: /dialog (show|clear)
-[16:31:02] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[16:31:02] [Server thread/INFO]: /effect (clear|give)
-[16:31:02] [Server thread/INFO]: /me <action>
-[16:31:02] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[16:31:02] [Server thread/INFO]: /experience (add|set|query)
-[16:31:02] [Server thread/INFO]: /xp -> experience
-[16:31:02] [Server thread/INFO]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
-[16:31:02] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[16:31:02] [Server thread/INFO]: /forceload (add|remove|query)
-[16:31:02] [Server thread/INFO]: /function <name> [<arguments>|with]
-[16:31:02] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[16:31:02] [Server thread/INFO]: /gamerule (allowFireTicksAwayFromPlayer|announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|locatorBar|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplodes|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[16:31:02] [Server thread/INFO]: /give <targets> <item> [<count>]
-[16:31:02] [Server thread/INFO]: /help [<command>]
-[16:31:02] [Server thread/INFO]: /item (replace|modify)
-[16:31:02] [Server thread/INFO]: /kick <targets> [<reason>]
-[16:31:02] [Server thread/INFO]: /kill [<targets>]
-[16:31:02] [Server thread/INFO]: /list [uuids]
-[16:31:02] [Server thread/INFO]: /locate (structure|biome|poi)
-[16:31:02] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[16:31:02] [Server thread/INFO]: /msg <targets> <message>
-[16:31:02] [Server thread/INFO]: /tell -> msg
-[16:31:02] [Server thread/INFO]: /w -> msg
-[16:31:02] [Server thread/INFO]: /particle <name> [<pos>]
-[16:31:02] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[16:31:02] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
-[16:31:02] [Server thread/INFO]: /random (value|roll|reset)
-[16:31:02] [Server thread/INFO]: /reload
-[16:31:02] [Server thread/INFO]: /recipe (give|take)
-[16:31:02] [Server thread/INFO]: /return (<value>|fail|run)
-[16:31:02] [Server thread/INFO]: /ride <target> (mount|dismount)
-[16:31:02] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
-[16:31:02] [Server thread/INFO]: /say <message>
-[16:31:02] [Server thread/INFO]: /schedule (function|clear)
-[16:31:02] [Server thread/INFO]: /scoreboard (objectives|players)
-[16:31:02] [Server thread/INFO]: /seed
-[16:31:02] [Server thread/INFO]: /version
-[16:31:02] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace|strict]
-[16:31:02] [Server thread/INFO]: /spawnpoint [<targets>]
-[16:31:02] [Server thread/INFO]: /setworldspawn [<pos>]
-[16:31:02] [Server thread/INFO]: /spectate [<target>]
-[16:31:02] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[16:31:02] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
-[16:31:02] [Server thread/INFO]: /summon <entity> [<pos>]
-[16:31:02] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[16:31:02] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[16:31:02] [Server thread/INFO]: /teammsg <message>
-[16:31:02] [Server thread/INFO]: /tm -> teammsg
-[16:31:02] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[16:31:02] [Server thread/INFO]: /tp -> teleport
-[16:31:02] [Server thread/INFO]: /tellraw <targets> <message>
-[16:31:02] [Server thread/INFO]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
-[16:31:02] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[16:31:02] [Server thread/INFO]: /time (set|add|query)
-[16:31:02] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[16:31:02] [Server thread/INFO]: /trigger <objective> [add|set]
-[16:31:02] [Server thread/INFO]: /waypoint (list|modify)
-[16:31:02] [Server thread/INFO]: /weather (clear|rain|thunder)
-[16:31:02] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[16:31:02] [Server thread/INFO]: /jfr (start|stop)
-[16:31:02] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[16:31:02] [Server thread/INFO]: /banlist [ips|players]
-[16:31:02] [Server thread/INFO]: /ban <targets> [<reason>]
-[16:31:02] [Server thread/INFO]: /deop <targets>
-[16:31:02] [Server thread/INFO]: /op <targets>
-[16:31:02] [Server thread/INFO]: /pardon <targets>
-[16:31:02] [Server thread/INFO]: /pardon-ip <target>
-[16:31:02] [Server thread/INFO]: /perf (start|stop)
-[16:31:02] [Server thread/INFO]: /save-all [flush]
-[16:31:02] [Server thread/INFO]: /save-off
-[16:31:02] [Server thread/INFO]: /save-on
-[16:31:02] [Server thread/INFO]: /setidletimeout <minutes>
-[16:31:02] [Server thread/INFO]: /stop
-[16:31:02] [Server thread/INFO]: /transfer <hostname> [<port>]
-[16:31:02] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[16:31:02] [Server thread/INFO]: /veinminer [reload|blocks|toggle|settings|groups]
-[16:31:02] [Server thread/INFO]: /c2me notick
-[16:31:02] [Server thread/INFO]: /tt20 [tps|status|toggle|reload]
-[16:31:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[16:31:41] [Server thread/INFO]: Aryan[/127.99.214.235:59358] logged in with entity id 1 at (-1542.9719000777939, 69.0, -2237.8447484847793)
-[16:31:41] [Server thread/INFO]: Aryan joined the game
-[16:32:57] [Server thread/INFO]: [Aryan: Teleported Aryan to -1099.500000, 100.000000, -1099.500000]
-[16:33:15] [Server thread/INFO]: DarkClown[/127.0.0.1:59402] logged in with entity id 768 at (-1293.6719709933811, 111.5625, -1402.4050984587398)
-[16:33:15] [Server thread/INFO]: DarkClown joined the game
-[16:33:25] [Server thread/INFO]: [Not Secure] <DarkClown> oyeee kaha par ahi
-[16:33:42] [Server thread/INFO]: [Aryan: Teleported Aryan to -999.500000, 70.000000, -999.500000]
-[16:33:46] [Server thread/INFO]: [DarkClown: Teleported Aryan to DarkClown]
-[16:34:08] [Server thread/INFO]: [Not Secure] <DarkClown> kya hua
-[16:34:17] [Server thread/INFO]: [Not Secure] <DarkClown> maar kyu raha
-[16:34:23] [Server thread/INFO]: [Not Secure] <Aryan> aree mAI kahi duerr thaa
-[16:34:38] [Server thread/INFO]: [Not Secure] <DarkClown> haan thike hai na maine tuje to de diya
-[16:35:55] [Server thread/INFO]: [Not Secure] <DarkClown> kya hua
-[16:35:58] [Server thread/INFO]: [Not Secure] <Aryan> mai abb karta hu mera upgare uske baad inke bache kart hu
-[16:36:26] [Server thread/INFO]: [Not Secure] <DarkClown> tu kaise bache kar sakta hai inke sath mai
-[16:36:59] [Server thread/INFO]: [Not Secure] <DarkClown> mai woh xp farm mai jaa kar aaya
-[16:37:23] [Server thread/INFO]: [Not Secure] <DarkClown> reply kar
-[16:37:24] [Server thread/INFO]: [Not Secure] <Aryan> aree kaha pr hai
-[16:37:34] [Server thread/INFO]: [Not Secure] <DarkClown> mere sath mai aa '
-[16:37:38] [Server thread/INFO]: [Not Secure] <Aryan> t
-[16:40:39] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[16:44:14] [Server thread/INFO]: [Not Secure] <Aryan> done ??
-[16:44:21] [Server thread/INFO]: [Not Secure] <DarkClown> nahi rukh jaa
-[16:45:12] [Server thread/INFO]: [Not Secure] <Aryan> bhai height kam huwi kyaa
-[16:46:19] [Server thread/INFO]: [Not Secure] <Aryan> broo , andr pani jaa raha hai wo nahi naa hota
-[16:46:28] [Server thread/INFO]: [Not Secure] <DarkClown> are ek or height bada karna padega
-[16:46:39] [Server thread/INFO]: [Not Secure] <Aryan> wahii
-[16:46:59] [Server thread/INFO]: [Not Secure] <Aryan> aur yee jo pani neevhe jaa raha wo bhi band karna hoga
-[16:53:17] [Server thread/INFO]: [Not Secure] <DarkClown> blocks katam ho gaye de na thode
-[16:53:26] [Server thread/INFO]: [Not Secure] <Aryan> mere bhi
-[16:54:02] [Server thread/INFO]: [Not Secure] <DarkClown> upar aa jaa hone ke badmai
-[16:55:29] [Server thread/INFO]: [Not Secure] <Aryan> oyeee
-[16:55:31] [Server thread/INFO]: [Not Secure] <Aryan> sunnn
-[16:55:42] [Server thread/INFO]: [Not Secure] <Aryan> mai ata hu 15 min maii
-[16:55:51] [Server thread/INFO]: [Not Secure] <DarkClown> haan thike hai
-[16:56:10] [Server thread/INFO]: [Not Secure] <Aryan> merko blocks se dhak de nahi to moobs mardebfe
-[16:56:34] [Server thread/INFO]: [Not Secure] <DarkClown> are yaha par mobs nahi aane wale hai
-[17:01:43] [Server thread/INFO]: [Not Secure] <Aryan> maai ayag
-[17:02:12] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[17:03:50] [Server thread/INFO]: [Not Secure] <DarkClown> iske liye ladder bana padega
-[17:04:07] [Server thread/INFO]: [Not Secure] <DarkClown> yeh 100 blocks hai tho 100 ladder lagega
-[17:04:14] [Server thread/INFO]: [Not Secure] <Aryan> thik hai
-[17:05:08] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[17:06:03] [Server thread/INFO]: [Not Secure] <DarkClown> kaha apr hai
-[17:06:17] [Server thread/INFO]: [Not Secure] <Aryan> ladder
-[17:06:50] [Server thread/INFO]: [Not Secure] <DarkClown> mob farm kaam kar raha hai
-[17:07:37] [Server thread/INFO]: [Not Secure] <DarkClown> mai afk hu yaha par
-[17:09:08] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[17:09:35] [Server thread/INFO]: [Not Secure] <DarkClown> are tu ladder le kar aa mai hu afk
-[17:09:44] [Server thread/INFO]: [Not Secure] <Aryan> haan leke aya
-[17:09:54] [Server thread/INFO]: [Not Secure] <DarkClown> aane ke badmai tu hi maar le
-[17:09:58] [Server thread/INFO]: [Not Secure] <DarkClown> oaky
-[17:10:01] [Server thread/INFO]: [Not Secure] <Aryan> kuch jada nahi bas 256
-[17:10:11] [Server thread/INFO]: [Not Secure] <DarkClown> kya 256
-[17:10:19] [Server thread/INFO]: [Not Secure] <DarkClown> ladder??
-[17:10:20] [Server thread/INFO]: [Not Secure] <Aryan> haan ji
-[17:10:27] [Server thread/INFO]: [Not Secure] <Aryan> haan
-[17:10:32] [Server thread/INFO]: [Not Secure] <DarkClown> are bc itna kaha se bana liya reh
-[17:10:46] [Server thread/INFO]: [Not Secure] <DarkClown> laga kar aa jaa phir
-[17:14:14] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[17:14:25] [Server thread/INFO]: [Not Secure] <DarkClown> oyeee
-[17:14:45] [Server thread/INFO]: [Not Secure] <Aryan> haan bol
-[17:14:51] [Server thread/INFO]: [Not Secure] <DarkClown> tuje ek youtube video bhej raha hu uske hi jaise humko layers banana padega
-[17:15:05] [Server thread/INFO]: [Not Secure] <Aryan> kyu re
-[17:15:44] [Server thread/INFO]: [Not Secure] <DarkClown> are phir jayda mobs spawn hinge or hamara kaam bhi jaldi hoga '
-[17:15:49] [Server thread/INFO]: [Not Secure] <DarkClown> samja kya
-[17:16:05] [Server thread/INFO]: [Not Secure] <Aryan> ruk vidfeo dekhnw ke baad samje ga
-[17:16:13] [Server thread/INFO]: [Not Secure] <DarkClown> haan thike hai
-[17:17:13] [Server thread/INFO]: [Not Secure] <Aryan> ruk
-[17:17:27] [Server thread/INFO]: [Not Secure] <DarkClown> dekhna nahi hai kya abhi takh
-[17:17:30] [Server thread/INFO]: [Not Secure] <Aryan> mai 2 min mai at , tab tak upr afk jata
-[17:17:44] [Server thread/INFO]: [Not Secure] <DarkClown> kya hu a
-[17:17:51] [Server thread/INFO]: [Not Secure] <Aryan> nahi delha
-[17:18:06] [Server thread/INFO]: [Not Secure] <DarkClown> acha thike hai
-[17:18:35] [Server thread/INFO]: [Not Secure] <DarkClown> mai uske liye saman jama karta hu tu tabhi takh apna upgrade karle
-[17:22:58] [Server thread/INFO]: [Not Secure] <DarkClown> aaya kya reh
-[17:23:46] [Server thread/INFO]: Aryan lost connection: Timed out
-[17:23:46] [Server thread/INFO]: Aryan left the game
-[17:27:30] [Server thread/INFO]: Aryan[/127.99.214.235:59518] logged in with entity id 10077 at (-1031.194224385723, 170.0, -1294.0466032482518)
-[17:27:30] [Server thread/INFO]: Aryan joined the game
-[17:30:29] [Server thread/INFO]: [Not Secure] <DarkClown> oyee kaha par hai
-[17:31:54] [Server thread/INFO]: [Not Secure] <DarkClown> idar aa
-[17:32:06] [Server thread/INFO]: [Not Secure] <DarkClown> tuje kuch dikhata hu
-[17:34:00] [Server thread/INFO]: [Not Secure] <DarkClown> books or emrald le kar aa
-[17:34:04] [Server thread/INFO]: [Not Secure] <DarkClown> jaldi
-[17:34:35] [Server thread/INFO]: [Not Secure] <Aryan> mai xp farm jara
-[17:35:01] [Server thread/INFO]: [Not Secure] <DarkClown> broooo
-[17:35:10] [Server thread/INFO]: [Not Secure] <DarkClown> thronns 3 mill gaya
-[17:35:16] [Server thread/INFO]: [Not Secure] <Aryan> wahtttttttttttttt
-[17:35:30] [Server thread/INFO]: [Not Secure] <DarkClown> mast book hoti hai tuje pata haina na
-[17:35:38] [Server thread/INFO]: [Not Secure] <Aryan> haamnnnnn obio
-[17:35:52] [Server thread/INFO]: [Not Secure] <DarkClown> abhi bass protection 4 chaiye
-[17:36:23] [Server thread/INFO]: [Not Secure] <DarkClown> tu xp farm jaane se acha hai meri madat karde xp farm ko bada karne mai
-[17:36:25] [Server thread/INFO]: [Not Secure] <Aryan> hana
-[17:36:38] [Server thread/INFO]: [Not Secure] <Aryan> thik hai cha
-[17:36:49] [Server thread/INFO]: [Not Secure] <Aryan> challll
-[17:37:03] [Server thread/INFO]: [Not Secure] <DarkClown> tu stone lele
-[17:37:33] [Server thread/INFO]: [Not Secure] <Aryan> chal
-[17:37:35] [Server thread/INFO]: [Not Secure] <DarkClown> sab stone le le
-[17:37:58] [Server thread/INFO]: [Not Secure] <DarkClown> kya kar raha hai
-[17:38:10] [Server thread/INFO]: [Not Secure] <DarkClown> oyeee
-[17:38:13] [Server thread/INFO]: [Not Secure] <Aryan> bo;
-[17:38:18] [Server thread/INFO]: [Not Secure] <DarkClown> yeh lever pull kar
-[17:38:23] [Server thread/INFO]: [Not Secure] <Aryan> ok
-[17:39:02] [Server thread/INFO]: Aryan has made the advancement [A Seedy Place]
-[17:40:48] [Server thread/INFO]: [Not Secure] <DarkClown> kaha par hai tu
-[17:40:55] [Server thread/INFO]: [Not Secure] <Aryan> farm jana hai na
-[17:41:00] [Server thread/INFO]: [Not Secure] <DarkClown> haan chal
-[17:41:04] [Server thread/INFO]: [Not Secure] <Aryan> layers ke liye
-[17:41:38] [Server thread/INFO]: [Not Secure] <DarkClown> are kaha par gaya
-[17:41:46] [Server thread/INFO]: [Not Secure] <DarkClown> mere peeche aa
-[17:41:57] [Server thread/INFO]: [Not Secure] <Aryan> mai phocha
-[17:42:02] [Server thread/INFO]: [Not Secure] <DarkClown> kaise
-[17:42:15] [Server thread/INFO]: [Not Secure] <Aryan> shortcut bana ya maine
-[17:42:17] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[17:42:57] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[17:43:21] [Server thread/WARN]: Aryan moved too quickly! 0.4899024515771089,-10.692137529074046,0.017062034152331762
-[17:45:47] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[17:45:54] [Server thread/INFO]: [Not Secure] <Aryan> eeewwww
-[17:46:11] [Server thread/INFO]: [Not Secure] <DarkClown> kya reh
-[17:46:15] [Server thread/INFO]: [Not Secure] <DarkClown> ewwww
-[17:46:27] [Server thread/INFO]: [Not Secure] <Aryan> 2 min laptop ko ache se rak raha
-[17:47:16] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[17:50:43] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[17:53:57] [Server thread/INFO]: [Not Secure] <DarkClown> stone kar aana padega
-[17:54:12] [Server thread/INFO]: [Not Secure] <Aryan> tu lane jaa
-[17:54:24] [Server thread/INFO]: [Not Secure] <Aryan> ya mai jau
-[17:54:39] [Server thread/INFO]: [Not Secure] <Aryan> mer pe silk touch hai jldi hoga
-[17:55:23] [Server thread/INFO]: [Not Secure] <Aryan> maii ja rahaa'
-[17:55:40] [Server thread/INFO]: [Not Secure] <DarkClown> kyu reh
-[17:55:52] [Server thread/INFO]: [Not Secure] <Aryan> stone laneee
-[17:56:22] [Server thread/INFO]: [Not Secure] <Aryan> msg dekh
-[17:56:23] [Server thread/INFO]: [Not Secure] <DarkClown> acha thike hai
-[17:56:29] [Server thread/INFO]: [Not Secure] <Aryan> jau mai?
-[17:56:33] [Server thread/INFO]: [Not Secure] <DarkClown> nahi rukh
-[17:56:45] [Server thread/INFO]: [Not Secure] <DarkClown> yeh le kar jaa
-[17:56:49] [Server thread/INFO]: [Not Secure] <Aryan> ok
-[17:56:55] [Server thread/INFO]: [Not Secure] <DarkClown> isse mining kar stone ki
-[17:57:04] [Server thread/INFO]: [Not Secure] <DarkClown> dekh message pura
-[17:57:06] [Server thread/INFO]: [Not Secure] <Aryan> haaa
-[17:57:20] [Server thread/INFO]: [Not Secure] <Aryan> haa re dekha
-[18:03:17] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:09:36] [Server thread/INFO]: [Not Secure] <DarkClown> muje dirt de
-[18:12:49] [Server thread/INFO]: [Not Secure] <DarkClown> stone de muje
-[18:18:32] [Server thread/INFO]: Aryan lost connection: Disconnected
-[18:18:32] [Server thread/INFO]: Aryan left the game
-[18:18:39] [Server thread/INFO]: [DarkClown: Stopping the server]
-[18:18:39] [Server thread/INFO]: Stopping server
-[18:18:39] [Server thread/INFO]: Saving players
-[18:18:39] [Server thread/INFO]: DarkClown lost connection: Server closed
-[18:18:39] [Server thread/INFO]: DarkClown left the game
-[18:18:39] [Server thread/INFO]: Saving worlds
-[18:18:39] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
-[18:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:18:39] [C2ME Storage #3/INFO]: Storage thread Thread[#109,C2ME Storage #3,8,main] stopped
-[18:18:39] [C2ME Storage #2/INFO]: Storage thread Thread[#108,C2ME Storage #2,8,main] stopped
-[18:18:39] [C2ME Storage #1/INFO]: Storage thread Thread[#107,C2ME Storage #1,8,main] stopped
-[18:18:39] [C2ME Storage #6/INFO]: Storage thread Thread[#125,C2ME Storage #6,8,main] stopped
-[18:18:39] [C2ME Storage #5/INFO]: Storage thread Thread[#124,C2ME Storage #5,8,main] stopped
-[18:18:39] [C2ME Storage #4/INFO]: Storage thread Thread[#123,C2ME Storage #4,8,main] stopped
-[18:18:39] [C2ME Storage #9/INFO]: Storage thread Thread[#128,C2ME Storage #9,8,main] stopped
-[18:18:39] [C2ME Storage #8/INFO]: Storage thread Thread[#127,C2ME Storage #8,8,main] stopped
-[18:18:39] [C2ME Storage #7/INFO]: Storage thread Thread[#126,C2ME Storage #7,8,main] stopped
-[18:18:39] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml
+[10:26:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[10:26:05] [main/INFO]: Compatibility level set to JAVA_16
+[10:26:06] [main/INFO]: Compatibility level set to JAVA_21
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[10:26:06] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[10:26:06] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[10:26:06] [main/INFO]: Detected maximum supported ISA target: AVX2
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[10:26:06] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[10:26:06] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[10:26:06] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:26:06] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[10:26:06] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
+[10:26:06] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[10:26:06] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:26:06] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[10:26:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[10:26:14] [main/INFO]: Compression will use Java, encryption will use Java
+[10:26:14] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[10:26:14] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
+[10:26:14] [main/INFO]: Constructing components for mutantmonsters:common
+[10:26:14] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
+[10:26:14] [main/INFO]: Constructing components for puzzleslib:common
+[10:26:14] [main/INFO]: Initializing Silk
+[10:26:14] [main/INFO]: Starting TT20...
+[10:26:14] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[10:26:14] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
+[10:26:15] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[10:26:15] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:26:15] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[10:26:16] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
+[10:26:17] [main/INFO]: Loaded 1414 recipes
+[10:26:17] [main/INFO]: Loaded 1535 advancements
+[10:26:17] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 28.38 ms
+[10:26:17] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[10:26:17] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
+[10:26:17] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[10:26:17] [Server thread/INFO]: Loading properties
+[10:26:17] [Server thread/INFO]: Default game type: SURVIVAL
+[10:26:17] [Server thread/INFO]: Generating keypair
+[10:26:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:26:17] [Server thread/INFO]: Using default channel type
+[10:26:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:26:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:26:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:26:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:26:17] [Server thread/INFO]: Preparing level "world"
+[10:26:17] [Server thread/INFO]: Enforcing safe world random access
+[10:26:18] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 194.1 ms
+[10:26:18] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[10:26:18] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 11.79 ms
+[10:26:18] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.658 ms
+[10:26:18] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@369ab294)
+[10:26:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:26:18] [Server thread/INFO]: Time elapsed: 77 ms
+[10:26:18] [Server thread/INFO]: Done (0.759s)! For help, type "help"
+[10:27:18] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[10:27:22] [Server thread/INFO]: DarkClown[/127.0.0.1:54897] logged in with entity id 1 at (-1036.4561422474942, 201.0, -1289.8334851623947)
+[10:27:22] [Server thread/INFO]: DarkClown joined the game
+[10:38:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1034, y=200, z=-1294} class_2338{x=-1034, y=198, z=-1294}
+[10:38:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1034, y=197, z=-1294} class_2338{x=-1034, y=198, z=-1294}
+[10:38:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1034, y=194, z=-1294} class_2338{x=-1034, y=195, z=-1294}
+[10:39:08] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[10:42:49] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[10:43:46] [Server thread/INFO]: [DarkClown: Stopping the server]
+[10:43:46] [Server thread/INFO]: Stopping server
+[10:43:46] [Server thread/INFO]: Saving players
+[10:43:46] [Server thread/INFO]: DarkClown lost connection: Server closed
+[10:43:46] [Server thread/INFO]: DarkClown left the game
+[10:43:46] [Server thread/INFO]: Saving worlds
+[10:43:46] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
+[10:43:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:43:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:43:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:43:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:43:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:43:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:43:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:43:47] [C2ME Storage #3/INFO]: Storage thread Thread[#110,C2ME Storage #3,8,main] stopped
+[10:43:47] [C2ME Storage #2/INFO]: Storage thread Thread[#109,C2ME Storage #2,8,main] stopped
+[10:43:47] [C2ME Storage #1/INFO]: Storage thread Thread[#108,C2ME Storage #1,8,main] stopped
+[10:43:47] [C2ME Storage #6/INFO]: Storage thread Thread[#126,C2ME Storage #6,8,main] stopped
+[10:43:47] [C2ME Storage #5/INFO]: Storage thread Thread[#125,C2ME Storage #5,8,main] stopped
+[10:43:47] [C2ME Storage #4/INFO]: Storage thread Thread[#124,C2ME Storage #4,8,main] stopped
+[10:43:47] [C2ME Storage #8/INFO]: Storage thread Thread[#128,C2ME Storage #8,8,main] stopped
+[10:43:47] [C2ME Storage #9/INFO]: Storage thread Thread[#129,C2ME Storage #9,8,main] stopped
+[10:43:47] [C2ME Storage #7/INFO]: Storage thread Thread[#127,C2ME Storage #7,8,main] stopped
+[10:43:47] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml

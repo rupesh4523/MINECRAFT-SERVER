@@ -8729,5 +8729,17 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-07-22 18:48:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2026-07-22 17:39:08 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 4438
 }

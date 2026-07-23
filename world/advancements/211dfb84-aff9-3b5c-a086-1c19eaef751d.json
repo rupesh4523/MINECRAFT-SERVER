@@ -553,6 +553,7 @@
       "minecraft:ravager": "2026-01-14 23:42:22 +0530",
       "minecraft:husk": "2026-01-17 01:18:39 +0530",
       "minecraft:hoglin": "2026-01-16 14:52:49 +0530",
+      "minecraft:cave_spider": "2026-07-23 11:32:53 +0530",
       "minecraft:piglin": "2026-01-17 02:14:01 +0530",
       "minecraft:vindicator": "2026-01-14 23:29:48 +0530",
       "minecraft:enderman": "2026-01-16 15:36:52 +0530",
@@ -8729,15 +8730,15 @@
     },
     "done": true
   },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2026-07-22 18:48:38 +0530"
-    },
-    "done": true
-  },
   "minecraft:adventure/summon_iron_golem": {
     "criteria": {
       "summoned_golem": "2026-07-22 17:39:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2026-07-22 18:48:38 +0530"
     },
     "done": true
   },

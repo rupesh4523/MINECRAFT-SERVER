@@ -13,6 +13,7 @@
       "minecraft:deep_cold_ocean": "2026-04-04 00:14:07 +0530",
       "minecraft:eroded_badlands": "2026-01-17 13:36:28 +0530",
       "minecraft:desert": "2026-01-17 13:33:04 +0530",
+      "minecraft:ocean": "2026-07-25 20:40:26 +0530",
       "minecraft:sunflower_plains": "2026-04-03 23:52:37 +0530",
       "minecraft:cherry_grove": "2026-07-06 17:59:24 +0530",
       "minecraft:birch_forest": "2026-07-06 17:10:25 +0530",
@@ -8468,9 +8469,11 @@
       "minecraft:witch": "2026-07-13 12:29:47 +0530",
       "minecraft:wither_skeleton": "2026-01-17 03:34:32 +0530",
       "minecraft:hoglin": "2026-01-17 03:14:50 +0530",
+      "minecraft:shulker": "2026-07-25 21:32:18 +0530",
       "minecraft:piglin": "2026-01-17 16:29:56 +0530",
       "minecraft:vindicator": "2026-01-17 04:58:15 +0530",
       "minecraft:enderman": "2026-01-17 16:37:21 +0530",
+      "minecraft:silverfish": "2026-07-25 20:49:20 +0530",
       "minecraft:magma_cube": "2026-01-17 16:30:40 +0530",
       "minecraft:spider": "2026-01-17 13:45:18 +0530",
       "minecraft:vex": "2026-01-17 04:56:23 +0530",
@@ -8503,6 +8506,7 @@
       "cooked_mutton": "2026-01-16 14:47:17 +0530",
       "potato": "2026-07-06 17:41:02 +0530",
       "cooked_beef": "2026-01-17 16:16:28 +0530",
+      "chorus_fruit": "2026-07-25 21:31:55 +0530",
       "carrot": "2026-01-16 17:40:58 +0530"
     },
     "done": false
@@ -8682,6 +8686,30 @@
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2026-07-10 17:39:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-07-25 20:48:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-07-25 20:49:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-07-25 20:49:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2026-07-25 21:31:39 +0530"
     },
     "done": true
   },

@@ -7,22 +7,30 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-07-26 02:51:37 +0530",
       "minecraft:snowy_slopes": "2026-07-06 17:22:15 +0530",
       "minecraft:old_growth_pine_taiga": "2026-04-04 00:38:08 +0530",
       "minecraft:forest": "2026-01-17 14:49:17 +0530",
+      "minecraft:taiga": "2026-07-26 02:51:50 +0530",
+      "minecraft:deep_ocean": "2026-07-26 03:02:16 +0530",
       "minecraft:deep_cold_ocean": "2026-04-04 00:14:07 +0530",
       "minecraft:eroded_badlands": "2026-01-17 13:36:28 +0530",
       "minecraft:desert": "2026-01-17 13:33:04 +0530",
       "minecraft:ocean": "2026-07-25 20:40:26 +0530",
+      "minecraft:jungle": "2026-07-26 02:58:58 +0530",
       "minecraft:sunflower_plains": "2026-04-03 23:52:37 +0530",
       "minecraft:cherry_grove": "2026-07-06 17:59:24 +0530",
       "minecraft:birch_forest": "2026-07-06 17:10:25 +0530",
       "minecraft:bamboo_jungle": "2026-04-04 00:35:37 +0530",
+      "minecraft:windswept_savanna": "2026-07-26 02:58:49 +0530",
       "minecraft:badlands": "2026-01-17 13:43:18 +0530",
+      "minecraft:flower_forest": "2026-07-26 02:56:34 +0530",
       "minecraft:savanna_plateau": "2026-01-13 22:31:10 +0530",
       "minecraft:beach": "2026-07-13 12:22:55 +0530",
       "minecraft:dark_forest": "2026-01-17 04:36:22 +0530",
+      "minecraft:mangrove_swamp": "2026-07-26 02:58:52 +0530",
       "minecraft:river": "2026-01-17 02:42:32 +0530",
+      "minecraft:lukewarm_ocean": "2026-07-26 02:46:00 +0530",
       "minecraft:stony_shore": "2026-01-14 00:20:03 +0530",
       "minecraft:snowy_plains": "2026-04-04 00:51:00 +0530",
       "minecraft:dripstone_caves": "2026-01-17 14:49:56 +0530",
@@ -33,7 +41,8 @@
       "minecraft:meadow": "2026-04-03 23:49:18 +0530",
       "minecraft:windswept_gravelly_hills": "2026-04-04 00:52:20 +0530",
       "minecraft:savanna": "2026-01-13 22:29:50 +0530",
-      "minecraft:plains": "2026-01-16 14:28:33 +0530"
+      "minecraft:plains": "2026-01-16 14:28:33 +0530",
+      "minecraft:pale_garden": "2026-07-26 03:01:04 +0530"
     },
     "done": false
   },
@@ -8470,8 +8479,10 @@
       "minecraft:wither_skeleton": "2026-01-17 03:34:32 +0530",
       "minecraft:hoglin": "2026-01-17 03:14:50 +0530",
       "minecraft:shulker": "2026-07-25 21:32:18 +0530",
+      "minecraft:cave_spider": "2026-07-26 03:33:43 +0530",
       "minecraft:piglin": "2026-01-17 16:29:56 +0530",
       "minecraft:vindicator": "2026-01-17 04:58:15 +0530",
+      "minecraft:breeze": "2026-07-26 03:36:01 +0530",
       "minecraft:enderman": "2026-01-17 16:37:21 +0530",
       "minecraft:silverfish": "2026-07-25 20:49:20 +0530",
       "minecraft:magma_cube": "2026-01-17 16:30:40 +0530",
@@ -8481,7 +8492,8 @@
       "minecraft:creeper": "2026-01-17 02:56:42 +0530",
       "minecraft:drowned": "2026-07-06 17:13:33 +0530",
       "minecraft:zombie_villager": "2026-07-23 18:25:02 +0530",
-      "minecraft:evoker": "2026-01-17 04:56:08 +0530"
+      "minecraft:evoker": "2026-01-17 04:56:08 +0530",
+      "minecraft:slime": "2026-07-26 03:35:38 +0530"
     },
     "done": false
   },
@@ -8713,15 +8725,39 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-07-26 00:21:54 +0530"
+    },
+    "done": true
+  },
   "minecraft:end/levitate": {
     "criteria": {
       "levitated": "2026-07-26 00:22:42 +0530"
     },
     "done": true
   },
-  "minecraft:end/elytra": {
+  "minecraft:adventure/minecraft_trials_edition": {
     "criteria": {
-      "elytra": "2026-07-26 00:21:54 +0530"
+      "minecraft_trials_edition": "2026-07-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2026-07-26 03:34:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2026-07-26 04:01:52 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2026-07-26 02:53:32 +0530"
     },
     "done": true
   },

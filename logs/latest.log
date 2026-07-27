@@ -1,5 +1,5 @@
-[14:29:57] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[14:29:58] [main/INFO]: Loading 107 mods:
+[13:28:54] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
+[13:28:54] [main/INFO]: Loading 107 mods:
 	- c2me 0.3.4.0.0+1.21.8
 	   |-- c2me-base 0.3.4.0.0+1.21.8
 	   |-- c2me-client-uncapvd 0.3.4.0.0+1.21.8
@@ -115,348 +115,297 @@
 	- veinminer 2.5.0
 	   |-- de_miraculixx_core_dev 2.5.0
 	   \-- fabric-permissions-api-v0 0.4.0
-[14:29:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[14:29:59] [main/INFO]: Compatibility level set to JAVA_16
-[14:29:59] [main/INFO]: Compatibility level set to JAVA_21
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[14:29:59] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[14:29:59] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[14:29:59] [main/INFO]: Detected maximum supported ISA target: AVX2
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:29:59] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[14:29:59] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[14:30:00] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:30:00] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[14:30:00] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
-[14:30:00] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[14:30:00] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:30:00] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[14:30:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[14:30:08] [main/INFO]: Compression will use Java, encryption will use Java
-[14:30:08] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
-[14:30:08] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
-[14:30:08] [main/INFO]: Constructing components for mutantmonsters:common
-[14:30:08] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
-[14:30:08] [main/INFO]: Constructing components for puzzleslib:common
-[14:30:08] [main/INFO]: Initializing Silk
-[14:30:08] [main/INFO]: Starting TT20...
-[14:30:08] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[14:30:08] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[14:30:08] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[14:30:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:30:09] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
-[14:30:09] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[14:30:11] [main/INFO]: Loaded 1414 recipes
-[14:30:11] [main/INFO]: Loaded 1535 advancements
-[14:30:11] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 26.46 ms
-[14:30:11] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[14:30:11] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
-[14:30:11] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[14:30:11] [Server thread/INFO]: Loading properties
-[14:30:11] [Server thread/INFO]: Default game type: SURVIVAL
-[14:30:11] [Server thread/INFO]: Generating keypair
-[14:30:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:30:11] [Server thread/INFO]: Using default channel type
-[14:30:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:30:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:30:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:30:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:30:11] [Server thread/INFO]: Preparing level "world"
-[14:30:11] [Server thread/INFO]: Enforcing safe world random access
-[14:30:12] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 203.9 ms
-[14:30:12] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[14:30:12] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 13.11 ms
-[14:30:12] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.746 ms
-[14:30:12] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@5b8fad7f)
-[14:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:30:12] [Server thread/INFO]: Time elapsed: 75 ms
-[14:30:12] [Server thread/INFO]: Done (0.752s)! For help, type "help"
-[14:31:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[14:32:39] [Server thread/INFO]: Aryan[/127.246.189.167:54123] logged in with entity id 1 at (562.3506411540855, -29.0, -4824.516702462319)
-[14:32:39] [Server thread/INFO]: Aryan joined the game
-[14:33:52] [Server thread/INFO]: Aryan lost connection: Disconnected
-[14:33:52] [Server thread/INFO]: Aryan left the game
-[14:33:56] [Server thread/INFO]: Aryan[/127.246.189.167:55342] logged in with entity id 188 at (563.0939871799036, -29.0, -4824.887521237224)
-[14:33:56] [Server thread/INFO]: Aryan joined the game
-[14:33:56] [Server thread/INFO]: DarkClown[/127.0.0.1:55343] logged in with entity id 320 at (514.6634815919878, -41.0, -4825.175660626771)
-[14:33:56] [Server thread/INFO]: DarkClown joined the game
-[14:34:34] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[14:36:39] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[14:38:14] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[14:48:37] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[14:50:33] [Server thread/INFO]: Aryan has made the advancement [Who Needs Rockets?]
-[14:51:03] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[14:54:00] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[14:59:50] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:00:19] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:08:24] [Server thread/INFO]: Locating element minecraft:trail_ruins took 85 ms
-[15:09:37] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 688.500000, 100.000000, -3423.500000]
-[15:09:46] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:09:59] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 688.500000, 100.000000, -3423.500000]
-[15:10:04] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:10:14] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 688.500000, 200.000000, -3423.500000]
-[15:10:20] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:10:37] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 688.500000, 200.000000, -3423.500000]
-[15:10:50] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:11:35] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 688.500000, 150.000000, -3423.500000]
-[15:12:01] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 688.500000, 104.000000, -3423.500000]
-[15:12:50] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[15:13:24] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[15:13:43] [Server thread/INFO]: Locating element minecraft:trial_chambers took 115 ms
-[15:13:48] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 848.500000, 110.000000, -3807.500000]
-[15:13:50] [Server thread/WARN]: DarkClown moved too quickly! 0.0,-10.806526110008988,0.0
-[15:14:12] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:15:28] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[15:16:41] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:16:44] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[15:17:19] [Server thread/INFO]: [DarkClown: Teleported DarkClown to DarkClown]
-[15:17:24] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:19:34] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:20:45] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:30:24] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[15:30:26] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[15:30:27] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[15:31:23] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[15:31:29] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:31:45] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[15:31:54] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[15:32:01] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:33:22] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:33:32] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:40:49] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[15:40:50] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[15:40:51] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[15:41:42] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:41:44] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[15:44:24] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:49:40] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[15:50:04] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[15:50:11] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[15:52:19] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:53:11] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[15:56:38] [Server thread/INFO]: [DarkClown: Killed Aryan]
-[15:56:44] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[16:01:13] [Server thread/INFO]: DarkClown has made the advancement [Ol' Betsy]
-[16:06:54] [Server thread/INFO]: [Aryan: Set own game mode to Creative Mode]
-[16:10:11] [Server thread/INFO]: [Aryan: Set own game mode to Survival Mode]
-[16:24:53] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[16:25:04] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[16:44:25] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[16:44:42] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[16:50:54] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[16:50:58] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[16:52:33] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[16:53:33] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[16:56:26] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[16:57:11] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:02:22] [Server thread/INFO]: Aryan lost connection: Timed out
-[17:02:22] [Server thread/INFO]: Aryan left the game
-[17:03:01] [Server thread/INFO]: Aryan[/127.246.189.167:52747] logged in with entity id 26886 at (-1261.6895345811238, 111.0, -1374.2256513479958)
-[17:03:01] [Server thread/INFO]: Aryan joined the game
-[17:04:23] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[17:10:09] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:10:50] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:17:10] [Server thread/INFO]: Aryan lost connection: Disconnected
-[17:17:10] [Server thread/INFO]: Aryan left the game
-[17:18:32] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:19:11] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:19:21] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:19:24] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:20:08] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:20:17] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:20:36] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:21:13] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:21:18] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:21:26] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:28:38] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[17:30:13] [Server thread/INFO]: Aryan[/127.246.189.167:56364] logged in with entity id 29735 at (-1294.5, 111.0, -1401.5)
-[17:30:13] [Server thread/INFO]: Aryan joined the game
-[17:33:42] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:33:43] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:40:11] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[17:40:33] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:40:49] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:42:27] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:42:36] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:48:08] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:52:35] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[17:56:38] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[18:00:40] [Server thread/INFO]: Locating element minecraft:ancient_city took 15 ms
-[18:00:50] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:01:23] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[18:01:37] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:01:50] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:02:20] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:02:28] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:02:53] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:03:03] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:03:13] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[18:07:36] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[18:09:44] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:15:00] [Server thread/INFO]: Locating element minecraft:desert took 1338 ms
-[18:15:10] [Server thread/INFO]: [Aryan: Teleported Aryan to 161.500000, 100.000000, 1570.500000]
-[18:15:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=63, z=1540} class_2338{x=162, y=63, z=1541}
-[18:15:22] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:15:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=160, y=64, z=1539} class_2338{x=161, y=62, z=1540}
-[18:15:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=63, z=1526} class_2338{x=164, y=62, z=1527}
-[18:15:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=63, z=1526} class_2338{x=164, y=62, z=1527}
-[18:15:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=63, z=1526} class_2338{x=164, y=62, z=1527}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=162, y=63, z=1526} class_2338{x=164, y=61, z=1526}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=156, y=65, z=1540} class_2338{x=157, y=64, z=1540}
-[18:15:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=157, y=65, z=1538} class_2338{x=158, y=65, z=1538}
-[18:15:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=157, y=65, z=1538} class_2338{x=158, y=65, z=1538}
-[18:15:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=157, y=65, z=1538} class_2338{x=158, y=65, z=1538}
-[18:15:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=157, y=65, z=1538} class_2338{x=158, y=65, z=1538}
-[18:15:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=59, z=1523} class_2338{x=163, y=61, z=1522}
-[18:15:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=59, z=1523} class_2338{x=163, y=61, z=1522}
-[18:15:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=59, z=1523} class_2338{x=163, y=61, z=1522}
-[18:15:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=59, z=1523} class_2338{x=163, y=61, z=1522}
-[18:16:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=167, y=64, z=1534} class_2338{x=168, y=62, z=1535}
-[18:16:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=175, y=63, z=1536} class_2338{x=174, y=62, z=1535}
-[18:16:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=175, y=63, z=1536} class_2338{x=174, y=62, z=1535}
-[18:16:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=175, y=63, z=1536} class_2338{x=174, y=62, z=1535}
-[18:16:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=175, y=63, z=1536} class_2338{x=174, y=62, z=1535}
-[18:17:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=176, y=62, z=1530} class_2338{x=177, y=61, z=1530}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1527} class_2338{x=174, y=61, z=1528}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1527} class_2338{x=174, y=61, z=1528}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1527} class_2338{x=174, y=61, z=1528}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1527} class_2338{x=174, y=61, z=1528}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1527} class_2338{x=174, y=61, z=1528}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1527} class_2338{x=174, y=61, z=1528}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1526} class_2338{x=174, y=62, z=1525}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1526} class_2338{x=174, y=62, z=1525}
-[18:17:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1526} class_2338{x=174, y=62, z=1525}
-[18:17:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=63, z=1526} class_2338{x=174, y=62, z=1525}
-[18:17:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=169, y=62, z=1518} class_2338{x=170, y=60, z=1520}
-[18:18:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=63, z=1531} class_2338{x=167, y=61, z=1531}
-[18:18:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=63, z=1531} class_2338{x=167, y=61, z=1531}
-[18:18:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=63, z=1531} class_2338{x=167, y=61, z=1531}
-[18:18:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=63, z=1531} class_2338{x=167, y=61, z=1531}
-[18:18:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=178, y=60, z=1536} class_2338{x=175, y=60, z=1535}
-[18:18:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=178, y=60, z=1536} class_2338{x=175, y=60, z=1535}
-[18:18:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=178, y=60, z=1536} class_2338{x=175, y=60, z=1535}
-[18:18:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=178, y=60, z=1536} class_2338{x=175, y=60, z=1535}
-[18:18:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=178, y=60, z=1536} class_2338{x=175, y=60, z=1535}
-[18:18:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=178, y=60, z=1536} class_2338{x=175, y=60, z=1535}
-[18:18:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=178, y=60, z=1536} class_2338{x=175, y=60, z=1535}
-[18:18:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=178, y=60, z=1536} class_2338{x=175, y=60, z=1535}
-[18:19:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=173, y=61, z=1513} class_2338{x=174, y=59, z=1515}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=155, y=63, z=1517} class_2338{x=156, y=63, z=1519}
-[18:20:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=159, y=62, z=1523} class_2338{x=158, y=61, z=1521}
-[18:21:17] [Server thread/INFO]: [Aryan: Teleported Aryan to -1320.500000, 65.000000, -819.500000]
-[18:21:27] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:21:44] [Server thread/INFO]: [Aryan: Teleported Aryan to 161.500000, 71.000000, 1570.500000]
-[18:21:47] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:22:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=158, y=63, z=1545} class_2338{x=158, y=61, z=1543}
-[18:22:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=63, z=1541} class_2338{x=165, y=62, z=1541}
-[18:22:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=63, z=1541} class_2338{x=165, y=62, z=1541}
-[18:22:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=64, z=1540} class_2338{x=165, y=64, z=1539}
-[18:22:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=64, z=1540} class_2338{x=165, y=64, z=1539}
-[18:22:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=64, z=1540} class_2338{x=165, y=64, z=1539}
-[18:22:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=64, z=1540} class_2338{x=165, y=64, z=1539}
-[18:22:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=64, z=1540} class_2338{x=165, y=64, z=1539}
-[18:22:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=64, z=1540} class_2338{x=165, y=64, z=1539}
-[18:22:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=166, y=64, z=1540} class_2338{x=165, y=64, z=1539}
-[18:22:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=164, y=64, z=1538} class_2338{x=165, y=63, z=1539}
-[18:24:25] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[18:24:31] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:24:36] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:24:41] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:26:20] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:26:50] [Server thread/INFO]: [DarkClown: Killed Aryan]
-[18:27:45] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:28:16] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:28:30] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:28:34] [Server thread/INFO]: [DarkClown: Killed Aryan]
-[18:29:01] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:34:05] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 150.000000, -1711.500000]
-[18:34:15] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:34:27] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:34:38] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:36:14] [Server thread/INFO]: [DarkClown: Killed Aryan]
-[18:36:18] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:36:26] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:37:41] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1791.500000, 100.000000, -1711.500000]
-[18:38:05] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:38:54] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:39:57] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:40:34] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:41:20] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:41:53] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:42:50] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:43:19] [Server thread/INFO]: [DarkClown: Teleported Aryan to DarkClown]
-[18:44:16] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:44:55] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:45:12] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
-[18:45:36] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:47:28] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:47:59] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:48:02] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:51:46] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[18:51:51] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[19:05:35] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:05:55] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:09:32] [Server thread/INFO]: [Aryan: Teleported Aryan to -1271.500000, 111.000000, -1394.500000]
-[19:09:39] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
-[19:09:47] [Server thread/INFO]: Aryan lost connection: Disconnected
-[19:09:47] [Server thread/INFO]: Aryan left the game
-[19:09:51] [Server thread/INFO]: [DarkClown: Stopping the server]
-[19:09:51] [Server thread/INFO]: Stopping server
-[19:09:51] [Server thread/INFO]: Saving players
-[19:09:51] [Server thread/INFO]: Saving worlds
-[19:09:51] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
-[19:09:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:09:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:09:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:09:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:09:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:09:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:09:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:09:51] [C2ME Storage #3/INFO]: Storage thread Thread[#108,C2ME Storage #3,8,main] stopped
-[19:09:52] [C2ME Storage #2/INFO]: Storage thread Thread[#107,C2ME Storage #2,8,main] stopped
-[19:09:52] [C2ME Storage #1/INFO]: Storage thread Thread[#106,C2ME Storage #1,8,main] stopped
-[19:09:52] [C2ME Storage #6/INFO]: Storage thread Thread[#125,C2ME Storage #6,8,main] stopped
-[19:09:52] [C2ME Storage #5/INFO]: Storage thread Thread[#124,C2ME Storage #5,8,main] stopped
-[19:09:52] [C2ME Storage #4/INFO]: Storage thread Thread[#123,C2ME Storage #4,8,main] stopped
-[19:09:52] [C2ME Storage #9/INFO]: Storage thread Thread[#128,C2ME Storage #9,8,main] stopped
-[19:09:52] [C2ME Storage #8/INFO]: Storage thread Thread[#127,C2ME Storage #8,8,main] stopped
-[19:09:52] [C2ME Storage #7/INFO]: Storage thread Thread[#126,C2ME Storage #7,8,main] stopped
-[19:09:52] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml
+[13:28:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/New%20folder/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:28:54] [main/INFO]: Compatibility level set to JAVA_16
+[13:28:54] [main/INFO]: Compatibility level set to JAVA_21
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[13:28:55] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[13:28:55] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[13:28:55] [main/INFO]: Detected maximum supported ISA target: AVX2
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13:28:55] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[13:28:55] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[13:28:55] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:55] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[13:28:55] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
+[13:28:55] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[13:28:55] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:55] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[13:28:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13:29:03] [main/INFO]: Compression will use Java, encryption will use Java
+[13:29:03] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[13:29:03] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
+[13:29:03] [main/INFO]: Constructing components for mutantmonsters:common
+[13:29:03] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
+[13:29:03] [main/INFO]: Constructing components for puzzleslib:common
+[13:29:03] [main/INFO]: Initializing Silk
+[13:29:03] [main/INFO]: Starting TT20...
+[13:29:03] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[13:29:03] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
+[13:29:03] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[13:29:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:29:04] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[13:29:04] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
+[13:29:05] [main/INFO]: Loaded 1414 recipes
+[13:29:05] [main/INFO]: Loaded 1535 advancements
+[13:29:05] [main/INFO]: Applied 260 biome modifications to 65 of 65 new biomes in 29.72 ms
+[13:29:06] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[13:29:06] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
+[13:29:06] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[13:29:06] [Server thread/INFO]: Loading properties
+[13:29:06] [Server thread/INFO]: Default game type: SURVIVAL
+[13:29:06] [Server thread/INFO]: Generating keypair
+[13:29:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:29:06] [Server thread/INFO]: Using default channel type
+[13:29:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:29:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:29:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:29:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:29:06] [Server thread/INFO]: Preparing level "world"
+[13:29:06] [Server thread/INFO]: Enforcing safe world random access
+[13:29:06] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 166.6 ms
+[13:29:06] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[13:29:06] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 9.020 ms
+[13:29:06] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.803 ms
+[13:29:06] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@369ab294)
+[13:29:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:29:06] [Server thread/INFO]: Time elapsed: 57 ms
+[13:29:06] [Server thread/INFO]: Done (0.631s)! For help, type "help"
+[13:30:06] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:30:45] [Server thread/INFO]: Aryan[/127.255.94.185:63908] logged in with entity id 1 at (-1292.9880233659308, 111.5625, -1402.8828039539394)
+[13:30:46] [Server thread/INFO]: Aryan joined the game
+[13:32:16] [Server thread/INFO]: DarkClown[/127.0.0.1:63964] logged in with entity id 401 at (-1291.1372394640264, 111.0, -1401.533109759012)
+[13:32:16] [Server thread/INFO]: DarkClown joined the game
+[13:40:40] [Server thread/INFO]: [Aryan: Teleported Aryan to -1320.500000, 65.000000, 819.500000]
+[13:42:57] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1320.500000, 65.000000, 819.500000]
+[13:44:16] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 688.500000, 200.000000, -3423.500000]
+[13:45:08] [Server thread/INFO]: [Aryan: Teleported Aryan to -1320.500000, 65.000000, -819.500000]
+[13:47:42] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[14:01:53] [Server thread/WARN]: Aryan moved too quickly! -7.049283487767298,0.7967356006687112,7.3843585463371255
+[14:07:08] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[14:07:58] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:08:36] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[14:08:41] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:08:44] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[14:08:57] [Server thread/INFO]: Villager class_1646['Librarian'/5697, l='ServerLevel[world]', x=-1296.70, y=110.00, z=-1369.50] died, message: 'Librarian was slain by Dinnerbone'
+[14:09:00] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:09:04] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[14:09:08] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:09:58] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[14:10:07] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:10:14] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[14:10:17] [Server thread/INFO]: Villager class_1646['Librarian'/5701, l='ServerLevel[world]', x=-1296.30, y=110.00, z=-1361.50] died, message: 'Librarian was slain by Dinnerbone'
+[14:10:18] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:10:34] [Server thread/INFO]: Villager class_1646['Librarian'/5741, l='ServerLevel[world]', x=-1296.30, y=110.00, z=-1359.50] died, message: 'Librarian was slain by Dinnerbone'
+[14:13:56] [Server thread/INFO]: Aryan has made the advancement [Gunpowder, spice...]
+[14:18:37] [Server thread/INFO]: Locating element minecraft:monument took 302 ms
+[14:18:41] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2335.500000, 111.000000, -2751.500000]
+[14:18:42] [Server thread/WARN]: DarkClown moved too quickly! 0.0,-10.806526110008988,0.0
+[14:18:54] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[14:22:29] [Server thread/INFO]: [Aryan: Set the time to 1000]
+[14:26:10] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2335.500000, 171.000000, -2751.500000]
+[14:26:22] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[14:27:20] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2335.500000, 111.562500, -2751.500000]
+[14:27:43] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[14:29:29] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[14:31:54] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[14:32:32] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:32:51] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[14:33:20] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:35:31] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2335.500000, 111.000000, -2751.500000]
+[14:35:32] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[14:36:22] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2335.500000, 112.000000, -2751.500000]
+[14:38:51] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[14:38:59] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:39:43] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[14:44:40] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[14:46:38] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[14:55:28] [Server thread/INFO]: [Aryan: Set own game mode to Creative Mode]
+[14:56:29] [Server thread/INFO]: [Aryan: Set own game mode to Survival Mode]
+[14:56:31] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[14:57:53] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[14:58:02] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[14:58:18] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2335.500000, 111.000000, -2751.500000]
+[15:00:38] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[15:00:39] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:05:53] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:07:47] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[15:08:28] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:09:37] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 5 ms
+[15:09:41] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -399.500000, 47.000000, -399.500000]
+[15:09:49] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:10:21] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -399.500000, 111.562500, -399.500000]
+[15:10:28] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[15:10:56] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -399.500000, 81.000000, -399.500000]
+[15:11:00] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:12:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-417, y=38, z=-368} class_2338{x=-415, y=37, z=-367}
+[15:12:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-406, y=38, z=-384} class_2338{x=-406, y=39, z=-384}
+[15:13:49] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:14:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-431, y=44, z=-369} class_2338{x=-431, y=45, z=-369}
+[15:14:48] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:15:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-419, y=54, z=-396} class_2338{x=-420, y=54, z=-397}
+[15:16:45] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:17:52] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:19:11] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:19:33] [Server thread/INFO]: Locating element minecraft:fortress took 5 ms
+[15:19:36] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -767.500000, 44.000000, -399.500000]
+[15:19:44] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:19:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-772, y=39, z=-397} class_2338{x=-773, y=39, z=-397}
+[15:19:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=36, z=-395} class_2338{x=-774, y=38, z=-394}
+[15:19:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=36, z=-395} class_2338{x=-774, y=38, z=-394}
+[15:19:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=36, z=-395} class_2338{x=-774, y=38, z=-394}
+[15:19:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=36, z=-395} class_2338{x=-774, y=38, z=-394}
+[15:19:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=36, z=-395} class_2338{x=-774, y=38, z=-394}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:19:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-773, y=40, z=-391} class_2338{x=-773, y=40, z=-392}
+[15:20:48] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:21:02] [Server thread/INFO]: Aryan has made the advancement [Into Fire]
+[15:23:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-779, y=73, z=-400} class_2338{x=-780, y=72, z=-399}
+[15:23:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-779, y=73, z=-400} class_2338{x=-780, y=72, z=-399}
+[15:23:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-779, y=73, z=-400} class_2338{x=-780, y=72, z=-399}
+[15:23:50] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:25:44] [Server thread/WARN]: Aryan moved too quickly! 17.047765239546436,4.593179062963117,3.967312639362717
+[15:27:16] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:29:01] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[15:29:08] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[15:29:13] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[15:29:20] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[15:30:28] [Server thread/INFO]: Locating element minecraft:fortress took 0 ms
+[15:30:33] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 208.500000, 73.000000, -223.500000]
+[15:30:40] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:30:47] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:31:03] [Server thread/INFO]: [DarkClown: Teleported DarkClown to 208.500000, 74.000000, -223.500000]
+[15:31:16] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:31:42] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:33:35] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:34:28] [Server thread/INFO]: DarkClown has completed the challenge [Return to Sender]
+[15:35:08] [Server thread/INFO]: Aryan has completed the challenge [Return to Sender]
+[15:37:54] [Server thread/WARN]: Aryan moved too quickly! 16.47129546149739,6.402079815746561,-2.9464040399989244
+[15:39:26] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:40:39] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[15:40:43] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[15:41:25] [Server thread/INFO]: Locating element minecraft:stronghold took 3 ms
+[15:41:28] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -1775.500000, 111.000000, -479.500000]
+[15:41:30] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:42:38] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:43:32] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[15:48:38] [Server thread/INFO]: Locating element minecraft:trail_ruins took 11 ms
+[15:48:41] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -3103.500000, -28.000000, -943.500000]
+[15:48:48] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:49:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3106, y=-27, z=-945} class_2338{x=-3105, y=-28, z=-945}
+[15:49:14] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[15:50:44] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[15:53:05] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[15:55:22] [Server thread/INFO]: [DarkClown: Killed Aryan]
+[15:55:27] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[15:55:32] [Server thread/INFO]: Locating element minecraft:trail_ruins took 7 ms
+[15:55:37] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -895.500000, 111.562500, -2639.500000]
+[15:55:38] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[15:55:52] [Server thread/INFO]: Aryan has made the advancement [Respecting the Remnants]
+[15:57:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-891, y=91, z=-2638} class_2338{x=-891, y=90, z=-2638}
+[15:57:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-891, y=91, z=-2639} class_2338{x=-891, y=90, z=-2639}
+[15:57:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-892, y=90, z=-2639} class_2338{x=-894, y=91, z=-2639}
+[15:57:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-892, y=89, z=-2639} class_2338{x=-894, y=89, z=-2639}
+[15:57:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-895, y=88, z=-2639} class_2338{x=-894, y=87, z=-2639}
+[15:57:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-892, y=88, z=-2639} class_2338{x=-891, y=88, z=-2639}
+[15:57:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-893, y=87, z=-2638} class_2338{x=-892, y=87, z=-2637}
+[15:59:01] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[15:59:02] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[15:59:03] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[15:59:19] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[16:02:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-895, y=95, z=-2636} class_2338{x=-895, y=95, z=-2637}
+[16:02:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-895, y=96, z=-2637} class_2338{x=-894, y=95, z=-2635}
+[16:03:18] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -3103.500000, 94.000000, -943.500000]
+[16:03:33] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:03:38] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -3103.500000, 66.000000, -943.500000]
+[16:04:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3103, y=62, z=-941} class_2338{x=-3103, y=61, z=-940}
+[16:04:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3102, y=62, z=-940} class_2338{x=-3102, y=61, z=-940}
+[16:04:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3105, y=63, z=-942} class_2338{x=-3104, y=62, z=-942}
+[16:04:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3104, y=61, z=-943} class_2338{x=-3104, y=61, z=-944}
+[16:04:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3105, y=61, z=-944} class_2338{x=-3104, y=60, z=-944}
+[16:04:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3104, y=59, z=-943} class_2338{x=-3104, y=58, z=-943}
+[16:05:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3103, y=58, z=-944} class_2338{x=-3103, y=57, z=-944}
+[16:05:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3101, y=58, z=-944} class_2338{x=-3101, y=57, z=-944}
+[16:06:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3101, y=58, z=-941} class_2338{x=-3101, y=58, z=-940}
+[16:06:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3100, y=60, z=-941} class_2338{x=-3100, y=59, z=-941}
+[16:07:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3101, y=54, z=-944} class_2338{x=-3101, y=55, z=-944}
+[16:07:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3100, y=55, z=-943} class_2338{x=-3100, y=54, z=-943}
+[16:09:04] [Server thread/INFO]: Locating element minecraft:ancient_city took 30 ms
+[16:09:07] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2111.500000, 63.000000, -1119.500000]
+[16:09:11] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:09:24] [Server thread/WARN]: Aryan moved too quickly! 0.0,-10.188594643186821,0.0
+[16:14:15] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:14:39] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[16:15:13] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[16:15:45] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:16:07] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[16:16:34] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:19:02] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2111.500000, 111.562500, -1119.500000]
+[16:19:09] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:19:18] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2111.500000, 112.000000, -1119.500000]
+[16:19:24] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[16:19:25] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[16:19:26] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[16:19:41] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[16:20:02] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[16:20:12] [Server thread/INFO]: [DarkClown: Teleported DarkClown to -2111.500000, 111.562500, -1119.500000]
+[16:20:18] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:20:55] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[16:22:29] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:25:18] [Server thread/WARN]: Aryan moved wrongly!
+[16:25:32] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[16:26:27] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:28:42] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[16:29:19] [Server thread/INFO]: [Aryan: Teleported Aryan to DarkClown]
+[16:30:44] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[16:41:01] [Server thread/INFO]: Aryan lost connection: Disconnected
+[16:41:01] [Server thread/INFO]: Aryan left the game
+[16:41:49] [Server thread/INFO]: [DarkClown: Stopping the server]
+[16:41:49] [Server thread/INFO]: Stopping server
+[16:41:49] [Server thread/INFO]: Saving players
+[16:41:49] [Server thread/INFO]: DarkClown lost connection: Server closed
+[16:41:49] [Server thread/INFO]: DarkClown left the game
+[16:41:49] [Server thread/INFO]: Saving worlds
+[16:41:49] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
+[16:41:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:41:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:41:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:41:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:41:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:41:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:41:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:41:49] [C2ME Storage #3/INFO]: Storage thread Thread[#110,C2ME Storage #3,8,main] stopped
+[16:41:49] [C2ME Storage #2/INFO]: Storage thread Thread[#109,C2ME Storage #2,8,main] stopped
+[16:41:49] [C2ME Storage #1/INFO]: Storage thread Thread[#108,C2ME Storage #1,8,main] stopped
+[16:41:49] [C2ME Storage #6/INFO]: Storage thread Thread[#126,C2ME Storage #6,8,main] stopped
+[16:41:49] [C2ME Storage #5/INFO]: Storage thread Thread[#125,C2ME Storage #5,8,main] stopped
+[16:41:49] [C2ME Storage #4/INFO]: Storage thread Thread[#124,C2ME Storage #4,8,main] stopped
+[16:41:49] [C2ME Storage #9/INFO]: Storage thread Thread[#129,C2ME Storage #9,8,main] stopped
+[16:41:49] [C2ME Storage #8/INFO]: Storage thread Thread[#128,C2ME Storage #8,8,main] stopped
+[16:41:49] [C2ME Storage #7/INFO]: Storage thread Thread[#127,C2ME Storage #7,8,main] stopped
+[16:41:49] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml

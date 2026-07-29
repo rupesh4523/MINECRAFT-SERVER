@@ -8832,17 +8832,17 @@
     },
     "done": true
   },
-  "minecraft:adventure/salvage_sherd": {
-    "criteria": {
-      "trail_ruins_common": "2026-07-27 15:58:25 +0530"
-    },
-    "done": false
-  },
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2026-07-27 15:34:28 +0530"
     },
     "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "trail_ruins_common": "2026-07-27 15:58:25 +0530"
+    },
+    "done": false
   },
   "DataVersion": 4438
 }

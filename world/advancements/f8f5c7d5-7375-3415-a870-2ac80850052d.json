@@ -28,12 +28,14 @@
       "minecraft:snowy_beach": "2026-07-27 15:06:53 +0530",
       "minecraft:bamboo_jungle": "2026-04-04 00:35:37 +0530",
       "minecraft:windswept_savanna": "2026-07-26 02:58:49 +0530",
+      "minecraft:deep_lukewarm_ocean": "2026-07-29 16:42:01 +0530",
       "minecraft:badlands": "2026-01-17 13:43:18 +0530",
       "minecraft:flower_forest": "2026-07-26 02:56:34 +0530",
       "minecraft:savanna_plateau": "2026-01-13 22:31:10 +0530",
       "minecraft:beach": "2026-07-13 12:22:55 +0530",
       "minecraft:dark_forest": "2026-01-17 04:36:22 +0530",
       "minecraft:mangrove_swamp": "2026-07-26 02:58:52 +0530",
+      "minecraft:sparse_jungle": "2026-07-29 16:10:50 +0530",
       "minecraft:river": "2026-01-17 02:42:32 +0530",
       "minecraft:lukewarm_ocean": "2026-07-26 02:46:00 +0530",
       "minecraft:stony_shore": "2026-01-14 00:20:03 +0530",
@@ -8482,6 +8484,7 @@
       "minecraft:pillager": "2026-01-13 23:36:55 +0530",
       "minecraft:blaze": "2026-07-27 15:21:00 +0530",
       "minecraft:skeleton": "2026-01-17 02:23:19 +0530",
+      "minecraft:bogged": "2026-07-29 16:14:49 +0530",
       "minecraft:ghast": "2026-07-27 15:35:08 +0530",
       "minecraft:hoglin": "2026-01-17 03:14:50 +0530",
       "minecraft:guardian": "2026-07-27 14:28:16 +0530",
@@ -8493,6 +8496,7 @@
       "minecraft:creeper": "2026-01-17 02:56:42 +0530",
       "minecraft:evoker": "2026-01-17 04:56:08 +0530",
       "minecraft:slime": "2026-07-26 03:35:38 +0530",
+      "minecraft:phantom": "2026-07-29 17:24:51 +0530",
       "minecraft:zombified_piglin": "2026-01-17 03:23:28 +0530",
       "minecraft:witch": "2026-07-13 12:29:47 +0530",
       "minecraft:wither_skeleton": "2026-01-17 03:34:32 +0530",
@@ -8687,7 +8691,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2026-04-04 00:00:28 +0530"
+      "minecraft:cow": "2026-04-04 00:00:28 +0530",
+      "minecraft:wolf": "2026-07-29 15:38:38 +0530"
     },
     "done": false
   },
@@ -8803,6 +8808,24 @@
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2026-07-27 15:35:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-07-29 15:23:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2026-07-29 15:23:44 +0530"
+    },
+    "done": false
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2026-07-29 17:24:47 +0530"
     },
     "done": true
   },

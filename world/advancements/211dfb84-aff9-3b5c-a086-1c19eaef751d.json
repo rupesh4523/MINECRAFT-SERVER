@@ -8602,6 +8602,7 @@
       "minecraft:cow": "2026-01-14 00:51:11 +0530",
       "minecraft:chicken": "2026-07-13 14:29:56 +0530",
       "minecraft:pig": "2026-07-13 14:30:24 +0530",
+      "minecraft:wolf": "2026-07-30 00:09:36 +0530",
       "minecraft:sheep": "2026-01-14 00:50:53 +0530"
     },
     "done": false
@@ -8841,6 +8842,21 @@
   "minecraft:adventure/salvage_sherd": {
     "criteria": {
       "trail_ruins_common": "2026-07-27 15:58:25 +0530"
+    },
+    "done": false
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:48:16 +0530",
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:41:33 +0530",
+      "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:49:16 +0530",
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:51:31 +0530"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:pale": "2026-07-29 22:46:03 +0530"
     },
     "done": false
   },

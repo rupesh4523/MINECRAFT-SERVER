@@ -2327,12 +2327,6 @@
     },
     "done": true
   },
-  "mutantmonsters:recipes/combat/mutant_skeleton_rib_cage": {
-    "criteria": {
-      "has_the_recipe": "2026-01-13 22:54:09 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/dye_magenta_carpet": {
     "criteria": {
       "has_the_recipe": "2026-01-13 22:54:09 +0530"
@@ -3023,12 +3017,6 @@
     },
     "done": true
   },
-  "mutantmonsters:recipes/tools/creeper_minion_tracker": {
-    "criteria": {
-      "has_the_recipe": "2026-01-13 22:54:09 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/bamboo_mosaic_slab": {
     "criteria": {
       "has_the_recipe": "2026-01-13 22:54:09 +0530"
@@ -3438,12 +3426,6 @@
     "done": true
   },
   "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
-    "criteria": {
-      "has_the_recipe": "2026-01-13 22:54:09 +0530"
-    },
-    "done": true
-  },
-  "mutantmonsters:recipes/brewing/chemical_x": {
     "criteria": {
       "has_the_recipe": "2026-01-13 22:54:09 +0530"
     },
@@ -4019,12 +4001,6 @@
     },
     "done": true
   },
-  "mutantmonsters:recipes/combat/mutant_skeleton_chestplate": {
-    "criteria": {
-      "has_the_recipe": "2026-01-13 22:54:09 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/cherry_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2026-01-13 22:54:09 +0530"
@@ -4062,12 +4038,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/waxed_oxidized_copper_trapdoor_from_honeycomb": {
-    "criteria": {
-      "has_the_recipe": "2026-01-13 22:54:09 +0530"
-    },
-    "done": true
-  },
-  "mutantmonsters:recipes/combat/mutant_skeleton_leggings": {
     "criteria": {
       "has_the_recipe": "2026-01-13 22:54:09 +0530"
     },
@@ -4800,12 +4770,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_the_recipe": "2026-01-13 22:54:09 +0530"
-    },
-    "done": true
-  },
-  "mutantmonsters:recipes/combat/mutant_skeleton_arms": {
     "criteria": {
       "has_the_recipe": "2026-01-13 22:54:09 +0530"
     },
@@ -8513,12 +8477,6 @@
     },
     "done": true
   },
-  "mutantmonsters:recipes/combat/mutant_skeleton_boots": {
-    "criteria": {
-      "has_the_recipe": "2026-01-13 22:54:09 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/warped_door": {
     "criteria": {
       "has_the_recipe": "2026-01-13 22:54:09 +0530"
@@ -8707,12 +8665,6 @@
     },
     "done": true
   },
-  "mutantmonsters:root": {
-    "criteria": {
-      "killed_by_something": "2026-01-17 01:18:52 +0530"
-    },
-    "done": true
-  },
   "minecraft:nether/find_fortress": {
     "criteria": {
       "fortress": "2026-01-17 03:31:26 +0530"
@@ -8845,18 +8797,18 @@
     },
     "done": false
   },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:pale": "2026-07-29 22:46:03 +0530"
+    },
+    "done": false
+  },
   "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
     "criteria": {
       "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:48:16 +0530",
       "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:41:33 +0530",
       "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:49:16 +0530",
       "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:51:31 +0530"
-    },
-    "done": false
-  },
-  "minecraft:husbandry/whole_pack": {
-    "criteria": {
-      "minecraft:pale": "2026-07-29 22:46:03 +0530"
     },
     "done": false
   },

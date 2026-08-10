@@ -8454,6 +8454,7 @@
       "minecraft:spider": "2026-01-17 13:45:18 +0530",
       "minecraft:piglin_brute": "2026-07-27 15:16:35 +0530",
       "minecraft:creeper": "2026-01-17 02:56:42 +0530",
+      "minecraft:wither": "2026-08-10 18:43:58 +0530",
       "minecraft:evoker": "2026-01-17 04:56:08 +0530",
       "minecraft:slime": "2026-07-26 03:35:38 +0530",
       "minecraft:phantom": "2026-07-29 17:24:51 +0530",
@@ -8618,6 +8619,7 @@
   },
   "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
     "criteria": {
+      "armor_trimmed_minecraft:silence_armor_trim_smithing_template_smithing_trim": "2026-08-10 17:44:36 +0530",
       "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:51:46 +0530",
       "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:52:13 +0530",
       "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2026-07-29 23:46:56 +0530",
@@ -8793,6 +8795,12 @@
   "minecraft:end/dragon_egg": {
     "criteria": {
       "dragon_egg": "2026-08-01 00:00:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2026-08-10 18:42:32 +0530"
     },
     "done": true
   },

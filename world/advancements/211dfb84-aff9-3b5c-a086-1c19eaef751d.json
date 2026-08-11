@@ -8843,5 +8843,11 @@
     },
     "done": true
   },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2026-08-11 21:38:25 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 4438
 }

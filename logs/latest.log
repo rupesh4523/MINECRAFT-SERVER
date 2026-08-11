@@ -1,5 +1,5 @@
-[17:27:01] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[17:27:01] [main/INFO]: Loading 106 mods:
+[21:36:28] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
+[21:36:28] [main/INFO]: Loading 106 mods:
 	- c2me 0.3.4.0.0+1.21.8
 	   |-- c2me-base 0.3.4.0.0+1.21.8
 	   |-- c2me-client-uncapvd 0.3.4.0.0+1.21.8
@@ -114,226 +114,110 @@
 	- veinminer 2.5.0
 	   |-- de_miraculixx_core_dev 2.5.0
 	   \-- fabric-permissions-api-v0 0.4.0
-[17:27:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/Fabric%201.21.7/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:27:01] [main/INFO]: Compatibility level set to JAVA_16
-[17:27:02] [main/INFO]: Compatibility level set to JAVA_21
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[17:27:02] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[17:27:02] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[17:27:02] [main/INFO]: Detected maximum supported ISA target: AVX2
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[17:27:02] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[17:27:02] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[17:27:02] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:27:02] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[17:27:02] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[17:27:02] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[17:27:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[17:27:09] [main/INFO]: Compression will use Java, encryption will use Java
-[17:27:09] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
-[17:27:09] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
-[17:27:09] [main/INFO]: Constructing components for puzzleslib:common
-[17:27:09] [main/INFO]: Initializing Silk
-[17:27:09] [main/INFO]: Starting TT20...
-[17:27:09] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[17:27:09] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[17:27:09] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[17:27:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:27:10] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
-[17:27:10] [DefaultDispatcher-worker-2/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[17:27:11] [main/INFO]: Loaded 1407 recipes
-[17:27:11] [main/INFO]: Loaded 1520 advancements
-[17:27:12] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 4.445 ms
-[17:27:12] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[17:27:12] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[17:27:12] [Server thread/INFO]: Loading properties
-[17:27:12] [Server thread/INFO]: Default game type: SURVIVAL
-[17:27:12] [Server thread/INFO]: Generating keypair
-[17:27:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:27:12] [Server thread/INFO]: Using default channel type
-[17:27:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:27:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:27:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:27:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:27:12] [Server thread/INFO]: Preparing level "world"
-[17:27:12] [Server thread/INFO]: Enforcing safe world random access
-[17:27:12] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 251.5 ms
-[17:27:13] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[17:27:13] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 14.50 ms
-[17:27:13] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.517 ms
-[17:27:13] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@e7dbc93)
-[17:27:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:27:13] [Server thread/INFO]: Time elapsed: 66 ms
-[17:27:13] [Server thread/INFO]: Done (0.949s)! For help, type "help"
-[17:27:48] [Server thread/INFO]: Aryan[/127.63.237.25:52831] logged in with entity id 1 at (1.0000058525017552E7, 63.9375, 1.0000013137884947E7)
-[17:27:48] [Server thread/INFO]: Aryan joined the game
-[17:28:18] [Server thread/INFO]: [Aryan: Killed Aryan]
-[17:29:00] [Server thread/INFO]: DarkClown[/127.0.0.1:58937] logged in with entity id 605 at (-1269.24020276683, 128.5, -1370.7875488706907)
-[17:29:00] [Server thread/INFO]: DarkClown joined the game
-[17:32:03] [Server thread/INFO]: [Aryan: Set own game mode to Spectator Mode]
-[17:32:43] [Server thread/INFO]: [Aryan: Set own game mode to Survival Mode]
-[17:34:24] [Server thread/INFO]: [Aryan: Set own game mode to Spectator Mode]
-[17:34:26] [Server thread/INFO]: [Aryan: Set own game mode to Creative Mode]
-[17:43:16] [Server thread/INFO]: [Aryan: Set own game mode to Spectator Mode]
-[17:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1342, y=118, z=-1432} class_2338{x=-1341, y=117, z=-1431}
-[17:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1342, y=118, z=-1432} class_2338{x=-1341, y=117, z=-1431}
-[17:43:42] [Server thread/INFO]: [Aryan: Set own game mode to Creative Mode]
-[17:43:47] [Server thread/INFO]: [Aryan: Set own game mode to Spectator Mode]
-[17:44:01] [Server thread/INFO]: [Aryan: Set own game mode to Creative Mode]
-[17:44:24] [Server thread/INFO]: [Aryan: Set own game mode to Spectator Mode]
-[17:44:34] [Server thread/INFO]: [Aryan: Set own game mode to Creative Mode]
-[17:45:05] [Server thread/INFO]: [Aryan: Set own game mode to Spectator Mode]
-[17:45:12] [Server thread/INFO]: [Aryan: Set own game mode to Creative Mode]
-[17:46:32] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[17:52:33] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:52:36] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[17:52:51] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[17:56:31] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[18:06:25] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[18:08:43] [Server thread/INFO]: Aryan lost connection: Disconnected
-[18:08:43] [Server thread/INFO]: Aryan left the game
-[18:11:07] [Server thread/INFO]: [DarkClown: Set the time to 13000]
-[18:16:45] [Server thread/INFO]: Villager class_1646['Villager'/9433, l='ServerLevel[world]', x=-1354.72, y=129.72, z=-1424.53] died, message: 'Villager tried to swim in lava'
-[18:16:45] [Server thread/INFO]: Villager class_1646['Villager'/9434, l='ServerLevel[world]', x=-1354.74, y=129.64, z=-1423.69] died, message: 'Villager tried to swim in lava'
-[18:16:48] [Server thread/INFO]: Villager class_1646['Villager'/9428, l='ServerLevel[world]', x=-1353.30, y=129.55, z=-1422.79] died, message: 'Villager tried to swim in lava'
-[18:16:49] [Server thread/INFO]: Villager class_1646['Villager'/9432, l='ServerLevel[world]', x=-1353.42, y=129.68, z=-1421.78] died, message: 'Villager tried to swim in lava'
-[18:16:51] [Server thread/INFO]: Villager class_1646['Villager'/9431, l='ServerLevel[world]', x=-1355.26, y=129.27, z=-1421.22] died, message: 'Villager tried to swim in lava'
-[18:18:06] [Server thread/INFO]: [DarkClown: Set the time to 13000]
-[18:18:55] [Server thread/INFO]: Villager class_1646['Villager'/10256, l='ServerLevel[world]', x=-1336.85, y=119.44, z=-1423.51] died, message: 'Villager went up in flames'
-[18:22:45] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:22:51] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:23:10] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[18:23:43] [Server thread/INFO]: [DarkClown: Set the target tick rate to 100.0 per second]
-[18:25:49] [Server thread/INFO]: [DarkClown: Set the target tick rate to 20.0 per second]
-[18:32:26] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:32:30] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:32:54] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:32:59] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:37:42] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:37:47] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:38:22] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:38:25] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:39:07] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:39:15] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:39:19] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:39:26] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:39:33] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:39:37] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:39:40] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:39:53] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:42:06] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:42:07] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:42:37] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:42:46] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:43:04] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:43:08] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:43:15] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:43:18] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:44:07] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:44:26] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:48:37] [Server thread/INFO]: [DarkClown: Set the target tick rate to 100.0 per second]
-[18:48:43] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[18:50:55] [Server thread/INFO]: [DarkClown: Set the target tick rate to 20.0 per second]
-[18:55:18] [Server thread/INFO]: [DarkClown: Set the time to 1000]
-[18:57:20] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[18:57:21] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:57:23] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[18:58:19] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:58:27] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[18:58:30] [Server thread/INFO]: [DarkClown: Set the target tick rate to 100.0 per second]
-[18:58:54] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[18:59:52] [Server thread/INFO]: [DarkClown: Set the target tick rate to 20.0 per second]
-[19:00:55] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:03:13] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:04:10] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:06:35] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:06:37] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:06:38] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[19:07:25] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:16:49] [Server thread/WARN]: Skipping Entity with id mutantmonsters:mutant_enderman
-[19:16:49] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
-chunk@[-12, -21].Entities[0]: Failed to decode value '"mutantmonsters:mutant_enderman"' from field 'id': Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_type]: mutantmonsters:mutant_enderman
-[19:17:23] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:18:00] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:18:52] [Server thread/WARN]: Skipping Entity with id mutantmonsters:mutant_enderman
-[19:18:52] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
-chunk@[-9, -22].Entities[0]: Failed to decode value '"mutantmonsters:mutant_enderman"' from field 'id': Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_type]: mutantmonsters:mutant_enderman
-[19:18:53] [Server thread/WARN]: Skipping Entity with id mutantmonsters:mutant_enderman
-[19:18:53] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
-chunk@[-11, -23].Entities[0]: Failed to decode value '"mutantmonsters:mutant_enderman"' from field 'id': Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_type]: mutantmonsters:mutant_enderman
-[19:20:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-75, y=38, z=-249}
-[19:20:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-75, y=38, z=-249}
-[19:20:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-75, y=38, z=-249}
-[19:20:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-75, y=38, z=-249}
-[19:20:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-75, y=38, z=-249}
-[19:20:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-75, y=38, z=-249}
-[19:20:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-73, y=40, z=-249}
-[19:20:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-73, y=40, z=-249}
-[19:20:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-73, y=40, z=-249}
-[19:20:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-74, y=39, z=-249} class_2338{x=-73, y=40, z=-249}
-[19:24:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-205, y=84, z=124} class_2338{x=-204, y=84, z=122}
-[19:24:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-205, y=84, z=124} class_2338{x=-204, y=84, z=122}
-[19:24:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-205, y=84, z=124} class_2338{x=-204, y=84, z=122}
-[19:27:25] [Server thread/WARN]: Skipping Entity with id mutantmonsters:mutant_enderman
-[19:27:25] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
-chunk@[-35, 1].Entities[0]: Failed to decode value '"mutantmonsters:mutant_enderman"' from field 'id': Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_type]: mutantmonsters:mutant_enderman
-[19:28:06] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:28:14] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:35:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=78, z=333} class_2338{x=-310, y=69, z=347}
-[19:35:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=78, z=333} class_2338{x=-310, y=69, z=347}
-[19:35:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=78, z=333} class_2338{x=-310, y=69, z=347}
-[19:35:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-298, y=78, z=333} class_2338{x=-310, y=69, z=347}
-[19:36:01] [Server thread/INFO]: [DarkClown: Killed DarkClown]
-[19:36:04] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:36:05] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:36:07] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[19:36:13] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:38:57] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[19:39:02] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:39:48] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[19:39:51] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:39:53] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:42:01] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:47:46] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:47:58] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:48:48] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:51:18] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:51:44] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
-[19:53:35] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[19:55:24] [Server thread/INFO]: [DarkClown: Stopping the server]
-[19:55:24] [Server thread/INFO]: Stopping server
-[19:55:24] [Server thread/INFO]: Saving players
-[19:55:24] [Server thread/INFO]: Saving worlds
-[19:55:24] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
-[19:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:55:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:55:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:55:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:55:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:55:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:55:24] [C2ME Storage #3/INFO]: Storage thread Thread[#108,C2ME Storage #3,8,main] stopped
-[19:55:24] [C2ME Storage #2/INFO]: Storage thread Thread[#107,C2ME Storage #2,8,main] stopped
-[19:55:24] [C2ME Storage #1/INFO]: Storage thread Thread[#106,C2ME Storage #1,8,main] stopped
-[19:55:24] [C2ME Storage #6/INFO]: Storage thread Thread[#124,C2ME Storage #6,8,main] stopped
-[19:55:24] [C2ME Storage #5/INFO]: Storage thread Thread[#123,C2ME Storage #5,8,main] stopped
-[19:55:24] [C2ME Storage #4/INFO]: Storage thread Thread[#122,C2ME Storage #4,8,main] stopped
-[19:55:24] [C2ME Storage #9/INFO]: Storage thread Thread[#127,C2ME Storage #9,8,main] stopped
-[19:55:24] [C2ME Storage #8/INFO]: Storage thread Thread[#126,C2ME Storage #8,8,main] stopped
-[19:55:24] [C2ME Storage #7/INFO]: Storage thread Thread[#125,C2ME Storage #7,8,main] stopped
+[21:36:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/Fabric%201.21.7/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:36:29] [main/INFO]: Compatibility level set to JAVA_16
+[21:36:29] [main/INFO]: Compatibility level set to JAVA_21
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:36:29] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[21:36:29] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[21:36:29] [main/INFO]: Detected maximum supported ISA target: AVX2
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:36:29] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:36:29] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:36:29] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:36:29] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[21:36:29] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[21:36:29] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[21:36:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:36:40] [main/INFO]: Compression will use Java, encryption will use Java
+[21:36:40] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[21:36:40] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 1 ms)
+[21:36:40] [main/INFO]: Constructing components for puzzleslib:common
+[21:36:40] [main/INFO]: Initializing Silk
+[21:36:40] [main/INFO]: Starting TT20...
+[21:36:40] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[21:36:40] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
+[21:36:41] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[21:36:41] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:36:41] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
+[21:36:41] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[21:36:44] [main/INFO]: Loaded 1407 recipes
+[21:36:44] [main/INFO]: Loaded 1520 advancements
+[21:36:44] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.711 ms
+[21:36:44] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[21:36:44] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[21:36:44] [Server thread/INFO]: Loading properties
+[21:36:44] [Server thread/INFO]: Default game type: SURVIVAL
+[21:36:44] [Server thread/INFO]: Generating keypair
+[21:36:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:36:44] [Server thread/INFO]: Using default channel type
+[21:36:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:36:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:36:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:36:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:36:44] [Server thread/INFO]: Preparing level "world"
+[21:36:44] [Server thread/INFO]: Enforcing safe world random access
+[21:36:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 372.5 ms
+[21:36:45] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[21:36:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.820 ms
+[21:36:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 9.811 ms
+[21:36:45] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@4b4fb51a)
+[21:36:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:36:46] [Server thread/INFO]: Time elapsed: 66 ms
+[21:36:46] [Server thread/INFO]: Done (1.135s)! For help, type "help"
+[21:37:46] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:38:22] [Server thread/INFO]: DarkClown[/127.0.0.1:61707] logged in with entity id 1 at (-1276.5276633373846, 111.0, -1377.5774803030815)
+[21:38:22] [Server thread/INFO]: DarkClown joined the game
+[21:38:23] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/169, l='ServerLevel[world]', x=-1282.63, y=117.99, z=-1453.13]
+[21:38:23] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/172, l='ServerLevel[world]', x=-1270.73, y=111.09, z=-1335.53]
+[21:38:23] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/179, l='ServerLevel[world]', x=-1336.22, y=117.91, z=-1437.47]
+[21:38:25] [Server thread/INFO]: DarkClown has reached the goal [Beaconator]
+[21:39:35] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:40:56] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[21:42:48] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[21:42:50] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:51:13] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[21:51:14] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:51:15] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:51:20] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:53:01] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:53:07] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:53:33] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:53:36] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:55:52] [Server thread/INFO]: [DarkClown: Stopping the server]
+[21:55:52] [Server thread/INFO]: Stopping server
+[21:55:52] [Server thread/INFO]: Saving players
+[21:55:52] [Server thread/INFO]: Saving worlds
+[21:55:52] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2125 chunks to unload
+[21:55:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:55:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:55:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:55:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:55:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:55:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:55:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:55:52] [C2ME Storage #3/INFO]: Storage thread Thread[#106,C2ME Storage #3,8,main] stopped
+[21:55:52] [C2ME Storage #2/INFO]: Storage thread Thread[#105,C2ME Storage #2,8,main] stopped
+[21:55:52] [C2ME Storage #1/INFO]: Storage thread Thread[#104,C2ME Storage #1,8,main] stopped
+[21:55:52] [C2ME Storage #5/INFO]: Storage thread Thread[#122,C2ME Storage #5,8,main] stopped
+[21:55:52] [C2ME Storage #4/INFO]: Storage thread Thread[#121,C2ME Storage #4,8,main] stopped
+[21:55:52] [C2ME Storage #6/INFO]: Storage thread Thread[#123,C2ME Storage #6,8,main] stopped
+[21:55:52] [C2ME Storage #8/INFO]: Storage thread Thread[#125,C2ME Storage #8,8,main] stopped
+[21:55:52] [C2ME Storage #9/INFO]: Storage thread Thread[#126,C2ME Storage #9,8,main] stopped
+[21:55:52] [C2ME Storage #7/INFO]: Storage thread Thread[#124,C2ME Storage #7,8,main] stopped

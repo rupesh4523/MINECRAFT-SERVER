@@ -1,5 +1,5 @@
-[07:22:32] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
-[07:22:32] [main/INFO]: Loading 106 mods:
+[20:50:12] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.18.4
+[20:50:12] [main/INFO]: Loading 106 mods:
 	- c2me 0.3.4.0.0+1.21.8
 	   |-- c2me-base 0.3.4.0.0+1.21.8
 	   |-- c2me-client-uncapvd 0.3.4.0.0+1.21.8
@@ -114,98 +114,190 @@
 	- veinminer 2.5.0
 	   |-- de_miraculixx_core_dev 2.5.0
 	   \-- fabric-permissions-api-v0 0.4.0
-[07:22:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/Fabric%201.21.7/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:22:32] [main/INFO]: Compatibility level set to JAVA_16
-[07:22:32] [main/INFO]: Compatibility level set to JAVA_21
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[07:22:33] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[07:22:33] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[07:22:33] [main/INFO]: Detected maximum supported ISA target: AVX2
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[07:22:33] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[07:22:33] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[07:22:33] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:22:33] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[07:22:33] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
-[07:22:33] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[07:22:33] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[07:22:40] [main/INFO]: Compression will use Java, encryption will use Java
-[07:22:40] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
-[07:22:40] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
-[07:22:40] [main/INFO]: Constructing components for puzzleslib:common
-[07:22:40] [main/INFO]: Initializing Silk
-[07:22:40] [main/INFO]: Starting TT20...
-[07:22:40] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[07:22:40] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
-[07:22:40] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[07:22:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:22:41] [DefaultDispatcher-worker-4/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[07:22:41] [ForkJoinPool.commonPool-worker-1/WARN]: (TT20) User is running an outdated version of TT20. Latest: 0.8.3 - current: 0.7.1
-[07:22:42] [main/INFO]: Loaded 1407 recipes
-[07:22:42] [main/INFO]: Loaded 1520 advancements
-[07:22:42] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.546 ms
-[07:22:42] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[07:22:42] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[07:22:42] [Server thread/INFO]: Loading properties
-[07:22:42] [Server thread/INFO]: Default game type: SURVIVAL
-[07:22:42] [Server thread/INFO]: Generating keypair
-[07:22:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:22:42] [Server thread/INFO]: Using default channel type
-[07:22:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:22:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:22:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:22:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:22:42] [Server thread/INFO]: Preparing level "world"
-[07:22:42] [Server thread/INFO]: Enforcing safe world random access
-[07:22:43] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 160.0 ms
-[07:22:43] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[07:22:43] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.241 ms
-[07:22:43] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 9.295 ms
-[07:22:43] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@159352d0)
-[07:22:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:22:43] [Server thread/INFO]: Time elapsed: 68 ms
-[07:22:43] [Server thread/INFO]: Done (0.702s)! For help, type "help"
-[07:23:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[07:24:49] [Server thread/INFO]: DarkClown[/127.0.0.1:55326] logged in with entity id 1 at (-1267.401793653078, 111.0, -1388.5922908949753)
-[07:24:49] [Server thread/INFO]: DarkClown joined the game
-[07:28:38] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
-[07:28:46] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
-[07:34:04] [Server thread/INFO]: DarkClown lost connection: Disconnected
-[07:34:04] [Server thread/INFO]: DarkClown left the game
-[07:34:30] [Server thread/INFO]: Stopping the server
-[07:34:30] [Server thread/INFO]: Stopping server
-[07:34:30] [Server thread/INFO]: Saving players
-[07:34:30] [Server thread/INFO]: Saving worlds
-[07:34:30] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
-[07:34:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:34:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[07:34:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[07:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:34:30] [C2ME Storage #3/INFO]: Storage thread Thread[#109,C2ME Storage #3,8,main] stopped
-[07:34:30] [C2ME Storage #2/INFO]: Storage thread Thread[#108,C2ME Storage #2,8,main] stopped
-[07:34:30] [C2ME Storage #1/INFO]: Storage thread Thread[#107,C2ME Storage #1,8,main] stopped
-[07:34:30] [C2ME Storage #6/INFO]: Storage thread Thread[#125,C2ME Storage #6,8,main] stopped
-[07:34:30] [C2ME Storage #5/INFO]: Storage thread Thread[#124,C2ME Storage #5,8,main] stopped
-[07:34:30] [C2ME Storage #4/INFO]: Storage thread Thread[#123,C2ME Storage #4,8,main] stopped
-[07:34:30] [C2ME Storage #9/INFO]: Storage thread Thread[#128,C2ME Storage #9,8,main] stopped
-[07:34:30] [C2ME Storage #8/INFO]: Storage thread Thread[#127,C2ME Storage #8,8,main] stopped
-[07:34:30] [C2ME Storage #7/INFO]: Storage thread Thread[#126,C2ME Storage #7,8,main] stopped
+[20:50:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Rupesh/OneDrive/Desktop/Fabric%201.21.7/MINECRAFT-SERVER/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:50:12] [main/INFO]: Compatibility level set to JAVA_16
+[20:50:12] [main/INFO]: Compatibility level set to JAVA_21
+[20:50:12] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[20:50:13] [main/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[20:50:13] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[20:50:13] [main/INFO]: Detected maximum supported ISA target: AVX2
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:50:13] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[20:50:13] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[20:50:13] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:50:13] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[20:50:13] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[20:50:13] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[20:50:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20:50:21] [main/INFO]: Compression will use Java, encryption will use Java
+[20:50:21] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[20:50:21] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
+[20:50:21] [main/INFO]: Constructing components for puzzleslib:common
+[20:50:22] [main/INFO]: Initializing Silk
+[20:50:22] [main/INFO]: Starting TT20...
+[20:50:22] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[20:50:22] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[20:50:22] [ForkJoinPool.commonPool-worker-1/ERROR]: Failed to check for updates.
+[20:50:22] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] Error while checking for updates: api.modrinth.com
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: java.lang.RuntimeException: Failed to GET update info for TT20. URL: https://playout.snackbag.net/updater/v1/tt20
+[20:50:22] [DefaultDispatcher-worker-3/INFO]: [STDOUT]: [VeinminerUpdater] Error while checking for updates: api.modrinth.com
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at knot//net.snackbag.tt20.ModUpdater.check(ModUpdater.java:38)
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at knot//net.snackbag.tt20.TT20.lambda$onInitialize$0(TT20.java:29)
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1848)
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1840)
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460)
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036)
+[20:50:22] [ForkJoinPool.commonPool-worker-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+[20:50:22] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:50:22] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:760) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1288) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1129) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+[20:50:24] [main/INFO]: Loaded 1407 recipes
+[20:50:24] [main/INFO]: Loaded 1520 advancements
+[20:50:25] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 4.436 ms
+[20:50:25] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[20:50:25] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[20:50:25] [Server thread/INFO]: Loading properties
+[20:50:25] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:25] [Server thread/INFO]: Generating keypair
+[20:50:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:50:25] [Server thread/INFO]: Using default channel type
+[20:50:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:50:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:50:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:50:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:50:25] [Server thread/INFO]: Preparing level "world"
+[20:50:25] [Server thread/INFO]: Enforcing safe world random access
+[20:50:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 196.5 ms
+[20:50:26] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[20:50:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.308 ms
+[20:50:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 14.40 ms
+[20:50:26] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@11249125)
+[20:50:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:50:26] [Server thread/INFO]: Time elapsed: 81 ms
+[20:50:26] [Server thread/INFO]: Done (0.872s)! For help, type "help"
+[20:51:26] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:53:16] [Server thread/INFO]: DarkClown[/127.0.0.1:61749] logged in with entity id 1 at (-1284.3178674762173, 115.5625, -1376.4993289224337)
+[20:53:16] [Server thread/INFO]: DarkClown joined the game
+[20:54:12] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[20:57:49] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[21:00:06] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:00:17] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:00:26] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:00:34] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:02:43] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:02:46] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:02:51] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:02:58] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:07:39] [Server thread/INFO]: [DarkClown: Set the time to 1000]
+[21:09:54] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:10:03] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:10:19] [Server thread/INFO]: [DarkClown: Set the time to 13000]
+[21:10:26] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[21:10:41] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:11:22] [Server thread/INFO]: Named entity class_1642['CHOTU'/3464, l='ServerLevel[world]', x=-1309.78, y=118.00, z=-1423.30] died: CHOTU was doomed to fall by DarkClown
+[21:19:08] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[21:21:25] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:21:58] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[21:24:13] [Server thread/INFO]: Aryan[/127.127.139.69:61821] logged in with entity id 5888 at (-1261.7911624036567, 98.0625, -1356.8442574008616)
+[21:24:13] [Server thread/INFO]: Aryan joined the game
+[21:24:29] [Server thread/INFO]: [Aryan: Set own game mode to Spectator Mode]
+[21:24:34] [Server thread/INFO]: [Aryan: Set own game mode to Survival Mode]
+[21:26:40] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[21:26:57] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[21:28:24] [Server thread/INFO]: [DarkClown: Set the weather to clear]
+[21:34:36] [Server thread/INFO]: Aryan lost connection: Disconnected
+[21:34:36] [Server thread/INFO]: Aryan left the game
+[22:02:44] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[22:03:03] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[22:03:39] [Server thread/INFO]: Aryan[/127.127.139.69:51285] logged in with entity id 13542 at (-1573.927364217329, 67.0, -1438.48886576082)
+[22:03:39] [Server thread/INFO]: Aryan joined the game
+[22:03:58] [Server thread/INFO]: [Aryan: Teleported Aryan to 10000.500000, 100.000000, 10000.500000]
+[22:05:40] [Server thread/INFO]: [Aryan: Set own game mode to Spectator Mode]
+[22:06:12] [Server thread/INFO]: [Aryan: Set own game mode to Survival Mode]
+[22:06:36] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[22:07:04] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[22:07:22] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[22:07:31] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[22:08:12] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[22:08:17] [Server thread/INFO]: [DarkClown: Teleported DarkClown to Aryan]
+[22:08:28] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[22:08:35] [Server thread/INFO]: Aryan lost connection: Disconnected
+[22:08:35] [Server thread/INFO]: Aryan left the game
+[22:09:57] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[22:10:16] [Server thread/INFO]: [DarkClown: Set own game mode to Adventure Mode]
+[22:11:27] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[22:11:37] [Server thread/INFO]: [DarkClown: Killed DarkClown]
+[22:11:39] [Server thread/INFO]: [DarkClown: Set own game mode to Creative Mode]
+[22:11:42] [Server thread/INFO]: [DarkClown: Set own game mode to Spectator Mode]
+[22:11:43] [Server thread/INFO]: [DarkClown: Set own game mode to Survival Mode]
+[22:19:43] [Server thread/INFO]: [DarkClown: Stopping the server]
+[22:19:43] [Server thread/INFO]: Stopping server
+[22:19:43] [Server thread/INFO]: Saving players
+[22:19:43] [Server thread/INFO]: DarkClown lost connection: Server closed
+[22:19:43] [Server thread/INFO]: DarkClown left the game
+[22:19:43] [Server thread/INFO]: Saving worlds
+[22:19:43] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2098 chunks to unload
+[22:19:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:19:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:19:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:19:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:19:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:19:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:19:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:19:43] [C2ME Storage #3/INFO]: Storage thread Thread[#101,C2ME Storage #3,8,main] stopped
+[22:19:43] [C2ME Storage #2/INFO]: Storage thread Thread[#100,C2ME Storage #2,8,main] stopped
+[22:19:43] [C2ME Storage #1/INFO]: Storage thread Thread[#99,C2ME Storage #1,8,main] stopped
+[22:19:43] [C2ME Storage #6/INFO]: Storage thread Thread[#118,C2ME Storage #6,8,main] stopped
+[22:19:43] [C2ME Storage #5/INFO]: Storage thread Thread[#117,C2ME Storage #5,8,main] stopped
+[22:19:43] [C2ME Storage #4/INFO]: Storage thread Thread[#116,C2ME Storage #4,8,main] stopped
+[22:19:43] [C2ME Storage #9/INFO]: Storage thread Thread[#121,C2ME Storage #9,8,main] stopped
+[22:19:43] [C2ME Storage #7/INFO]: Storage thread Thread[#119,C2ME Storage #7,8,main] stopped
+[22:19:43] [C2ME Storage #8/INFO]: Storage thread Thread[#120,C2ME Storage #8,8,main] stopped
